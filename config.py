@@ -1,0 +1,1 @@
+api_key = "" #YOUR WEATHER API KEY HERE
