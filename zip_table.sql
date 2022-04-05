@@ -1,10 +1,10 @@
 CREATE TABLE zips (
-    us_zip_code INT PRIMARY KEY,
+    us_zip_code VARCHAR,
     type TEXT,
     primary_city TEXT,
     state TEXT,
-    latitude DECIMAL,
-    longitude DECIMAL,
+    latitude VARCHAR,
+    longitude VARCHAR,
     county TEXT,
     timezone TEXT,
     area_codes TEXT,

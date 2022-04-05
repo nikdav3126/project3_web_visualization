@@ -3,6 +3,7 @@ from sqlalchemy import create_engine
 import os
 import numpy as np
 import json
+from decimal import Decimal 
 
 
 # Connect to POSTGRES
@@ -27,8 +28,8 @@ def welcome():
     '''List Available API Routes'''
     return(
         f'<h2>Available Routes: </h2><br>'
-        f'<h3>/api/v1.0/zip-populations'
-        f'<h3>natural disasters /api/v1.0/disasters'
+        f'<h3>/api/v1.0/zip-populations</h3>'
+        f'<h3>/api/v1.0/populations-latlongs</h3>'
     )
 
 
@@ -38,6 +39,14 @@ def zip_pops():
 
 
     data = engine.execute("SELECT us_zip_code, estimated_population FROM zips")
+    result = json.dumps([dict(r) for r in data])
+    return result
+
+@app.route("/api/v1.0/populations-latlongs")
+
+def poplocs():
+    
+    data = engine.execute("SELECT latitude, longitude, estimated_population FROM zips")
     result = json.dumps([dict(r) for r in data])
     return result
 
