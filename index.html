@@ -25,34 +25,35 @@
     
 </head>
 
+<!-- NAVIGATION BAR USING BOOTSTRAP -->        
+<nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+    <a href="#" class="navbar-brand">Georgia Tech Analytics</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+                <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="navbar-item">
+                <a href="map2.html" class="nav-link">Heatmap</a>
+            </li>
+            <li class="navbar-item">
+                <a href="statistics.html" class="nav-link">Statistics</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 <body>
-    <!-- bootstrap navigations -->        
-    <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
-        <a href="#" class="navbar-brand">Georgia Tech Analytics</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="navbar-item">
-                    <a href="index.html" class="nav-link active">Home</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="map2.html" class="nav-link">Heatmap</a>
-                </li>
-                <li class="navbar-item">
-                    <a href="statistics.html" class="nav-link">Statistics</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
     <!-- Giving some space between navbar and content -->
     <br/>
     <br/>
     <br/>
     
-    <!-- Title and header -->
+    <!-- 1ST SECTION: TITLE AND HEADER -->
     <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
         <img class="w3-image" src="https://i.insider.com/5d2df5f9a17d6c5860582637?width=1000&format=jpeg&auto=webp" width="1500" height="800">
         <div class="w3-display-topleft w3-margin-top">
@@ -63,6 +64,7 @@
     <br/>
     <br/>
 
+    <!-- 2ND SECTION: CONSIDERATINS BEFORE MOVING INTO A CITY -->
     <div class ="row">
         <div class="col-md-7">
             <!-- Image from here: https://www.businessinsider.com/us-news-best-places-to-live-in-america-2016-3#50-pittsburgh-pennsylvania-1 -->
@@ -72,20 +74,29 @@
         </div>
         <div class="col-md-5">
            <h3 class="w3-center">Considerations before moving into a new city</h3>
-           <h6>1. Weather</h6>
-           <!-- <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p> -->
-           <h6>2. Pets</h6>
-           <!-- <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p> -->
-           <h6>3. Natural Disasters</h6>
-           <!-- <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p> -->
-           <h6>4. Total Population</h6>
-           <!-- <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p> -->
-           <h6>5. Average income Per Capita</h6>
-           <!-- <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p> -->
+           <p>
+                <img src="data:image/png;base64,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" width="10%">
+                1. Weather <br>
+                <img src="data:image/png;base64,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" width="10%">
+                2. Pets <br>
+                <img src="https://icon-library.com/images/tornado-icon/tornado-icon-19.jpg" width="10%">
+                3. Natural Disasters <br>
+                <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX17669531.jpg" width="10%">
+                4. Total Population <br>
+                <img src="https://i.pinimg.com/736x/90/19/4b/90194b7f2ca68a3d80dc41a6e20ae1de.jpg" width="10%"> 
+                5. Average income Per Capita <br>
+                <img src="https://i.pinimg.com/474x/87/fb/72/87fb721e46a07ce7adb4733f03a684fe.jpg" width="10%">
+                6. Level of Happiness <br>
+                <img src="https://t4.ftcdn.net/jpg/01/24/26/69/360_F_124266919_fl1cocr9aGWxDrLfpRafUyr1UQoDxZrT.jpg" width="10%">
+                7. Intergenerational Mobility
+
+           </p>
+           <center>
            <p class="w3-text-grey">Want to get some insights?  
            <button class="w3-button w3-black w3-section" type="submit">
             <i class="fa fa-paper-plane"></i> <a href="map2.html">Check the map</a>
           </button>
+        </center>
           </p>
         </div>
     </div>
@@ -93,10 +104,9 @@
     <br/>
     <br/>
 
-    <!-- MEET THE TEAM SECION  -->
+    <!-- SECTION 3: MEET THE TEAM SECION  -->
     <h3> Meet the team!</h3>
     <hr>
-
     <div class ="row">
         <div class="col-md-1"></div>
         <div class="col-md-2 w3-margin-bottom">
@@ -150,7 +160,7 @@
         <div class="col-md-1"></div>
     </div>
 
-  <!-- Contact Section -->
+  <!-- SECTION 4: CONTACT SECTION -->
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
     <p>Feel free to contact the team for questios or suggestions.</p>
@@ -165,9 +175,10 @@
     </form>
   </div>
 
-      <!-- Giving some space between content and footer -->
-      <br/>
-      <br/>
+
+    <!-- Giving some space between content and footer -->
+    <br/>
+    <br/>
 
     <!-- Footer -->
     <center><footer>
