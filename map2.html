@@ -24,20 +24,29 @@
 </head>
 
 <body>
-        <!-- bootstrap navigations -->
-        <nav id="navigationlist">
-            <ul class="nav nav-pills nav-fill">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+    <!-- bootstrap navigations -->        
+    <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+        <a href="#" class="navbar-brand">Georgia Tech Analytics</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item">
+                    <a href="index.html" class="nav-link">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="map2.html">Heatmap</a>
+                <li class="navbar-item">
+                    <a href="map2.html" class="nav-link active">Heatmap</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="statistics.html">Statistics</a>
+                <li class="navbar-item">
+                    <a href="statistics.html" class="nav-link">Statistics</a>
                 </li>
             </ul>
-        </nav>
+        </div>
+    </nav>
+
+    <br/>
+    <br/>
 
   <!-- The div that holds our map -->
   <div id="map"></div>
