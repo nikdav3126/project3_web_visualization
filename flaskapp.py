@@ -4,13 +4,15 @@ import os
 import numpy as np
 import json
 from decimal import Decimal 
+from convert2geojson import Convert2GeoJson
+import pandas as pd
 
 
 # Connect to POSTGRES
 ##################################
-rds_connection_string = "postgres:postgres@localhost:5432/ziproject"
-engine = create_engine(f'postgresql://{rds_connection_string}')
-
+rds_connection_string = "postgresql://vzgrmmdttkwsnk:5b0f5e6c07de8fc1c547861230ed3726ec9a09021f0e40db1cd92c4a119d1bce@ec2-52-86-56-90.compute-1.amazonaws.com:5432/df4j8v6ob22efh"
+engine = create_engine(rds_connection_string)
+#conn = engine.connect()
 
 
 # Flask Setup
@@ -30,6 +32,8 @@ def welcome():
         f'<h2>Available Routes: </h2><br>'
         f'<h3>/api/v1.0/zip-populations</h3>'
         f'<h3>/api/v1.0/populations-latlongs</h3>'
+        f'<h3>/api/v1.0/petfriendly-rankings</h3>'
+
     )
 
 
@@ -50,5 +54,36 @@ def poplocs():
     result = json.dumps([dict(r) for r in data])
     return result
 
+@app.route("/api/v1.0/petfriendly-rankings")
+def pets():
+    data = engine.execute('SELECT mastercity.primary_city, mastercity.latitude, mastercity.longitude, dogfriendly.overall_rank FROM mastercity INNER JOIN dogfriendly ON mastercity.primary_city=dogfriendly.city')
+    '''data2 = pd.DataFrame(data)
+    data3 = data2.rename(columns={0: 'primary_city', 1: 'latitude', 2: 'longitude', 3: 'overall_score'})
+    data3["latitude"] = data3["latitude"].astype(float)
+    data3["longitude"] = data3["longitude"].astype(float)
+    data4 = Convert2GeoJson(
+          data3,
+          data3.columns,
+          lat= 'latitude',
+          lon= 'longitude')
+    data5 = data4.geojson()'''
+
+    result = json.dumps([dict(r) for r in data])
+    return result
+
+
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+[{"primary_city": "Albuquerque", "latitude": "35.11", "longitude": "-106.62", "overall_rank": 14}]
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [125.6, 10.1]
+  },
+  "properties": {
+    "name": "Dinagat Islands"
+  }
+}
