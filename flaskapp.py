@@ -33,6 +33,8 @@ def welcome():
         f'<h3>/api/v1.0/zip-populations</h3>'
         f'<h3>/api/v1.0/populations-latlongs</h3>'
         f'<h3>/api/v1.0/petfriendly-rankings</h3>'
+        f'<h3>/api/v1.0/happiest-cities</h3>'
+        f'<h3>/api/v1.0/income-and-population</h3>'
 
     )
 
@@ -71,12 +73,30 @@ def pets():
     result = json.dumps([dict(r) for r in data])
     return result
 
+@app.route("/api/v1.0/happiest-cities")
+def happy():
+  data = engine.execute('SELECT mastercity.primary_city, happiestcities.overall_rank, happiestcities.emotional_physical, happiestcities.income_employment, happiestcities.community_environment, mastercity.latitude, mastercity.longitude FROM mastercity INNER JOIN happiestcities ON mastercity.primary_city=happiestcities.city;')
+  result =json.dumps([dict(r) for r in data])
+  return result
+
+@app.route('/api/v1.0/income-and-population')
+def income():
+  data = engine.execute('''SELECT zips.primary_city, income_and_population.zipcode as states, income_and_population.avg_income, income_and_population.total_pop
+    FROM zips
+    INNER JOIN income_and_population ON zips.us_zip_code=income_and_population.state
+    GROUP BY zips.primary_city, states, income_and_population.avg_income, income_and_population.total_pop;''')
+  result = json.dumps([dict(r) for r in data])
+  return result
+
 
 if __name__ == '__main__':
     app.run(debug=True)
 
 
-[{"primary_city": "Albuquerque", "latitude": "35.11", "longitude": "-106.62", "overall_rank": 14}]
+
+
+
+'''[{"primary_city": "Albuquerque", "latitude": "35.11", "longitude": "-106.62", "overall_rank": 14}]
 {
   "type": "Feature",
   "geometry": {
@@ -86,4 +106,4 @@ if __name__ == '__main__':
   "properties": {
     "name": "Dinagat Islands"
   }
-}
+}'''
