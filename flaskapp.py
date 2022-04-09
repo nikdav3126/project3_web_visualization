@@ -35,6 +35,7 @@ def welcome():
         f'<h3>/api/v1.0/petfriendly-rankings</h3>'
         f'<h3>/api/v1.0/happiest-cities</h3>'
         f'<h3>/api/v1.0/income-and-population</h3>'
+        f'<h3>/api/v1.0/number-disasters-by-state</h3>'
 
     )
 
@@ -88,6 +89,13 @@ def income():
   result = json.dumps([dict(r) for r in data])
   return result
 
+@app.route('/api/v1.0/number-disasters-by-state')
+def disasters():
+  data = engine.execute('''SELECT state, count(fy_declared) as disasters
+      FROM naturaldisasters
+      GROUP BY naturaldisasters.state;''')
+  result = json.dumps([dict(r) for r in data])
+  return result
 
 if __name__ == '__main__':
     app.run(debug=True)
