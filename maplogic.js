@@ -123,16 +123,49 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
     }
 );
 
-f = open("/GeojsonData/doglatlongfinal")
+let dogPoints = new L.layerGroup();
 
-let dogData = JSON.parse("/GeojsonData/doglatlongfinal.json");
-      
+d3.json("/GeojsonData/doglatlongfinal.json")
+.then(
+    function(dogData){
+        // console log to make sure the data loaded
+        console.log(dogData);
+
+        L.geoJson(dogData, {
+            // make each feature a marker that is on the map, each marker is a circle
+            pointToLayer: function(feature, latLng) {
+                return L.circleMarker(latLng);
+            },
+
+        }).addTo(dogPoints);
+        dogPoints.addTo(myMap);
+    });
+
+let happiestPoints = new L.layerGroup();
+
+d3.json("/GeojsonData/happiestCityDataFinal.json")
+.then(
+    function(happiestData){
+        // console log to make sure the data loaded
+        console.log(happiestData);
+
+        L.geoJson(happiestData, {
+            // make each feature a marker that is on the map, each marker is a circle
+            pointToLayer: function(feature, latLng) {
+                return L.circleMarker(latLng);
+            },
+
+        }).addTo(happiestPoints);
+        happiestPoints.addTo(myMap);
+    });
 
 // add the earthquake layer to the map
 // add the overlay for the tectonic plates and for the earthquakes
 let overlays = {
     "Tectonic Plates": tectonicplates,
-    "Earthquake Data": earthquakes
+    "Earthquake Data": earthquakes,
+    "Dog Friendliest Cities": dogPoints,
+    "Happiest Cities": happiestPoints
     
 };
 // add the Layer control

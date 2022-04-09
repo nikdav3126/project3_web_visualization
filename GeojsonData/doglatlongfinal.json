@@ -8,13 +8,13 @@
        "coordinates":  [ -106.62,35.11 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":14,
-    "dogfriendly.City":"Albuquerque",
-    "dogfriendly.State":" NM",
-    "dogfriendly.Total Score ":56.1,
-    "dogfriendly.Pet Budget ":16,
-    "dogfriendly.Pet Health & Wellness ":83,
-    "dogfriendly.Outdoor Pet-Friendliness ":7
+    "overallRank":14,
+    "City":"Albuquerque",
+    "State":" NM",
+    "totalScore ":56.1,
+    "petBudget ":16,
+    "petHealthWellness ":83,
+    "outdoorPetFriendliness ":7
     }
   },
   {
@@ -24,13 +24,13 @@
        "coordinates":  [ -117.74,33.86 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":93,
-    "dogfriendly.City":"Anaheim",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":43.26,
-    "dogfriendly.Pet Budget ":94,
-    "dogfriendly.Pet Health & Wellness ":51,
-    "dogfriendly.Outdoor Pet-Friendliness ":33
+    "overallRank":93,
+    "City":"Anaheim",
+    "State":" CA",
+    "totalScore ":43.26,
+    "petBudget ":94,
+    "petHealthWellness ":51,
+    "outdoorPetFriendliness ":33
     }
   },
   {
@@ -40,13 +40,13 @@
        "coordinates":  [ -150.63,61.45 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":89,
-    "dogfriendly.City":"Anchorage",
-    "dogfriendly.State":" AK",
-    "dogfriendly.Total Score ":44.45,
-    "dogfriendly.Pet Budget ":80,
-    "dogfriendly.Pet Health & Wellness ":92,
-    "dogfriendly.Outdoor Pet-Friendliness ":23
+    "overallRank":89,
+    "City":"Anchorage",
+    "State":" AK",
+    "totalScore ":44.45,
+    "petBudget ":80,
+    "petHealthWellness ":92,
+    "outdoorPetFriendliness ":23
     }
   },
   {
@@ -56,13 +56,13 @@
        "coordinates":  [ -121.67,48.18 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":69,
-    "dogfriendly.City":"Arlington",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":47.67,
-    "dogfriendly.Pet Budget ":66,
-    "dogfriendly.Pet Health & Wellness ":45,
-    "dogfriendly.Outdoor Pet-Friendliness ":67
+    "overallRank":69,
+    "City":"Arlington",
+    "State":" TX",
+    "totalScore ":47.67,
+    "petBudget ":66,
+    "petHealthWellness ":45,
+    "outdoorPetFriendliness ":67
     }
   },
   {
@@ -72,13 +72,13 @@
        "coordinates":  [ -84.15,45 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":12,
-    "dogfriendly.City":"Atlanta",
-    "dogfriendly.State":" GA",
-    "dogfriendly.Total Score ":56.82,
-    "dogfriendly.Pet Budget ":25,
-    "dogfriendly.Pet Health & Wellness ":11,
-    "dogfriendly.Outdoor Pet-Friendliness ":56
+    "overallRank":12,
+    "City":"Atlanta",
+    "State":" GA",
+    "totalScore ":56.82,
+    "petBudget ":25,
+    "petHealthWellness ":11,
+    "outdoorPetFriendliness ":56
     }
   },
   {
@@ -88,13 +88,13 @@
        "coordinates":  [ -92.24,47.53 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":62,
-    "dogfriendly.City":"Aurora",
-    "dogfriendly.State":" CO",
-    "dogfriendly.Total Score ":48.29,
-    "dogfriendly.Pet Budget ":64,
-    "dogfriendly.Pet Health & Wellness ":28,
-    "dogfriendly.Outdoor Pet-Friendliness ":68
+    "overallRank":62,
+    "City":"Aurora",
+    "State":" CO",
+    "totalScore ":48.29,
+    "petBudget ":64,
+    "petHealthWellness ":28,
+    "outdoorPetFriendliness ":68
     }
   },
   {
@@ -104,13 +104,13 @@
        "coordinates":  [ -92.97,43.67 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":15,
-    "dogfriendly.City":"Austin",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":56.01,
-    "dogfriendly.Pet Budget ":51,
-    "dogfriendly.Pet Health & Wellness ":6,
-    "dogfriendly.Outdoor Pet-Friendliness ":64
+    "overallRank":15,
+    "City":"Austin",
+    "State":" TX",
+    "totalScore ":56.01,
+    "petBudget ":51,
+    "petHealthWellness ":6,
+    "outdoorPetFriendliness ":64
     }
   },
   {
@@ -120,13 +120,13 @@
        "coordinates":  [ -72.8,44.78 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":83,
-    "dogfriendly.City":"Bakersfield",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":45.48,
-    "dogfriendly.Pet Budget ":72,
-    "dogfriendly.Pet Health & Wellness ":79,
-    "dogfriendly.Outdoor Pet-Friendliness ":43
+    "overallRank":83,
+    "City":"Bakersfield",
+    "State":" CA",
+    "totalScore ":45.48,
+    "petBudget ":72,
+    "petHealthWellness ":79,
+    "outdoorPetFriendliness ":43
     }
   },
   {
@@ -136,13 +136,13 @@
        "coordinates":  [ -82.6,39.84 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":87,
-    "dogfriendly.City":"Baltimore",
-    "dogfriendly.State":" MD",
-    "dogfriendly.Total Score ":44.64,
-    "dogfriendly.Pet Budget ":62,
-    "dogfriendly.Pet Health & Wellness ":87,
-    "dogfriendly.Outdoor Pet-Friendliness ":53
+    "overallRank":87,
+    "City":"Baltimore",
+    "State":" MD",
+    "totalScore ":44.64,
+    "petBudget ":62,
+    "petHealthWellness ":87,
+    "outdoorPetFriendliness ":53
     }
   },
   {
@@ -152,13 +152,13 @@
        "coordinates":  [ -91.18,30.45 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":50,
-    "dogfriendly.City":"Baton Rouge",
-    "dogfriendly.State":" LA",
-    "dogfriendly.Total Score ":49.75,
-    "dogfriendly.Pet Budget ":44,
-    "dogfriendly.Pet Health & Wellness ":17,
-    "dogfriendly.Outdoor Pet-Friendliness ":97
+    "overallRank":50,
+    "City":"Baton Rouge",
+    "State":" LA",
+    "totalScore ":49.75,
+    "petBudget ":44,
+    "petHealthWellness ":17,
+    "outdoorPetFriendliness ":97
     }
   },
   {
@@ -168,13 +168,13 @@
        "coordinates":  [ -83.21,42.54 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":5,
-    "dogfriendly.City":"Birmingham",
-    "dogfriendly.State":" AL",
-    "dogfriendly.Total Score ":59.81,
-    "dogfriendly.Pet Budget ":9,
-    "dogfriendly.Pet Health & Wellness ":15,
-    "dogfriendly.Outdoor Pet-Friendliness ":77
+    "overallRank":5,
+    "City":"Birmingham",
+    "State":" AL",
+    "totalScore ":59.81,
+    "petBudget ":9,
+    "petHealthWellness ":15,
+    "outdoorPetFriendliness ":77
     }
   },
   {
@@ -184,13 +184,13 @@
        "coordinates":  [ -116.2,43.74 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":13,
-    "dogfriendly.City":"Boise",
-    "dogfriendly.State":" ID",
-    "dogfriendly.Total Score ":56.4,
-    "dogfriendly.Pet Budget ":38,
-    "dogfriendly.Pet Health & Wellness ":48,
-    "dogfriendly.Outdoor Pet-Friendliness ":12
+    "overallRank":13,
+    "City":"Boise",
+    "State":" ID",
+    "totalScore ":56.4,
+    "petBudget ":38,
+    "petHealthWellness ":48,
+    "outdoorPetFriendliness ":12
     }
   },
   {
@@ -200,13 +200,13 @@
        "coordinates":  [ -78.72,42.61 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":67,
-    "dogfriendly.City":"Boston",
-    "dogfriendly.State":" MA",
-    "dogfriendly.Total Score ":47.71,
-    "dogfriendly.Pet Budget ":85,
-    "dogfriendly.Pet Health & Wellness ":40,
-    "dogfriendly.Outdoor Pet-Friendliness ":35
+    "overallRank":67,
+    "City":"Boston",
+    "State":" MA",
+    "totalScore ":47.71,
+    "petBudget ":85,
+    "petHealthWellness ":40,
+    "outdoorPetFriendliness ":35
     }
   },
   {
@@ -216,13 +216,13 @@
        "coordinates":  [ -97.55,46.92 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":86,
-    "dogfriendly.City":"Buffalo",
-    "dogfriendly.State":" NY",
-    "dogfriendly.Total Score ":45.11,
-    "dogfriendly.Pet Budget ":57,
-    "dogfriendly.Pet Health & Wellness ":74,
-    "dogfriendly.Outdoor Pet-Friendliness ":90
+    "overallRank":86,
+    "City":"Buffalo",
+    "State":" NY",
+    "totalScore ":45.11,
+    "petBudget ":57,
+    "petHealthWellness ":74,
+    "outdoorPetFriendliness ":90
     }
   },
   {
@@ -232,13 +232,13 @@
        "coordinates":  [ -95.94,43.92 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":81,
-    "dogfriendly.City":"Chandler",
-    "dogfriendly.State":" AZ",
-    "dogfriendly.Total Score ":45.8,
-    "dogfriendly.Pet Budget ":65,
-    "dogfriendly.Pet Health & Wellness ":59,
-    "dogfriendly.Outdoor Pet-Friendliness ":76
+    "overallRank":81,
+    "City":"Chandler",
+    "State":" AZ",
+    "totalScore ":45.8,
+    "petBudget ":65,
+    "petHealthWellness ":59,
+    "outdoorPetFriendliness ":76
     }
   },
   {
@@ -248,13 +248,13 @@
        "coordinates":  [ -73.25,44.3 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":94,
-    "dogfriendly.City":"Charlotte",
-    "dogfriendly.State":" NC",
-    "dogfriendly.Total Score ":43.22,
-    "dogfriendly.Pet Budget ":67,
-    "dogfriendly.Pet Health & Wellness ":56,
-    "dogfriendly.Outdoor Pet-Friendliness ":99
+    "overallRank":94,
+    "City":"Charlotte",
+    "State":" NC",
+    "totalScore ":43.22,
+    "petBudget ":67,
+    "petHealthWellness ":56,
+    "outdoorPetFriendliness ":99
     }
   },
   {
@@ -264,13 +264,13 @@
        "coordinates":  [ -82.45,38.43 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":48,
-    "dogfriendly.City":"Chesapeake",
-    "dogfriendly.State":" VA",
-    "dogfriendly.Total Score ":49.95,
-    "dogfriendly.Pet Budget ":58,
-    "dogfriendly.Pet Health & Wellness ":81,
-    "dogfriendly.Outdoor Pet-Friendliness ":21
+    "overallRank":48,
+    "City":"Chesapeake",
+    "State":" VA",
+    "totalScore ":49.95,
+    "petBudget ":58,
+    "petHealthWellness ":81,
+    "outdoorPetFriendliness ":21
     }
   },
   {
@@ -280,13 +280,13 @@
        "coordinates":  [ -87.9,41.98 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":64,
-    "dogfriendly.City":"Chicago",
-    "dogfriendly.State":" IL",
-    "dogfriendly.Total Score ":48.24,
-    "dogfriendly.Pet Budget ":90,
-    "dogfriendly.Pet Health & Wellness ":13,
-    "dogfriendly.Outdoor Pet-Friendliness ":46
+    "overallRank":64,
+    "City":"Chicago",
+    "State":" IL",
+    "totalScore ":48.24,
+    "petBudget ":90,
+    "petHealthWellness ":13,
+    "outdoorPetFriendliness ":46
     }
   },
   {
@@ -296,13 +296,13 @@
        "coordinates":  [ -116.94,32.66 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":70,
-    "dogfriendly.City":"Chula Vista",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":47.53,
-    "dogfriendly.Pet Budget ":87,
-    "dogfriendly.Pet Health & Wellness ":31,
-    "dogfriendly.Outdoor Pet-Friendliness ":36
+    "overallRank":70,
+    "City":"Chula Vista",
+    "State":" CA",
+    "totalScore ":47.53,
+    "petBudget ":87,
+    "petHealthWellness ":31,
+    "outdoorPetFriendliness ":36
     }
   },
   {
@@ -312,13 +312,13 @@
        "coordinates":  [ -92.92,40.63 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":8,
-    "dogfriendly.City":"Cincinnati",
-    "dogfriendly.State":" OH",
-    "dogfriendly.Total Score ":58,
-    "dogfriendly.Pet Budget ":19,
-    "dogfriendly.Pet Health & Wellness ":20,
-    "dogfriendly.Outdoor Pet-Friendliness ":38
+    "overallRank":8,
+    "City":"Cincinnati",
+    "State":" OH",
+    "totalScore ":58,
+    "petBudget ":19,
+    "petHealthWellness ":20,
+    "outdoorPetFriendliness ":38
     }
   },
   {
@@ -328,13 +328,13 @@
        "coordinates":  [ -99.12,46.89 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":63,
-    "dogfriendly.City":"Cleveland",
-    "dogfriendly.State":" OH",
-    "dogfriendly.Total Score ":48.27,
-    "dogfriendly.Pet Budget ":24,
-    "dogfriendly.Pet Health & Wellness ":75,
-    "dogfriendly.Outdoor Pet-Friendliness ":81
+    "overallRank":63,
+    "City":"Cleveland",
+    "State":" OH",
+    "totalScore ":48.27,
+    "petBudget ":24,
+    "petHealthWellness ":75,
+    "outdoorPetFriendliness ":81
     }
   },
   {
@@ -344,13 +344,13 @@
        "coordinates":  [ -104.7,38.94 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":18,
-    "dogfriendly.City":"Colorado Springs",
-    "dogfriendly.State":" CO",
-    "dogfriendly.Total Score ":55.25,
-    "dogfriendly.Pet Budget ":53,
-    "dogfriendly.Pet Health & Wellness ":26,
-    "dogfriendly.Outdoor Pet-Friendliness ":22
+    "overallRank":18,
+    "City":"Colorado Springs",
+    "State":" CO",
+    "totalScore ":55.25,
+    "petBudget ":53,
+    "petHealthWellness ":26,
+    "outdoorPetFriendliness ":22
     }
   },
   {
@@ -360,13 +360,13 @@
        "coordinates":  [ -102.78,48.9 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":40,
-    "dogfriendly.City":"Columbus",
-    "dogfriendly.State":" OH",
-    "dogfriendly.Total Score ":51.11,
-    "dogfriendly.Pet Budget ":2,
-    "dogfriendly.Pet Health & Wellness ":95,
-    "dogfriendly.Outdoor Pet-Friendliness ":54
+    "overallRank":40,
+    "City":"Columbus",
+    "State":" OH",
+    "totalScore ":51.11,
+    "petBudget ":2,
+    "petHealthWellness ":95,
+    "outdoorPetFriendliness ":54
     }
   },
   {
@@ -376,13 +376,13 @@
        "coordinates":  [ -97.39,27.8 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":39,
-    "dogfriendly.City":"Corpus Christi",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":51.18,
-    "dogfriendly.Pet Budget ":10,
-    "dogfriendly.Pet Health & Wellness ":78,
-    "dogfriendly.Outdoor Pet-Friendliness ":87
+    "overallRank":39,
+    "City":"Corpus Christi",
+    "State":" TX",
+    "totalScore ":51.18,
+    "petBudget ":10,
+    "petHealthWellness ":78,
+    "outdoorPetFriendliness ":87
     }
   },
   {
@@ -392,13 +392,13 @@
        "coordinates":  [ -91.81,45.25 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":72,
-    "dogfriendly.City":"Dallas",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":47.47,
-    "dogfriendly.Pet Budget ":79,
-    "dogfriendly.Pet Health & Wellness ":36,
-    "dogfriendly.Outdoor Pet-Friendliness ":51
+    "overallRank":72,
+    "City":"Dallas",
+    "State":" TX",
+    "totalScore ":47.47,
+    "petBudget ":79,
+    "petHealthWellness ":36,
+    "outdoorPetFriendliness ":51
     }
   },
   {
@@ -408,13 +408,13 @@
        "coordinates":  [ -92.33,42.67 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":16,
-    "dogfriendly.City":"Denver",
-    "dogfriendly.State":" CO",
-    "dogfriendly.Total Score ":55.76,
-    "dogfriendly.Pet Budget ":60,
-    "dogfriendly.Pet Health & Wellness ":7,
-    "dogfriendly.Outdoor Pet-Friendliness ":31
+    "overallRank":16,
+    "City":"Denver",
+    "State":" CO",
+    "totalScore ":55.76,
+    "petBudget ":60,
+    "petHealthWellness ":7,
+    "outdoorPetFriendliness ":31
     }
   },
   {
@@ -424,13 +424,13 @@
        "coordinates":  [ -69.29,44.79 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":96,
-    "dogfriendly.City":"Detroit",
-    "dogfriendly.State":" MI",
-    "dogfriendly.Total Score ":42.11,
-    "dogfriendly.Pet Budget ":33,
-    "dogfriendly.Pet Health & Wellness ":98,
-    "dogfriendly.Outdoor Pet-Friendliness ":78
+    "overallRank":96,
+    "City":"Detroit",
+    "State":" MI",
+    "totalScore ":42.11,
+    "petBudget ":33,
+    "petHealthWellness ":98,
+    "outdoorPetFriendliness ":78
     }
   },
   {
@@ -440,13 +440,13 @@
        "coordinates":  [ -70.12,43.92 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":84,
-    "dogfriendly.City":"Durham",
-    "dogfriendly.State":" NC",
-    "dogfriendly.Total Score ":45.43,
-    "dogfriendly.Pet Budget ":8,
-    "dogfriendly.Pet Health & Wellness ":89,
-    "dogfriendly.Outdoor Pet-Friendliness ":93
+    "overallRank":84,
+    "City":"Durham",
+    "State":" NC",
+    "totalScore ":45.43,
+    "petBudget ":8,
+    "petHealthWellness ":89,
+    "outdoorPetFriendliness ":93
     }
   },
   {
@@ -456,13 +456,13 @@
        "coordinates":  [ -89.01,40.73 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":52,
-    "dogfriendly.City":"El Paso",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":49.65,
-    "dogfriendly.Pet Budget ":41,
-    "dogfriendly.Pet Health & Wellness ":77,
-    "dogfriendly.Outdoor Pet-Friendliness ":47
+    "overallRank":52,
+    "City":"El Paso",
+    "State":" TX",
+    "totalScore ":49.65,
+    "petBudget ":41,
+    "petHealthWellness ":77,
+    "outdoorPetFriendliness ":47
     }
   },
   {
@@ -472,13 +472,13 @@
        "coordinates":  [ -85.13,41.07 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":45,
-    "dogfriendly.City":"Fort Wayne",
-    "dogfriendly.State":" IN",
-    "dogfriendly.Total Score ":50.26,
-    "dogfriendly.Pet Budget ":1,
-    "dogfriendly.Pet Health & Wellness ":65,
-    "dogfriendly.Outdoor Pet-Friendliness ":100
+    "overallRank":45,
+    "City":"Fort Wayne",
+    "State":" IN",
+    "totalScore ":50.26,
+    "petBudget ":1,
+    "petHealthWellness ":65,
+    "outdoorPetFriendliness ":100
     }
   },
   {
@@ -488,13 +488,13 @@
        "coordinates":  [ -97.33,32.75 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":35,
-    "dogfriendly.City":"Fort Worth",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":52.01,
-    "dogfriendly.Pet Budget ":28,
-    "dogfriendly.Pet Health & Wellness ":23,
-    "dogfriendly.Outdoor Pet-Friendliness ":83
+    "overallRank":35,
+    "City":"Fort Worth",
+    "State":" TX",
+    "totalScore ":52.01,
+    "petBudget ":28,
+    "petHealthWellness ":23,
+    "outdoorPetFriendliness ":83
     }
   },
   {
@@ -504,13 +504,13 @@
        "coordinates":  [ -88.87,44.25 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":91,
-    "dogfriendly.City":"Fremont",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":43.47,
-    "dogfriendly.Pet Budget ":100,
-    "dogfriendly.Pet Health & Wellness ":64,
-    "dogfriendly.Outdoor Pet-Friendliness ":10
+    "overallRank":91,
+    "City":"Fremont",
+    "State":" CA",
+    "totalScore ":43.47,
+    "petBudget ":100,
+    "petHealthWellness ":64,
+    "outdoorPetFriendliness ":10
     }
   },
   {
@@ -520,13 +520,13 @@
        "coordinates":  [ -81.75,40.36 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":97,
-    "dogfriendly.City":"Fresno",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":42.1,
-    "dogfriendly.Pet Budget ":75,
-    "dogfriendly.Pet Health & Wellness ":90,
-    "dogfriendly.Outdoor Pet-Friendliness ":55
+    "overallRank":97,
+    "City":"Fresno",
+    "State":" CA",
+    "totalScore ":42.1,
+    "petBudget ":75,
+    "petHealthWellness ":90,
+    "outdoorPetFriendliness ":55
     }
   },
   {
@@ -536,13 +536,13 @@
        "coordinates":  [ -69.16,45.03 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":74,
-    "dogfriendly.City":"Garland",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":47.35,
-    "dogfriendly.Pet Budget ":69,
-    "dogfriendly.Pet Health & Wellness ":53,
-    "dogfriendly.Outdoor Pet-Friendliness ":62
+    "overallRank":74,
+    "City":"Garland",
+    "State":" TX",
+    "totalScore ":47.35,
+    "petBudget ":69,
+    "petHealthWellness ":53,
+    "outdoorPetFriendliness ":62
     }
   },
   {
@@ -552,13 +552,13 @@
        "coordinates":  [ -92.46,47.49 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":57,
-    "dogfriendly.City":"Gilbert",
-    "dogfriendly.State":" AZ",
-    "dogfriendly.Total Score ":48.86,
-    "dogfriendly.Pet Budget ":68,
-    "dogfriendly.Pet Health & Wellness ":12,
-    "dogfriendly.Outdoor Pet-Friendliness ":89
+    "overallRank":57,
+    "City":"Gilbert",
+    "State":" AZ",
+    "totalScore ":48.86,
+    "petBudget ":68,
+    "petHealthWellness ":12,
+    "outdoorPetFriendliness ":89
     }
   },
   {
@@ -568,13 +568,13 @@
        "coordinates":  [ -123.4,42.79 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":49,
-    "dogfriendly.City":"Glendale",
-    "dogfriendly.State":" AZ",
-    "dogfriendly.Total Score ":49.86,
-    "dogfriendly.Pet Budget ":46,
-    "dogfriendly.Pet Health & Wellness ":49,
-    "dogfriendly.Outdoor Pet-Friendliness ":71
+    "overallRank":49,
+    "City":"Glendale",
+    "State":" AZ",
+    "totalScore ":49.86,
+    "petBudget ":46,
+    "petHealthWellness ":49,
+    "outdoorPetFriendliness ":71
     }
   },
   {
@@ -584,13 +584,13 @@
        "coordinates":  [ -72.28,44.58 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":54,
-    "dogfriendly.City":"Greensboro",
-    "dogfriendly.State":" NC",
-    "dogfriendly.Total Score ":49.31,
-    "dogfriendly.Pet Budget ":13,
-    "dogfriendly.Pet Health & Wellness ":68,
-    "dogfriendly.Outdoor Pet-Friendliness ":72
+    "overallRank":54,
+    "City":"Greensboro",
+    "State":" NC",
+    "totalScore ":49.31,
+    "petBudget ":13,
+    "petHealthWellness ":68,
+    "outdoorPetFriendliness ":72
     }
   },
   {
@@ -600,13 +600,13 @@
        "coordinates":  [ -93.9,44.53 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":56,
-    "dogfriendly.City":"Henderson",
-    "dogfriendly.State":" NV",
-    "dogfriendly.Total Score ":49,
-    "dogfriendly.Pet Budget ":54,
-    "dogfriendly.Pet Health & Wellness ":91,
-    "dogfriendly.Outdoor Pet-Friendliness ":24
+    "overallRank":56,
+    "City":"Henderson",
+    "State":" NV",
+    "totalScore ":49,
+    "petBudget ":54,
+    "petHealthWellness ":91,
+    "outdoorPetFriendliness ":24
     }
   },
   {
@@ -616,13 +616,13 @@
        "coordinates":  [ -80.29,25.86 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":79,
-    "dogfriendly.City":"Hialeah",
-    "dogfriendly.State":" FL",
-    "dogfriendly.Total Score ":46.29,
-    "dogfriendly.Pet Budget ":61,
-    "dogfriendly.Pet Health & Wellness ":66,
-    "dogfriendly.Outdoor Pet-Friendliness ":65
+    "overallRank":79,
+    "City":"Hialeah",
+    "State":" FL",
+    "totalScore ":46.29,
+    "petBudget ":61,
+    "petHealthWellness ":66,
+    "outdoorPetFriendliness ":65
     }
   },
   {
@@ -632,13 +632,13 @@
        "coordinates":  [ -157.87,21.35 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":99,
-    "dogfriendly.City":"Honolulu",
-    "dogfriendly.State":" HI",
-    "dogfriendly.Total Score ":39.76,
-    "dogfriendly.Pet Budget ":84,
-    "dogfriendly.Pet Health & Wellness ":99,
-    "dogfriendly.Outdoor Pet-Friendliness ":28
+    "overallRank":99,
+    "City":"Honolulu",
+    "State":" HI",
+    "totalScore ":39.76,
+    "petBudget ":84,
+    "petHealthWellness ":99,
+    "outdoorPetFriendliness ":28
     }
   },
   {
@@ -648,13 +648,13 @@
        "coordinates":  [ -149.68,61.66 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":36,
-    "dogfriendly.City":"Houston",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":51.72,
-    "dogfriendly.Pet Budget ":27,
-    "dogfriendly.Pet Health & Wellness ":43,
-    "dogfriendly.Outdoor Pet-Friendliness ":66
+    "overallRank":36,
+    "City":"Houston",
+    "State":" TX",
+    "totalScore ":51.72,
+    "petBudget ":27,
+    "petHealthWellness ":43,
+    "outdoorPetFriendliness ":66
     }
   },
   {
@@ -664,13 +664,13 @@
        "coordinates":  [ -86.16,39.77 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":43,
-    "dogfriendly.City":"Indianapolis",
-    "dogfriendly.State":" IN",
-    "dogfriendly.Total Score ":50.5,
-    "dogfriendly.Pet Budget ":14,
-    "dogfriendly.Pet Health & Wellness ":47,
-    "dogfriendly.Outdoor Pet-Friendliness ":96
+    "overallRank":43,
+    "City":"Indianapolis",
+    "State":" IN",
+    "totalScore ":50.5,
+    "petBudget ":14,
+    "petHealthWellness ":47,
+    "outdoorPetFriendliness ":96
     }
   },
   {
@@ -680,13 +680,13 @@
        "coordinates":  [ -79.18,41.84 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":38,
-    "dogfriendly.City":"Irvine",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":51.28,
-    "dogfriendly.Pet Budget ":97,
-    "dogfriendly.Pet Health & Wellness ":8,
-    "dogfriendly.Outdoor Pet-Friendliness ":5
+    "overallRank":38,
+    "City":"Irvine",
+    "State":" CA",
+    "totalScore ":51.28,
+    "petBudget ":97,
+    "petHealthWellness ":8,
+    "outdoorPetFriendliness ":5
     }
   },
   {
@@ -696,13 +696,13 @@
        "coordinates":  [ -79.04,42.56 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":82,
-    "dogfriendly.City":"Irving",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":45.51,
-    "dogfriendly.Pet Budget ":73,
-    "dogfriendly.Pet Health & Wellness ":33,
-    "dogfriendly.Outdoor Pet-Friendliness ":91
+    "overallRank":82,
+    "City":"Irving",
+    "State":" TX",
+    "totalScore ":45.51,
+    "petBudget ":73,
+    "petHealthWellness ":33,
+    "outdoorPetFriendliness ":91
     }
   },
   {
@@ -712,13 +712,13 @@
        "coordinates":  [ -72.82,42.79 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":51,
-    "dogfriendly.City":"Jacksonville",
-    "dogfriendly.State":" FL",
-    "dogfriendly.Total Score ":49.66,
-    "dogfriendly.Pet Budget ":26,
-    "dogfriendly.Pet Health & Wellness ":72,
-    "dogfriendly.Outdoor Pet-Friendliness ":63
+    "overallRank":51,
+    "City":"Jacksonville",
+    "State":" FL",
+    "totalScore ":49.66,
+    "petBudget ":26,
+    "petHealthWellness ":72,
+    "outdoorPetFriendliness ":63
     }
   },
   {
@@ -728,13 +728,13 @@
        "coordinates":  [ -74.08,40.72 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":78,
-    "dogfriendly.City":"Jersey City",
-    "dogfriendly.State":" NJ",
-    "dogfriendly.Total Score ":46.44,
-    "dogfriendly.Pet Budget ":82,
-    "dogfriendly.Pet Health & Wellness ":52,
-    "dogfriendly.Outdoor Pet-Friendliness ":45
+    "overallRank":78,
+    "City":"Jersey City",
+    "State":" NJ",
+    "totalScore ":46.44,
+    "petBudget ":82,
+    "petHealthWellness ":52,
+    "outdoorPetFriendliness ":45
     }
   },
   {
@@ -744,13 +744,13 @@
        "coordinates":  [ -94.62,39.1 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":46,
-    "dogfriendly.City":"Kansas City",
-    "dogfriendly.State":" MO",
-    "dogfriendly.Total Score ":50.03,
-    "dogfriendly.Pet Budget ":12,
-    "dogfriendly.Pet Health & Wellness ":86,
-    "dogfriendly.Outdoor Pet-Friendliness ":58
+    "overallRank":46,
+    "City":"Kansas City",
+    "State":" MO",
+    "totalScore ":50.03,
+    "petBudget ":12,
+    "petHealthWellness ":86,
+    "outdoorPetFriendliness ":58
     }
   },
   {
@@ -760,13 +760,13 @@
        "coordinates":  [ -93.44,40.02 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":95,
-    "dogfriendly.City":"Laredo",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":42.86,
-    "dogfriendly.Pet Budget ":35,
-    "dogfriendly.Pet Health & Wellness ":100,
-    "dogfriendly.Outdoor Pet-Friendliness ":48
+    "overallRank":95,
+    "City":"Laredo",
+    "State":" TX",
+    "totalScore ":42.86,
+    "petBudget ":35,
+    "petHealthWellness ":100,
+    "outdoorPetFriendliness ":48
     }
   },
   {
@@ -776,13 +776,13 @@
        "coordinates":  [ -115.35,36.32 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":4,
-    "dogfriendly.City":"Las Vegas",
-    "dogfriendly.State":" NV",
-    "dogfriendly.Total Score ":60.48,
-    "dogfriendly.Pet Budget ":32,
-    "dogfriendly.Pet Health & Wellness ":34,
-    "dogfriendly.Outdoor Pet-Friendliness ":1
+    "overallRank":4,
+    "City":"Las Vegas",
+    "State":" NV",
+    "totalScore ":60.48,
+    "petBudget ":32,
+    "petHealthWellness ":34,
+    "outdoorPetFriendliness ":1
     }
   },
   {
@@ -792,13 +792,13 @@
        "coordinates":  [ -118.46,47.83 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":21,
-    "dogfriendly.City":"Lincoln",
-    "dogfriendly.State":" NE",
-    "dogfriendly.Total Score ":54.16,
-    "dogfriendly.Pet Budget ":4,
-    "dogfriendly.Pet Health & Wellness ":67,
-    "dogfriendly.Outdoor Pet-Friendliness ":69
+    "overallRank":21,
+    "City":"Lincoln",
+    "State":" NE",
+    "totalScore ":54.16,
+    "petBudget ":4,
+    "petHealthWellness ":67,
+    "outdoorPetFriendliness ":69
     }
   },
   {
@@ -808,13 +808,13 @@
        "coordinates":  [ -124.03,46.39 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":68,
-    "dogfriendly.City":"Long Beach",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":47.67,
-    "dogfriendly.Pet Budget ":93,
-    "dogfriendly.Pet Health & Wellness ":27,
-    "dogfriendly.Outdoor Pet-Friendliness ":18
+    "overallRank":68,
+    "City":"Long Beach",
+    "State":" CA",
+    "totalScore ":47.67,
+    "petBudget ":93,
+    "petHealthWellness ":27,
+    "outdoorPetFriendliness ":18
     }
   },
   {
@@ -824,13 +824,13 @@
        "coordinates":  [ -118.33,34.13 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":73,
-    "dogfriendly.City":"Los Angeles",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":47.35,
-    "dogfriendly.Pet Budget ":96,
-    "dogfriendly.Pet Health & Wellness ":44,
-    "dogfriendly.Outdoor Pet-Friendliness ":6
+    "overallRank":73,
+    "City":"Los Angeles",
+    "State":" CA",
+    "totalScore ":47.35,
+    "petBudget ":96,
+    "petHealthWellness ":44,
+    "outdoorPetFriendliness ":6
     }
   },
   {
@@ -840,13 +840,13 @@
        "coordinates":  [ -96.16,40.99 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":42,
-    "dogfriendly.City":"Louisville",
-    "dogfriendly.State":" KY",
-    "dogfriendly.Total Score ":50.55,
-    "dogfriendly.Pet Budget ":29,
-    "dogfriendly.Pet Health & Wellness ":24,
-    "dogfriendly.Outdoor Pet-Friendliness ":95
+    "overallRank":42,
+    "City":"Louisville",
+    "State":" KY",
+    "totalScore ":50.55,
+    "petBudget ":29,
+    "petHealthWellness ":24,
+    "outdoorPetFriendliness ":95
     }
   },
   {
@@ -856,13 +856,13 @@
        "coordinates":  [ -101.87,33.57 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":55,
-    "dogfriendly.City":"Lubbock",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":49.22,
-    "dogfriendly.Pet Budget ":39,
-    "dogfriendly.Pet Health & Wellness ":55,
-    "dogfriendly.Outdoor Pet-Friendliness ":86
+    "overallRank":55,
+    "City":"Lubbock",
+    "State":" TX",
+    "totalScore ":49.22,
+    "petBudget ":39,
+    "petHealthWellness ":55,
+    "outdoorPetFriendliness ":86
     }
   },
   {
@@ -872,13 +872,13 @@
        "coordinates":  [ -96.18,45.01 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":26,
-    "dogfriendly.City":"Madison",
-    "dogfriendly.State":" WI",
-    "dogfriendly.Total Score ":53.67,
-    "dogfriendly.Pet Budget ":52,
-    "dogfriendly.Pet Health & Wellness ":38,
-    "dogfriendly.Outdoor Pet-Friendliness ":30
+    "overallRank":26,
+    "City":"Madison",
+    "State":" WI",
+    "totalScore ":53.67,
+    "petBudget ":52,
+    "petHealthWellness ":38,
+    "outdoorPetFriendliness ":30
     }
   },
   {
@@ -888,13 +888,13 @@
        "coordinates":  [ -76.37,43.08 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":47,
-    "dogfriendly.City":"Memphis",
-    "dogfriendly.State":" TN",
-    "dogfriendly.Total Score ":50.01,
-    "dogfriendly.Pet Budget ":5,
-    "dogfriendly.Pet Health & Wellness ":84,
-    "dogfriendly.Outdoor Pet-Friendliness ":88
+    "overallRank":47,
+    "City":"Memphis",
+    "State":" TN",
+    "totalScore ":50.01,
+    "petBudget ":5,
+    "petHealthWellness ":84,
+    "outdoorPetFriendliness ":88
     }
   },
   {
@@ -904,13 +904,13 @@
        "coordinates":  [ -119.15,46.58 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":80,
-    "dogfriendly.City":"Mesa",
-    "dogfriendly.State":" AZ",
-    "dogfriendly.Total Score ":46.13,
-    "dogfriendly.Pet Budget ":59,
-    "dogfriendly.Pet Health & Wellness ":73,
-    "dogfriendly.Outdoor Pet-Friendliness ":74
+    "overallRank":80,
+    "City":"Mesa",
+    "State":" AZ",
+    "totalScore ":46.13,
+    "petBudget ":59,
+    "petHealthWellness ":73,
+    "outdoorPetFriendliness ":74
     }
   },
   {
@@ -920,13 +920,13 @@
        "coordinates":  [ -85.97,40.6 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":23,
-    "dogfriendly.City":"Miami",
-    "dogfriendly.State":" FL",
-    "dogfriendly.Total Score ":54.05,
-    "dogfriendly.Pet Budget ":36,
-    "dogfriendly.Pet Health & Wellness ":19,
-    "dogfriendly.Outdoor Pet-Friendliness ":57
+    "overallRank":23,
+    "City":"Miami",
+    "State":" FL",
+    "totalScore ":54.05,
+    "petBudget ":36,
+    "petHealthWellness ":19,
+    "outdoorPetFriendliness ":57
     }
   },
   {
@@ -936,13 +936,13 @@
        "coordinates":  [ -87.96,43.06 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":85,
-    "dogfriendly.City":"Milwaukee",
-    "dogfriendly.State":" WI",
-    "dogfriendly.Total Score ":45.21,
-    "dogfriendly.Pet Budget ":17,
-    "dogfriendly.Pet Health & Wellness ":97,
-    "dogfriendly.Outdoor Pet-Friendliness ":82
+    "overallRank":85,
+    "City":"Milwaukee",
+    "State":" WI",
+    "totalScore ":45.21,
+    "petBudget ":17,
+    "petHealthWellness ":97,
+    "outdoorPetFriendliness ":82
     }
   },
   {
@@ -952,13 +952,13 @@
        "coordinates":  [ -93.26,44.98 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":28,
-    "dogfriendly.City":"Minneapolis",
-    "dogfriendly.State":" MN",
-    "dogfriendly.Total Score ":53.35,
-    "dogfriendly.Pet Budget ":63,
-    "dogfriendly.Pet Health & Wellness ":25,
-    "dogfriendly.Outdoor Pet-Friendliness ":25
+    "overallRank":28,
+    "City":"Minneapolis",
+    "State":" MN",
+    "totalScore ":53.35,
+    "petBudget ":63,
+    "petHealthWellness ":25,
+    "outdoorPetFriendliness ":25
     }
   },
   {
@@ -968,13 +968,13 @@
        "coordinates":  [ -85.09,42.6 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":34,
-    "dogfriendly.City":"Nashville",
-    "dogfriendly.State":" TN",
-    "dogfriendly.Total Score ":52.24,
-    "dogfriendly.Pet Budget ":11,
-    "dogfriendly.Pet Health & Wellness ":62,
-    "dogfriendly.Outdoor Pet-Friendliness ":75
+    "overallRank":34,
+    "City":"Nashville",
+    "State":" TN",
+    "totalScore ":52.24,
+    "petBudget ":11,
+    "petHealthWellness ":62,
+    "outdoorPetFriendliness ":75
     }
   },
   {
@@ -984,13 +984,13 @@
        "coordinates":  [ -77.09,43.04 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":98,
-    "dogfriendly.City":"Newark",
-    "dogfriendly.State":" NJ",
-    "dogfriendly.Total Score ":41.99,
-    "dogfriendly.Pet Budget ":88,
-    "dogfriendly.Pet Health & Wellness ":32,
-    "dogfriendly.Outdoor Pet-Friendliness ":92
+    "overallRank":98,
+    "City":"Newark",
+    "State":" NJ",
+    "totalScore ":41.99,
+    "petBudget ":88,
+    "petHealthWellness ":32,
+    "outdoorPetFriendliness ":92
     }
   },
   {
@@ -1000,13 +1000,13 @@
        "coordinates":  [ -89.93,30.06 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":10,
-    "dogfriendly.City":"New Orleans",
-    "dogfriendly.State":" LA",
-    "dogfriendly.Total Score ":57.22,
-    "dogfriendly.Pet Budget ":34,
-    "dogfriendly.Pet Health & Wellness ":10,
-    "dogfriendly.Outdoor Pet-Friendliness ":44
+    "overallRank":10,
+    "City":"New Orleans",
+    "State":" LA",
+    "totalScore ":57.22,
+    "petBudget ":34,
+    "petHealthWellness ":10,
+    "outdoorPetFriendliness ":44
     }
   },
   {
@@ -1016,13 +1016,13 @@
        "coordinates":  [ -73.98,40.77 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":90,
-    "dogfriendly.City":"New York",
-    "dogfriendly.State":" NY",
-    "dogfriendly.Total Score ":43.69,
-    "dogfriendly.Pet Budget ":95,
-    "dogfriendly.Pet Health & Wellness ":71,
-    "dogfriendly.Outdoor Pet-Friendliness ":16
+    "overallRank":90,
+    "City":"New York",
+    "State":" NY",
+    "totalScore ":43.69,
+    "petBudget ":95,
+    "petHealthWellness ":71,
+    "outdoorPetFriendliness ":16
     }
   },
   {
@@ -1032,13 +1032,13 @@
        "coordinates":  [ -74.98,44.8 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":92,
-    "dogfriendly.City":"Norfolk",
-    "dogfriendly.State":" VA",
-    "dogfriendly.Total Score ":43.27,
-    "dogfriendly.Pet Budget ":56,
-    "dogfriendly.Pet Health & Wellness ":94,
-    "dogfriendly.Outdoor Pet-Friendliness ":73
+    "overallRank":92,
+    "City":"Norfolk",
+    "State":" VA",
+    "totalScore ":43.27,
+    "petBudget ":56,
+    "petHealthWellness ":94,
+    "outdoorPetFriendliness ":73
     }
   },
   {
@@ -1048,13 +1048,13 @@
        "coordinates":  [ -114.88,36.37 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":31,
-    "dogfriendly.City":"North Las Vegas",
-    "dogfriendly.State":" NV",
-    "dogfriendly.Total Score ":52.49,
-    "dogfriendly.Pet Budget ":45,
-    "dogfriendly.Pet Health & Wellness ":80,
-    "dogfriendly.Outdoor Pet-Friendliness ":15
+    "overallRank":31,
+    "City":"North Las Vegas",
+    "State":" NV",
+    "totalScore ":52.49,
+    "petBudget ":45,
+    "petHealthWellness ":80,
+    "outdoorPetFriendliness ":15
     }
   },
   {
@@ -1064,13 +1064,13 @@
        "coordinates":  [ -69.71,44.55 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":58,
-    "dogfriendly.City":"Oakland",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":48.82,
-    "dogfriendly.Pet Budget ":89,
-    "dogfriendly.Pet Health & Wellness ":39,
-    "dogfriendly.Outdoor Pet-Friendliness ":14
+    "overallRank":58,
+    "City":"Oakland",
+    "State":" CA",
+    "totalScore ":48.82,
+    "petBudget ":89,
+    "petHealthWellness ":39,
+    "outdoorPetFriendliness ":14
     }
   },
   {
@@ -1080,13 +1080,13 @@
        "coordinates":  [ -97.56,35.52 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":32,
-    "dogfriendly.City":"Oklahoma City",
-    "dogfriendly.State":" OK",
-    "dogfriendly.Total Score ":52.3,
-    "dogfriendly.Pet Budget ":7,
-    "dogfriendly.Pet Health & Wellness ":61,
-    "dogfriendly.Outdoor Pet-Friendliness ":85
+    "overallRank":32,
+    "City":"Oklahoma City",
+    "State":" OK",
+    "totalScore ":52.3,
+    "petBudget ":7,
+    "petHealthWellness ":61,
+    "outdoorPetFriendliness ":85
     }
   },
   {
@@ -1096,13 +1096,13 @@
        "coordinates":  [ -96.01,41.26 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":24,
-    "dogfriendly.City":"Omaha",
-    "dogfriendly.State":" NE",
-    "dogfriendly.Total Score ":53.9,
-    "dogfriendly.Pet Budget ":23,
-    "dogfriendly.Pet Health & Wellness ":30,
-    "dogfriendly.Outdoor Pet-Friendliness ":52
+    "overallRank":24,
+    "City":"Omaha",
+    "State":" NE",
+    "totalScore ":53.9,
+    "petBudget ":23,
+    "petHealthWellness ":30,
+    "outdoorPetFriendliness ":52
     }
   },
   {
@@ -1112,13 +1112,13 @@
        "coordinates":  [ -80.56,38.89 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":3,
-    "dogfriendly.City":"Orlando",
-    "dogfriendly.State":" FL",
-    "dogfriendly.Total Score ":62.2,
-    "dogfriendly.Pet Budget ":31,
-    "dogfriendly.Pet Health & Wellness ":3,
-    "dogfriendly.Outdoor Pet-Friendliness ":34
+    "overallRank":3,
+    "City":"Orlando",
+    "State":" FL",
+    "totalScore ":62.2,
+    "petBudget ":31,
+    "petHealthWellness ":3,
+    "outdoorPetFriendliness ":34
     }
   },
   {
@@ -1128,13 +1128,13 @@
        "coordinates":  [ -75.7,44.15 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":77,
-    "dogfriendly.City":"Philadelphia",
-    "dogfriendly.State":" PA",
-    "dogfriendly.Total Score ":46.74,
-    "dogfriendly.Pet Budget ":77,
-    "dogfriendly.Pet Health & Wellness ":69,
-    "dogfriendly.Outdoor Pet-Friendliness ":37
+    "overallRank":77,
+    "City":"Philadelphia",
+    "State":" PA",
+    "totalScore ":46.74,
+    "petBudget ":77,
+    "petHealthWellness ":69,
+    "outdoorPetFriendliness ":37
     }
   },
   {
@@ -1144,13 +1144,13 @@
        "coordinates":  [ -76.29,43.23 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":22,
-    "dogfriendly.City":"Phoenix",
-    "dogfriendly.State":" AZ",
-    "dogfriendly.Total Score ":54.09,
-    "dogfriendly.Pet Budget ":40,
-    "dogfriendly.Pet Health & Wellness ":63,
-    "dogfriendly.Outdoor Pet-Friendliness ":19
+    "overallRank":22,
+    "City":"Phoenix",
+    "State":" AZ",
+    "totalScore ":54.09,
+    "petBudget ":40,
+    "petHealthWellness ":63,
+    "outdoorPetFriendliness ":19
     }
   },
   {
@@ -1160,13 +1160,13 @@
        "coordinates":  [ -79.99,40.44 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":11,
-    "dogfriendly.City":"Pittsburgh",
-    "dogfriendly.State":" PA",
-    "dogfriendly.Total Score ":56.9,
-    "dogfriendly.Pet Budget ":22,
-    "dogfriendly.Pet Health & Wellness ":46,
-    "dogfriendly.Outdoor Pet-Friendliness ":20
+    "overallRank":11,
+    "City":"Pittsburgh",
+    "State":" PA",
+    "totalScore ":56.9,
+    "petBudget ":22,
+    "petHealthWellness ":46,
+    "outdoorPetFriendliness ":20
     }
   },
   {
@@ -1176,13 +1176,13 @@
        "coordinates":  [ -88.53,41.66 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":20,
-    "dogfriendly.City":"Plano",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":54.81,
-    "dogfriendly.Pet Budget ":81,
-    "dogfriendly.Pet Health & Wellness ":4,
-    "dogfriendly.Outdoor Pet-Friendliness ":32
+    "overallRank":20,
+    "City":"Plano",
+    "State":" TX",
+    "totalScore ":54.81,
+    "petBudget ":81,
+    "petHealthWellness ":4,
+    "outdoorPetFriendliness ":32
     }
   },
   {
@@ -1192,13 +1192,13 @@
        "coordinates":  [ -97.36,47.49 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":19,
-    "dogfriendly.City":"Portland",
-    "dogfriendly.State":" OR",
-    "dogfriendly.Total Score ":55.2,
-    "dogfriendly.Pet Budget ":76,
-    "dogfriendly.Pet Health & Wellness ":21,
-    "dogfriendly.Outdoor Pet-Friendliness ":4
+    "overallRank":19,
+    "City":"Portland",
+    "State":" OR",
+    "totalScore ":55.2,
+    "petBudget ":76,
+    "petHealthWellness ":21,
+    "outdoorPetFriendliness ":4
     }
   },
   {
@@ -1208,13 +1208,13 @@
        "coordinates":  [ -101.3,46.36 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":29,
-    "dogfriendly.City":"Raleigh",
-    "dogfriendly.State":" NC",
-    "dogfriendly.Total Score ":53.21,
-    "dogfriendly.Pet Budget ":21,
-    "dogfriendly.Pet Health & Wellness ":35,
-    "dogfriendly.Outdoor Pet-Friendliness ":60
+    "overallRank":29,
+    "City":"Raleigh",
+    "State":" NC",
+    "totalScore ":53.21,
+    "petBudget ":21,
+    "petHealthWellness ":35,
+    "outdoorPetFriendliness ":60
     }
   },
   {
@@ -1224,13 +1224,13 @@
        "coordinates":  [ -79.74,41.42 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":65,
-    "dogfriendly.City":"Reno",
-    "dogfriendly.State":" NV",
-    "dogfriendly.Total Score ":47.98,
-    "dogfriendly.Pet Budget ":49,
-    "dogfriendly.Pet Health & Wellness ":50,
-    "dogfriendly.Outdoor Pet-Friendliness ":80
+    "overallRank":65,
+    "City":"Reno",
+    "State":" NV",
+    "totalScore ":47.98,
+    "petBudget ":49,
+    "petHealthWellness ":50,
+    "outdoorPetFriendliness ":80
     }
   },
   {
@@ -1240,13 +1240,13 @@
        "coordinates":  [ -119.35,48.56 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":53,
-    "dogfriendly.City":"Riverside",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":49.47,
-    "dogfriendly.Pet Budget ":78,
-    "dogfriendly.Pet Health & Wellness ":37,
-    "dogfriendly.Outdoor Pet-Friendliness ":41
+    "overallRank":53,
+    "City":"Riverside",
+    "State":" CA",
+    "totalScore ":49.47,
+    "petBudget ":78,
+    "petHealthWellness ":37,
+    "outdoorPetFriendliness ":41
     }
   },
   {
@@ -1256,13 +1256,13 @@
        "coordinates":  [ -76.61,40.64 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":25,
-    "dogfriendly.City":"Sacramento",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":53.87,
-    "dogfriendly.Pet Budget ":83,
-    "dogfriendly.Pet Health & Wellness ":14,
-    "dogfriendly.Outdoor Pet-Friendliness ":17
+    "overallRank":25,
+    "City":"Sacramento",
+    "State":" CA",
+    "totalScore ":53.87,
+    "petBudget ":83,
+    "petHealthWellness ":14,
+    "outdoorPetFriendliness ":17
     }
   },
   {
@@ -1272,13 +1272,13 @@
        "coordinates":  [ -106.86,33.91 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":71,
-    "dogfriendly.City":"San Antonio",
-    "dogfriendly.State":" TX",
-    "dogfriendly.Total Score ":47.53,
-    "dogfriendly.Pet Budget ":55,
-    "dogfriendly.Pet Health & Wellness ":70,
-    "dogfriendly.Outdoor Pet-Friendliness ":61
+    "overallRank":71,
+    "City":"San Antonio",
+    "State":" TX",
+    "totalScore ":47.53,
+    "petBudget ":55,
+    "petHealthWellness ":70,
+    "outdoorPetFriendliness ":61
     }
   },
   {
@@ -1288,13 +1288,13 @@
        "coordinates":  [ -117.37,34.22 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":88,
-    "dogfriendly.City":"San Bernardino",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":44.49,
-    "dogfriendly.Pet Budget ":86,
-    "dogfriendly.Pet Health & Wellness ":85,
-    "dogfriendly.Outdoor Pet-Friendliness ":27
+    "overallRank":88,
+    "City":"San Bernardino",
+    "State":" CA",
+    "totalScore ":44.49,
+    "petBudget ":86,
+    "petHealthWellness ":85,
+    "outdoorPetFriendliness ":27
     }
   },
   {
@@ -1304,13 +1304,13 @@
        "coordinates":  [ -117.12,33.02 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":9,
-    "dogfriendly.City":"San Diego",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":57.28,
-    "dogfriendly.Pet Budget ":92,
-    "dogfriendly.Pet Health & Wellness ":2,
-    "dogfriendly.Outdoor Pet-Friendliness ":8
+    "overallRank":9,
+    "City":"San Diego",
+    "State":" CA",
+    "totalScore ":57.28,
+    "petBudget ":92,
+    "petHealthWellness ":2,
+    "outdoorPetFriendliness ":8
     }
   },
   {
@@ -1320,13 +1320,13 @@
        "coordinates":  [ -122.36,37.81 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":59,
-    "dogfriendly.City":"San Francisco",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":48.58,
-    "dogfriendly.Pet Budget ":99,
-    "dogfriendly.Pet Health & Wellness ":29,
-    "dogfriendly.Outdoor Pet-Friendliness ":2
+    "overallRank":59,
+    "City":"San Francisco",
+    "State":" CA",
+    "totalScore ":48.58,
+    "petBudget ":99,
+    "petHealthWellness ":29,
+    "outdoorPetFriendliness ":2
     }
   },
   {
@@ -1336,13 +1336,13 @@
        "coordinates":  [ -89.6,40.3 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":44,
-    "dogfriendly.City":"San Jose",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":50.43,
-    "dogfriendly.Pet Budget ":74,
-    "dogfriendly.Pet Health & Wellness ":57,
-    "dogfriendly.Outdoor Pet-Friendliness ":26
+    "overallRank":44,
+    "City":"San Jose",
+    "State":" CA",
+    "totalScore ":50.43,
+    "petBudget ":74,
+    "petHealthWellness ":57,
+    "outdoorPetFriendliness ":26
     }
   },
   {
@@ -1352,13 +1352,13 @@
        "coordinates":  [ -117.88,33.76 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":100,
-    "dogfriendly.City":"Santa Ana",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":36.22,
-    "dogfriendly.Pet Budget ":98,
-    "dogfriendly.Pet Health & Wellness ":76,
-    "dogfriendly.Outdoor Pet-Friendliness ":70
+    "overallRank":100,
+    "City":"Santa Ana",
+    "State":" CA",
+    "totalScore ":36.22,
+    "petBudget ":98,
+    "petHealthWellness ":76,
+    "outdoorPetFriendliness ":70
     }
   },
   {
@@ -1368,13 +1368,13 @@
        "coordinates":  [ -111.78,33.85 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":1,
-    "dogfriendly.City":"Scottsdale",
-    "dogfriendly.State":" AZ",
-    "dogfriendly.Total Score ":63.28,
-    "dogfriendly.Pet Budget ":71,
-    "dogfriendly.Pet Health & Wellness ":1,
-    "dogfriendly.Outdoor Pet-Friendliness ":3
+    "overallRank":1,
+    "City":"Scottsdale",
+    "State":" AZ",
+    "totalScore ":63.28,
+    "petBudget ":71,
+    "petHealthWellness ":1,
+    "outdoorPetFriendliness ":3
     }
   },
   {
@@ -1384,13 +1384,13 @@
        "coordinates":  [ -122.38,47.77 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":17,
-    "dogfriendly.City":"Seattle",
-    "dogfriendly.State":" WA",
-    "dogfriendly.Total Score ":55.61,
-    "dogfriendly.Pet Budget ":70,
-    "dogfriendly.Pet Health & Wellness ":18,
-    "dogfriendly.Outdoor Pet-Friendliness ":11
+    "overallRank":17,
+    "City":"Seattle",
+    "State":" WA",
+    "totalScore ":55.61,
+    "petBudget ":70,
+    "petHealthWellness ":18,
+    "outdoorPetFriendliness ":11
     }
   },
   {
@@ -1400,13 +1400,13 @@
        "coordinates":  [ -91.77,44.02 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":75,
-    "dogfriendly.City":"Stockton",
-    "dogfriendly.State":" CA",
-    "dogfriendly.Total Score ":47.08,
-    "dogfriendly.Pet Budget ":37,
-    "dogfriendly.Pet Health & Wellness ":96,
-    "dogfriendly.Outdoor Pet-Friendliness ":49
+    "overallRank":75,
+    "City":"Stockton",
+    "State":" CA",
+    "totalScore ":47.08,
+    "petBudget ":37,
+    "petHealthWellness ":96,
+    "outdoorPetFriendliness ":49
     }
   },
   {
@@ -1416,13 +1416,13 @@
        "coordinates":  [ -97.15,38.54 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":2,
-    "dogfriendly.City":"Tampa",
-    "dogfriendly.State":" FL",
-    "dogfriendly.Total Score ":62.25,
-    "dogfriendly.Pet Budget ":42,
-    "dogfriendly.Pet Health & Wellness ":5,
-    "dogfriendly.Outdoor Pet-Friendliness ":13
+    "overallRank":2,
+    "City":"Tampa",
+    "State":" FL",
+    "totalScore ":62.25,
+    "petBudget ":42,
+    "petHealthWellness ":5,
+    "outdoorPetFriendliness ":13
     }
   },
   {
@@ -1432,13 +1432,13 @@
        "coordinates":  [ -122.76,46.45 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":66,
-    "dogfriendly.City":"Toledo",
-    "dogfriendly.State":" OH",
-    "dogfriendly.Total Score ":47.74,
-    "dogfriendly.Pet Budget ":6,
-    "dogfriendly.Pet Health & Wellness ":93,
-    "dogfriendly.Outdoor Pet-Friendliness ":59
+    "overallRank":66,
+    "City":"Toledo",
+    "State":" OH",
+    "totalScore ":47.74,
+    "petBudget ":6,
+    "petHealthWellness ":93,
+    "outdoorPetFriendliness ":59
     }
   },
   {
@@ -1448,13 +1448,13 @@
        "coordinates":  [ -110.95,32.54 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":30,
-    "dogfriendly.City":"Tucson",
-    "dogfriendly.State":" AZ",
-    "dogfriendly.Total Score ":52.55,
-    "dogfriendly.Pet Budget ":48,
-    "dogfriendly.Pet Health & Wellness ":42,
-    "dogfriendly.Outdoor Pet-Friendliness ":40
+    "overallRank":30,
+    "City":"Tucson",
+    "State":" AZ",
+    "totalScore ":52.55,
+    "petBudget ":48,
+    "petHealthWellness ":42,
+    "outdoorPetFriendliness ":40
     }
   },
   {
@@ -1464,13 +1464,13 @@
        "coordinates":  [ -95.99,36.15 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":27,
-    "dogfriendly.City":"Tulsa",
-    "dogfriendly.State":" OK",
-    "dogfriendly.Total Score ":53.63,
-    "dogfriendly.Pet Budget ":15,
-    "dogfriendly.Pet Health & Wellness ":58,
-    "dogfriendly.Outdoor Pet-Friendliness ":50
+    "overallRank":27,
+    "City":"Tulsa",
+    "State":" OK",
+    "totalScore ":53.63,
+    "petBudget ":15,
+    "petHealthWellness ":58,
+    "outdoorPetFriendliness ":50
     }
   },
   {
@@ -1480,13 +1480,13 @@
        "coordinates":  [ -76.08,36.78 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":60,
-    "dogfriendly.City":"Virginia Beach",
-    "dogfriendly.State":" VA",
-    "dogfriendly.Total Score ":48.49,
-    "dogfriendly.Pet Budget ":50,
-    "dogfriendly.Pet Health & Wellness ":54,
-    "dogfriendly.Outdoor Pet-Friendliness ":79
+    "overallRank":60,
+    "City":"Virginia Beach",
+    "State":" VA",
+    "totalScore ":48.49,
+    "petBudget ":50,
+    "petHealthWellness ":54,
+    "outdoorPetFriendliness ":79
     }
   },
   {
@@ -1496,13 +1496,13 @@
        "coordinates":  [ -69.36,44.27 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":61,
-    "dogfriendly.City":"Washington",
-    "dogfriendly.State":" DC",
-    "dogfriendly.Total Score ":48.46,
-    "dogfriendly.Pet Budget ":91,
-    "dogfriendly.Pet Health & Wellness ":41,
-    "dogfriendly.Outdoor Pet-Friendliness ":9
+    "overallRank":61,
+    "City":"Washington",
+    "State":" DC",
+    "totalScore ":48.46,
+    "petBudget ":91,
+    "petHealthWellness ":41,
+    "outdoorPetFriendliness ":9
     }
   },
   {
@@ -1512,13 +1512,13 @@
        "coordinates":  [ -97.34,37.68 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":76,
-    "dogfriendly.City":"Wichita",
-    "dogfriendly.State":" KS",
-    "dogfriendly.Total Score ":46.95,
-    "dogfriendly.Pet Budget ":20,
-    "dogfriendly.Pet Health & Wellness ":82,
-    "dogfriendly.Outdoor Pet-Friendliness ":98
+    "overallRank":76,
+    "City":"Wichita",
+    "State":" KS",
+    "totalScore ":46.95,
+    "petBudget ":20,
+    "petHealthWellness ":82,
+    "outdoorPetFriendliness ":98
     }
   },
   {
@@ -1528,13 +1528,13 @@
        "coordinates":  [ 90.19,38.62 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":6,
-    "dogfriendly.City":"St Louis",
-    "dogfriendly.State":" MO",
-    "dogfriendly.Total Score ":58.32,
-    "dogfriendly.Pet Budget ":18,
-    "dogfriendly.Pet Health & Wellness ":16,
-    "dogfriendly.Outdoor Pet-Friendliness ":39
+    "overallRank":6,
+    "City":"St Louis",
+    "State":" MO",
+    "totalScore ":58.32,
+    "petBudget ":18,
+    "petHealthWellness ":16,
+    "outdoorPetFriendliness ":39
     }
   },
   {
@@ -1544,13 +1544,13 @@
        "coordinates":  [ -82.63,27.77 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":7,
-    "dogfriendly.City":"St Petersburg",
-    "dogfriendly.State":" FL",
-    "dogfriendly.Total Score ":58.31,
-    "dogfriendly.Pet Budget ":42,
-    "dogfriendly.Pet Health & Wellness ":9,
-    "dogfriendly.Outdoor Pet-Friendliness ":29
+    "overallRank":7,
+    "City":"St Petersburg",
+    "State":" FL",
+    "totalScore ":58.31,
+    "petBudget ":42,
+    "petHealthWellness ":9,
+    "outdoorPetFriendliness ":29
     }
   },
   {
@@ -1560,13 +1560,13 @@
        "coordinates":  [ -93.09,44.95 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":33,
-    "dogfriendly.City":"St Paul",
-    "dogfriendly.State":" MN",
-    "dogfriendly.Total Score ":52.28,
-    "dogfriendly.Pet Budget ":30,
-    "dogfriendly.Pet Health & Wellness ":60,
-    "dogfriendly.Outdoor Pet-Friendliness ":42
+    "overallRank":33,
+    "City":"St Paul",
+    "State":" MN",
+    "totalScore ":52.28,
+    "petBudget ":30,
+    "petHealthWellness ":60,
+    "outdoorPetFriendliness ":42
     }
   },
   {
@@ -1576,13 +1576,13 @@
        "coordinates":  [ -80.24,36.09 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":37,
-    "dogfriendly.City":"Winston-Salem",
-    "dogfriendly.State":" NC",
-    "dogfriendly.Total Score ":51.5,
-    "dogfriendly.Pet Budget ":3,
-    "dogfriendly.Pet Health & Wellness ":88,
-    "dogfriendly.Outdoor Pet-Friendliness ":84
+    "overallRank":37,
+    "City":"Winston-Salem",
+    "State":" NC",
+    "totalScore ":51.5,
+    "petBudget ":3,
+    "petHealthWellness ":88,
+    "outdoorPetFriendliness ":84
     }
   },
   {
@@ -1592,13 +1592,13 @@
        "coordinates":  [ -84.5,38.04 ]
     },
     "properties": {
-    "dogfriendly.Overall Rank* ":41,
-    "dogfriendly.City":"Lexington Fayette",
-    "dogfriendly.State":" KY",
-    "dogfriendly.Total Score ":50.67,
-    "dogfriendly.Pet Budget ":47,
-    "dogfriendly.Pet Health & Wellness ":22,
-    "dogfriendly.Outdoor Pet-Friendliness ":94
+    "overallRank":41,
+    "City":"Lexington Fayette",
+    "State":" KY",
+    "totalScore ":50.67,
+    "petBudget ":47,
+    "petHealthWellness ":22,
+    "outdoorPetFriendliness ":94
     }
   }
 ]
