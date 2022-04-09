@@ -40,19 +40,12 @@ var myMap = L.map("map", {
 // add the default map to the map
 defaultMap.addTo(myMap);
 
-// call the api to get the info for the tectonic plates
-
-//  f = open("GeojsonData/doglatlongfinal.json")
-// dogData = json.loads(f.read());
-// print(f)
-// print(dogData)
-// dogFunction = []
 
 // variable to hold the earthquake data layer
 let earthquakes = new L.layerGroup();
 // get the data for the earthquakes and populate the layergroup
 // call the USGS GeoJson API
-d3.json("GeojsonData/doglatlongfinal.json")
+d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson")
 .then(
     function(earthquakeData){
         // console log to make sure the data loaded
@@ -112,10 +105,84 @@ d3.json("GeojsonData/doglatlongfinal.json")
         earthquakes.addTo(myMap);
     }
 );
+
+let dogPoints = new L.layerGroup();
+
+d3.json("/GeojsonData/doglatlongfinal.json")
+.then(
+    function(dogData){
+        // console log to make sure the data loaded
+        console.log(dogData);
+
+        function radiusSize(size){
+            if (properties.overallRank == 0)
+                return 1; // makes sure that a 0 mag earthquake shows up
+            else
+                return overallRank * 5; // makes sure that the circle is pronounced in the map
+        }
+
+        function dataStyle(feature)
+        {
+            return {
+                opacity: 0.5,
+                fillOpacity: 0.5,
+                fillColor: "red", // use index 2 for the depth
+                color: "000000", // black outline
+                radius: radiusSize(feature.properties.overallRank), // grabs the magnitude
+                weight: 0.5,
+                stroke: true
+            }
+        }
+
+        L.geoJson(dogData, {
+            // make each feature a marker that is on the map, each marker is a circle
+            pointToLayer: function(feature, latLng) {
+                return L.circleMarker(latLng);
+            },
+
+            // set the style for each marker
+            style: dataStyle, // calls the data style function and passes in the earthquake data
+            // add popups
+            onEachFeature: function(feature, layer){
+                layer.bindPopup(`Overall Rank: <b>${feature.properties.overallRank}</b><br>
+                                City: <b>${feature.properties.City}</b><br>
+                                Total Score: <b>${feature.properties.totalScore}</b>
+                                Pet Budget: <b>${feature.properties.petBudget}</b>
+                                Pet Health and Wellness: <b>${feature.properties.petHealthWellness}</b>
+                                Outdoor Pet Friendliness: <b>${feature.properties.outdoorPetFriendliness}</b>`);
+    
+            }
+
+        }).addTo(dogPoints);
+        dogPoints.addTo(myMap);    
+
+    });
+
+let happiestPoints = new L.layerGroup();
+
+d3.json("/GeojsonData/happiestCityDataFinal.json")
+.then(
+    function(happiestData){
+        // console log to make sure the data loaded
+        console.log(happiestData);
+
+        L.geoJson(happiestData, {
+            // make each feature a marker that is on the map, each marker is a circle
+            pointToLayer: function(feature, latLng) {
+                return L.circleMarker(latLng);
+            },
+
+        }).addTo(happiestPoints);
+        happiestPoints.addTo(myMap);
+    });
+
 // add the earthquake layer to the map
 // add the overlay for the tectonic plates and for the earthquakes
 let overlays = {
-    "Earthquake Data": earthquakes
+    "Earthquake Data": earthquakes,
+    "Dog Friendliest Cities": dogPoints,
+    "Happiest Cities": happiestPoints
+    
 };
 // add the Layer control
 L.control
