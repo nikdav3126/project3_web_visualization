@@ -60,6 +60,8 @@ tectonicplates.addTo(myMap);
 let earthquakes = new L.layerGroup();
 // get the data for the earthquakes and populate the layergroup
 // call the USGS GeoJson API
+
+
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson")
 .then(
     function(earthquakeData){
@@ -120,11 +122,18 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
         earthquakes.addTo(myMap);
     }
 );
+
+f = open("/GeojsonData/doglatlongfinal")
+
+let dogData = JSON.parse("/GeojsonData/doglatlongfinal.json");
+      
+
 // add the earthquake layer to the map
 // add the overlay for the tectonic plates and for the earthquakes
 let overlays = {
     "Tectonic Plates": tectonicplates,
     "Earthquake Data": earthquakes
+    
 };
 // add the Layer control
 L.control
