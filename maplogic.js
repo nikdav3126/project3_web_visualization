@@ -39,30 +39,20 @@ var myMap = L.map("map", {
 });
 // add the default map to the map
 defaultMap.addTo(myMap);
-// get the data for the tectonic plates and draw on the map
-// variable to hold the tectonic plates layer
-let tectonicplates = new L.layerGroup();
+
 // call the api to get the info for the tectonic plates
-d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json")
-.then(function(plateData){
-    // console log to make sure the data loaded
-    // console.log(plateData);
-    // load data using geoJson and add to the tectonic plates layer group
-    L.geoJson(plateData,{
-        // add styling to make the lines visible
-        color: "yellow",
-        weight: 1
-    }).addTo(tectonicplates);
-});
-// add the tectonic plates to the map
-tectonicplates.addTo(myMap);
+
+//  f = open("GeojsonData/doglatlongfinal.json")
+// dogData = json.loads(f.read());
+// print(f)
+// print(dogData)
+// dogFunction = []
+
 // variable to hold the earthquake data layer
 let earthquakes = new L.layerGroup();
 // get the data for the earthquakes and populate the layergroup
 // call the USGS GeoJson API
-
-
-d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson")
+d3.json("GeojsonData/doglatlongfinal.json")
 .then(
     function(earthquakeData){
         // console log to make sure the data loaded
@@ -122,55 +112,49 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
         earthquakes.addTo(myMap);
     }
 );
-
-f = open("/GeojsonData/doglatlongfinal")
-
-let dogData = JSON.parse("/GeojsonData/doglatlongfinal.json");
-      
-
 // add the earthquake layer to the map
 // add the overlay for the tectonic plates and for the earthquakes
 let overlays = {
-    "Tectonic Plates": tectonicplates,
     "Earthquake Data": earthquakes
-    
 };
 // add the Layer control
 L.control
     .layers(basemaps, overlays)
     .addTo(myMap);
-// add the legend to the map
-let legend = L.control({
-    position: "bottomright"
-});
-// add the properties for the legend
-legend.onAdd = function() {
-    // div for the legend to appear in the page
-    let div = L.DomUtil.create("div", "info legend");
-    console.log(div);
-    // set up the intervals
-    let intervals = [-10, 10, 30, 50, 70, 90];
-    // set the colors for the intervals
-    let colors = [
-        "green",
-        "#CAFC03",
-        "#FCAD03",
-        "#FC8403",
-        "#FC4903",
-        "red"
-    ];
-    // loop through the intervals and the colors and generate a label
-    // with a colored square for each interval
-    for(var i = 0; i < intervals.length; i++)
-    {
-        // inner html that sets the square for each interval and label
-        div.innerHTML += `<i style="background: ${colors[i]}"></i>${intervals[i]}${(intervals[i+1] ? "km &ndash;" + intervals[i+1] + "km<br>" : "km+")}`
-            // + colors[i]
-            // + "'></i>"
-            // + intervals[i]
-            // + (intervals[i + 1] ? "km &ndash;" + intervals[i + 1] + "km<br>" : "+");
-    }
-    return div;
-};
-// add the legend to the map
-legend.addTo(myMap);
+
+    
+// // add the legend to the map
+// let legend = L.control({
+//     position: "bottomright"
+// });
+// // add the properties for the legend
+// legend.onAdd = function() {
+//     // div for the legend to appear in the page
+//     let div = L.DomUtil.create("div", "info legend");
+//     console.log(div);
+//     // set up the intervals
+//     let intervals = [-10, 10, 30, 50, 70, 90];
+//     // set the colors for the intervals
+//     let colors = [
+//         "green",
+//         "#CAFC03",
+//         "#FCAD03",
+//         "#FC8403",
+//         "#FC4903",
+//         "red"
+//     ];
+//     // loop through the intervals and the colors and generate a label
+//     // with a colored square for each interval
+//     for(var i = 0; i < intervals.length; i++)
+//     {
+//         // inner html that sets the square for each interval and label
+//         div.innerHTML += `<i style="background: ${colors[i]}"></i>${intervals[i]}${(intervals[i+1] ? "km &ndash;" + intervals[i+1] + "km<br>" : "km+")}`
+//             // + colors[i]
+//             // + "'></i>"
+//             // + intervals[i]
+//             // + (intervals[i + 1] ? "km &ndash;" + intervals[i + 1] + "km<br>" : "+");
+//     }
+//     return div;
+// };
+// // add the legend to the map
+// legend.addTo(myMap);
