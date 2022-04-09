@@ -39,29 +39,12 @@ var myMap = L.map("map", {
 });
 // add the default map to the map
 defaultMap.addTo(myMap);
-// get the data for the tectonic plates and draw on the map
-// variable to hold the tectonic plates layer
-let tectonicplates = new L.layerGroup();
-// call the api to get the info for the tectonic plates
-d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json")
-.then(function(plateData){
-    // console log to make sure the data loaded
-    // console.log(plateData);
-    // load data using geoJson and add to the tectonic plates layer group
-    L.geoJson(plateData,{
-        // add styling to make the lines visible
-        color: "yellow",
-        weight: 1
-    }).addTo(tectonicplates);
-});
-// add the tectonic plates to the map
-tectonicplates.addTo(myMap);
+
+
 // variable to hold the earthquake data layer
 let earthquakes = new L.layerGroup();
 // get the data for the earthquakes and populate the layergroup
 // call the USGS GeoJson API
-
-
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson")
 .then(
     function(earthquakeData){
@@ -131,14 +114,48 @@ d3.json("/GeojsonData/doglatlongfinal.json")
         // console log to make sure the data loaded
         console.log(dogData);
 
+        function radiusSize(size){
+            if (properties.overallRank == 0)
+                return 1; // makes sure that a 0 mag earthquake shows up
+            else
+                return overallRank * 5; // makes sure that the circle is pronounced in the map
+        }
+
+        function dataStyle(feature)
+        {
+            return {
+                opacity: 0.5,
+                fillOpacity: 0.5,
+                fillColor: "red", // use index 2 for the depth
+                color: "000000", // black outline
+                radius: radiusSize(feature.properties.overallRank), // grabs the magnitude
+                weight: 0.5,
+                stroke: true
+            }
+        }
+
         L.geoJson(dogData, {
             // make each feature a marker that is on the map, each marker is a circle
             pointToLayer: function(feature, latLng) {
                 return L.circleMarker(latLng);
             },
 
+            // set the style for each marker
+            style: dataStyle, // calls the data style function and passes in the earthquake data
+            // add popups
+            onEachFeature: function(feature, layer){
+                layer.bindPopup(`Overall Rank: <b>${feature.properties.overallRank}</b><br>
+                                City: <b>${feature.properties.City}</b><br>
+                                Total Score: <b>${feature.properties.totalScore}</b>
+                                Pet Budget: <b>${feature.properties.petBudget}</b>
+                                Pet Health and Wellness: <b>${feature.properties.petHealthWellness}</b>
+                                Outdoor Pet Friendliness: <b>${feature.properties.outdoorPetFriendliness}</b>`);
+    
+            }
+
         }).addTo(dogPoints);
-        dogPoints.addTo(myMap);
+        dogPoints.addTo(myMap);    
+
     });
 
 let happiestPoints = new L.layerGroup();
@@ -162,7 +179,6 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
 // add the earthquake layer to the map
 // add the overlay for the tectonic plates and for the earthquakes
 let overlays = {
-    "Tectonic Plates": tectonicplates,
     "Earthquake Data": earthquakes,
     "Dog Friendliest Cities": dogPoints,
     "Happiest Cities": happiestPoints
@@ -172,38 +188,40 @@ let overlays = {
 L.control
     .layers(basemaps, overlays)
     .addTo(myMap);
-// add the legend to the map
-let legend = L.control({
-    position: "bottomright"
-});
-// add the properties for the legend
-legend.onAdd = function() {
-    // div for the legend to appear in the page
-    let div = L.DomUtil.create("div", "info legend");
-    console.log(div);
-    // set up the intervals
-    let intervals = [-10, 10, 30, 50, 70, 90];
-    // set the colors for the intervals
-    let colors = [
-        "green",
-        "#CAFC03",
-        "#FCAD03",
-        "#FC8403",
-        "#FC4903",
-        "red"
-    ];
-    // loop through the intervals and the colors and generate a label
-    // with a colored square for each interval
-    for(var i = 0; i < intervals.length; i++)
-    {
-        // inner html that sets the square for each interval and label
-        div.innerHTML += `<i style="background: ${colors[i]}"></i>${intervals[i]}${(intervals[i+1] ? "km &ndash;" + intervals[i+1] + "km<br>" : "km+")}`
-            // + colors[i]
-            // + "'></i>"
-            // + intervals[i]
-            // + (intervals[i + 1] ? "km &ndash;" + intervals[i + 1] + "km<br>" : "+");
-    }
-    return div;
-};
-// add the legend to the map
-legend.addTo(myMap);
+
+    
+// // add the legend to the map
+// let legend = L.control({
+//     position: "bottomright"
+// });
+// // add the properties for the legend
+// legend.onAdd = function() {
+//     // div for the legend to appear in the page
+//     let div = L.DomUtil.create("div", "info legend");
+//     console.log(div);
+//     // set up the intervals
+//     let intervals = [-10, 10, 30, 50, 70, 90];
+//     // set the colors for the intervals
+//     let colors = [
+//         "green",
+//         "#CAFC03",
+//         "#FCAD03",
+//         "#FC8403",
+//         "#FC4903",
+//         "red"
+//     ];
+//     // loop through the intervals and the colors and generate a label
+//     // with a colored square for each interval
+//     for(var i = 0; i < intervals.length; i++)
+//     {
+//         // inner html that sets the square for each interval and label
+//         div.innerHTML += `<i style="background: ${colors[i]}"></i>${intervals[i]}${(intervals[i+1] ? "km &ndash;" + intervals[i+1] + "km<br>" : "km+")}`
+//             // + colors[i]
+//             // + "'></i>"
+//             // + intervals[i]
+//             // + (intervals[i + 1] ? "km &ndash;" + intervals[i + 1] + "km<br>" : "+");
+//     }
+//     return div;
+// };
+// // add the legend to the map
+// legend.addTo(myMap);
