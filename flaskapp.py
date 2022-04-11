@@ -3,8 +3,6 @@ from sqlalchemy import create_engine
 import os
 import numpy as np
 import json
-from decimal import Decimal 
-from convert2geojson import Convert2GeoJson
 import pandas as pd
 
 
@@ -60,7 +58,7 @@ def poplocs():
 
 @app.route("/api/v1.0/petfriendly-rankings")
 def pets():
-    data = engine.execute('SELECT mastercity.primary_city, mastercity.latitude, mastercity.longitude, dogfriendly.overall_rank FROM mastercity INNER JOIN dogfriendly ON mastercity.primary_city=dogfriendly.city')
+    data = engine.execute('SELECT mastercity.primary_city, mastercity.latitude, mastercity.longitude, dogfriendly.overall_rank FROM mastercity INNER JOIN dogfriendly ON mastercity.primary_city=dogfriendly.city ORDER BY dogfriendly.overall_rank ASC')
     '''data2 = pd.DataFrame(data)
     data3 = data2.rename(columns={0: 'primary_city', 1: 'latitude', 2: 'longitude', 3: 'overall_score'})
     data3["latitude"] = data3["latitude"].astype(float)
@@ -120,19 +118,3 @@ def IntergenerationalMobility():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-
-
-
-'''[{"primary_city": "Albuquerque", "latitude": "35.11", "longitude": "-106.62", "overall_rank": 14}]
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [125.6, 10.1]
-  },
-  "properties": {
-    "name": "Dinagat Islands"
-  }
-}'''
