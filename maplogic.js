@@ -151,12 +151,12 @@ d3.json("/GeojsonData/doglatlongfinal.json")
             // set the style for each marker
             style: dataStyle, // calls the data style function 
             onEachFeature: function(feature, layer){
-                layer.bindPopup(`Overall Rank: <b>${feature.properties.overallRank}</b><br>
-                                City: <b>${feature.properties.City}</b><br>
-                                Total Score: <b>${feature.properties.totalScore}</b><br>
-                                Pet Budget: <b>${feature.properties.petBudget}</b><br>
-                                Pet Health and Wellness: <b>${feature.properties.petHealthWellness}</b><br>
-                                Outdoor Pet Friendliness: <b>${feature.properties.outdoorPetFriendliness}</b>`);
+                layer.bindPopup(`Overall Rank: <b>${feature.properties.overall_rank}</b><br>
+                                City: <b>${feature.properties.city}</b><br>
+                                Total Score: <b>${feature.properties.total_score}</b><br>
+                                Pet Budget: <b>${feature.properties.pet_budget}</b><br>
+                                Pet Health and Wellness: <b>${feature.properties.pet_health}</b><br>
+                                Outdoor Pet Friendliness: <b>${feature.properties.outdoor_friendliness}</b>`);
             }
         }).addTo(dogPoints);
         dogPoints.addTo(myMap);    
