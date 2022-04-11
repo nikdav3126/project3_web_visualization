@@ -1,6 +1,3 @@
-////////////////////////////////////////////
-// BEGIN: Map Base Layer Logic
-////////////////////////////////////////////
 // create the tile layers for the backgrounds of the map
 var defaultMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	maxZoom: 19,
@@ -42,15 +39,29 @@ var myMap = L.map("map", {
 });
 // add the default map to the map
 defaultMap.addTo(myMap);
-////////////////////////////////////////////
-// END: Map Base Layer Logic
-////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////TECTONIC PLATES/////////////////////////////////
+// call the api to get the info for the tectonic plates
+let tectonicplates = new L.layerGroup();
+// call the api to get the info for the tectonic plates
+d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json")
+.then(function(plateData){
+    // console log to make sure the data loaded
+    // console.log(plateData);
+    // load data using geoJson and add to the tectonic plates layer group
+    L.geoJson(plateData,{
+        // add styling to make the lines visible
+        color: "yellow",
+        weight: 1
+    }).addTo(tectonicplates);
+});
+// add the tectonic plates to the map
+tectonicplates.addTo(myMap);
 
 
-////////////////////////////////////////////
-// BEGIN: 1 - Existing Earthquake Data Layer
-////////////////////////////////////////////
-
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////EARTHQUAKES/////////////////////////////////
 // variable to hold the earthquake data layer
 let earthquakes = new L.layerGroup();
 // get the data for the earthquakes and populate the layergroup
@@ -115,14 +126,9 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
         earthquakes.addTo(myMap);
     }
 );
-////////////////////////////////////////////
-// END: 1 - Existing Earthquake Data Layer
-////////////////////////////////////////////
 
-
-////////////////////////////////////////////
-// BEGIN: 2 - DogFriendly Data Layer
-////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////PETS/////////////////////////////////
 let dogPoints = new L.layerGroup();
 
 d3.json("/GeojsonData/doglatlongfinal.json")
@@ -130,16 +136,38 @@ d3.json("/GeojsonData/doglatlongfinal.json")
     function(dogData){
         // console log to make sure the data loaded
         console.log(dogData);
+               
+                function dataColor(depth){
+                    if (depth > 55)
+                        return "red";
+                    else if(depth > 52)
+                        return "#FC4903";
+                    else if(depth > 49)
+                        return "#FC8403";
+                    else if(depth > 46)
+                        return "#FCAD03";
+                    else if (depth > 43)
+                        return "#CAFC03";
+                    else
+                        return "green";
+                }
+                // make a function that determines the size of the radius
+                function radiusSize(mag){
+                    if (mag == 0)
+                        return 1; // makes sure that a 0 mag earthquake shows up
+                    else
+                        return mag/10; // makes sure that the circle is pronounced in the map
+                }
                 // add on to the style for each data point
                 function dataStyle(feature)
                 {
                     return {
-                        opacity: 1,
+                        opacity: 0.5,
                         fillOpacity: 0.5,
-                        fillColor: "#6C3483", 
-                        color: "#6C3483", 
-                        radius: 10, 
-                        weight: 1,
+                        fillColor: dataColor(feature.properties.total_score), // use index 2 for the depth
+                        color: "000000", // black outline
+                        radius: radiusSize(feature.properties.total_score), // grabs the magnitude
+                        weight: 0.5,
                         stroke: true
                     }
                 }
@@ -151,9 +179,10 @@ d3.json("/GeojsonData/doglatlongfinal.json")
             // set the style for each marker
             style: dataStyle, // calls the data style function 
             onEachFeature: function(feature, layer){
-                layer.bindPopup(`Overall Rank: <b>${feature.properties.overall_rank}</b><br>
-                                City: <b>${feature.properties.city}</b><br>
+                layer.bindPopup(`
                                 Total Score: <b>${feature.properties.total_score}</b><br>
+                                Overall Rank: <b>${feature.properties.overall_rank}</b><br>
+                                City: <b>${feature.properties.city}</b><br>
                                 Pet Budget: <b>${feature.properties.pet_budget}</b><br>
                                 Pet Health and Wellness: <b>${feature.properties.pet_health}</b><br>
                                 Outdoor Pet Friendliness: <b>${feature.properties.outdoor_friendliness}</b>`);
@@ -162,45 +191,139 @@ d3.json("/GeojsonData/doglatlongfinal.json")
         dogPoints.addTo(myMap);    
 
     });
-////////////////////////////////////////////
-// END: 2 - DogFriendly Data Layer
-////////////////////////////////////////////
 
 
-////////////////////////////////////////////
-// BEGIN: 3 - HappiestCity Data Layer
-////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////HAPPIEST POINTS/////////////////////////////////    
 let happiestPoints = new L.layerGroup();
-
 d3.json("/GeojsonData/happiestCityDataFinal.json")
 .then(
     function(happiestData){
         // console log to make sure the data loaded
         console.log(happiestData);
+        function dataColor(depth){
+            if (depth > 90)
+                return "red";
+            else if(depth > 80)
+                return "#FC4903";
+            else if(depth > 70)
+                return "#FC8403";
+            else if(depth > 60)
+                return "#FCAD03";
+            else if (depth > 50)
+                return "#CAFC03";
+            else
+                return "green";
+        }
+        // make a function that determines the size of the radius
+        function radiusSize(mag){
+            if (mag == 0)
+                return 1; // makes sure that a 0 mag earthquake shows up
+            else
+                return mag/5; // makes sure that the circle is pronounced in the map
+        }
+        // add on to the style for each data point
+        function dataStyle(feature)
+        {
+            properties_update = feature.properties
+            return {
+                opacity: 0.5,
+                fillOpacity: 0.5,
+                fillColor: dataColor(properties_update.total_score), // use index 2 for the depth
+                color: "000000", // black outline
+                radius: radiusSize(properties_update.total_score), // grabs the magnitude
+                weight: 0.5,
+                stroke: true
+            }
+        }
         L.geoJson(happiestData, {
             // make each feature a marker that is on the map, each marker is a circle
             pointToLayer: function(feature, latLng) {
                 return L.circleMarker(latLng);
             },
+            // set the style for each marker
+            style: dataStyle, // calls the data style function and passes in the earthquake data
+            // add popups
             onEachFeature: function(feature, layer){
-                layer.bindPopup(`Overall Rank: <b>${feature.properties.overall_rank}</b><br>
-                                City: <b>${feature.properties.city}</b><br>
-                                Total Score: <b>${feature.properties.total_score}</b><br>
-                                Emotional/Physical: <b>${feature.properties.emotional_physical}</b><br>
-                                Income/Employment: <b>${feature.properties.income_employment}</b><br>
-                                Community/Environment: <b>${feature.properties.community_environment}</b>`);
+                properties_update = feature.properties
+                layer.bindPopup(`Total Score: <b>${properties_update.total_score}</b><br>
+                                Overall Rank: <b>${properties_update.overall_rank}</b><br>
+                                Emotional and Physical Wellbeing: <b>${properties_update.emotional_physical}</b><br>
+                                Community Environment: <b>${properties_update.community_environment}</b><br>
+                                Income Employment: <b>${properties_update.income_employment}</b><br>
+                                Location: <b>${properties_update.city}</b>`);
             }
         }).addTo(happiestPoints);
         happiestPoints.addTo(myMap);
     });
-////////////////////////////////////////////
-// END: 3 - HappiestCity Data Layer
-////////////////////////////////////////////
 
 
-////////////////////////////////////////////
-// BEGIN: 4 - IntergenerationMobility Data Layer
-////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////WEATHER POINTS/////////////////////////////////
+let weatherpoints = new L.layerGroup();
+d3.json("/GeojsonData/weatherDataFinal.json")
+.then(
+    function(weather_data){
+        // console log to make sure the data loaded
+        console.log(weather_data);
+        function dataColor(depth){
+            if (depth > 40)
+                return "red";
+            else if(depth > 30)
+                return "#FC4903";
+            else if(depth > 20)
+                return "#FC8403";
+            else if(depth > 10)
+                return "#FCAD03";
+            else if (depth > 5)
+                return "#CAFC03";
+            else
+                return "green";
+        }
+        // make a function that determines the size of the radius
+        function radiusSize(mag){
+            if (mag == 0)
+                return 1; // makes sure that a 0 mag earthquake shows up
+            else
+                return mag/15; // makes sure that the circle is pronounced in the map
+        }
+        // add on to the style for each data point
+        function dataStyle(feature)
+        {
+            properties_update = feature.properties
+            return {
+                opacity: 0.5,
+                fillOpacity: 0.5,
+                fillColor: dataColor(properties_update.temp), // use index 2 for the depth
+                color: "000000", // black outline
+                radius: radiusSize(properties_update.temp), // grabs the magnitude
+                weight: 0.5,
+                stroke: true
+            }
+        }
+        L.geoJson(weather_data, {
+            // make each feature a marker that is on the map, each marker is a circle
+            pointToLayer: function(feature, latLng) {
+                return L.circleMarker(latLng);
+            },
+            // set the style for each marker
+            style: dataStyle, // calls the data style function and passes in the earthquake data
+            // add popups
+            onEachFeature: function(feature, layer){
+                properties_update = feature.properties
+                layer.bindPopup(`Temp: <b>${properties_update.temp}</b><br>
+                                Pressure: <b>${properties_update.pressure}</b><br>
+                                Humidity: <b>${properties_update.humidity}</b><br>
+                                Wind speed: <b>${properties_update.wind_speed}</b><br>
+                                Clouds: <b>${properties_update.clouds}</b>`);
+            }
+        }).addTo(weatherpoints);
+        weatherpoints.addTo(myMap);
+    });
+
+
+
+
 //  New Layer Group for Map
     let IntergenerationalMobilityPoints = new L.layerGroup();
 
@@ -211,15 +334,38 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
         // console log to make sure the data loaded
         console.log(IntergenerationalMobility);
         // add on to the style for each data point
+        function dataColor(depth){
+            if (depth > 50)
+                return "red";
+            else if(depth > 47)
+                return "#FC4903";
+            else if(depth > 44)
+                return "#FC8403";
+            else if(depth > 41)
+                return "#FCAD03";
+            else if (depth > 38)
+                return "#CAFC03";
+            else
+                return "green";
+        }
+        // make a function that determines the size of the radius
+        function radiusSize(mag){
+            if (mag == 0)
+                return 1; // makes sure that a 0 mag earthquake shows up
+            else
+                return mag/15; // makes sure that the circle is pronounced in the map
+        }
+        // add on to the style for each data point
         function dataStyle(feature)
         {
+            properties_update = feature.properties
             return {
-                opacity: 1,
+                opacity: 0.5,
                 fillOpacity: 0.5,
-                fillColor: "#17A589", 
-                color: "#17A589", 
-                radius: 1, 
-                weight: 1,
+                fillColor: dataColor(properties_update.absoluteupwardmobility), // use index 2 for the depth
+                color: "000000", // black outline
+                radius: radiusSize(properties_update.absoluteupwardmobility), // grabs the magnitude
+                weight: 0.5,
                 stroke: true
             }
         }
@@ -237,86 +383,22 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
         }).addTo(IntergenerationalMobilityPoints);
         IntergenerationalMobilityPoints.addTo(myMap);
     });
-////////////////////////////////////////////
-// END: 4 - IntergenerationMobility Data Layer
-////////////////////////////////////////////
 
-
-////////////////////////////////////////////
-// BEGIN: 5 - Weather Data Layer
-////////////////////////////////////////////
-//  New Layer Group for Map
-let WeatherPoints = new L.layerGroup();
-
-// New Function for Weather Data
-    d3.json("/GeojsonData/WeatherDataFinal.json")
-.then(
-    function(WeatherData){
-        // console log to make sure the data loaded
-        console.log(WeatherData);
-        // add on to the style for each data point
-        function dataStyle(feature)
-        {
-            return {
-                opacity: 1,
-                fillOpacity: 0.5,
-                fillColor: "#E66C37", 
-                color: "#E66C37", 
-                radius: 1, 
-                weight: 1,
-                stroke: true
-            }
-        }
-        L.geoJson(WeatherData, {
-            // make each feature a marker that is on the map, each marker is a circle
-            pointToLayer: function(feature, latLng) {
-                return L.circleMarker(latLng);
-            },
-            // set the style for each marker
-            style: dataStyle, // calls the data style function 
-            onEachFeature: function(feature, layer){
-                layer.bindPopup(`Zip Code: <b>${feature.properties.zip_code}</b><br>
-                                Temperature: <b>${feature.properties.temp}</b><br>
-                                Wind Speed: <b>${feature.properties.wind_speed}</b><br>
-                                Humidity: <b>${feature.properties.humidity}</b><br>
-                                Barometric Pressure: <b>${feature.properties.pressure}</b><br>
-                                Clouds: <b>${feature.properties.clouds}</b><br>
-                                `);
-            }
-        }).addTo(WeatherPoints);
-        WeatherPoints.addTo(myMap);
-    });
-////////////////////////////////////////////
-// END: 5 - Weather Data Layer
-////////////////////////////////////////////
-
-
-
-////////////////////////////////////////////
-// BEGIN: Layer Overlay Definition Dropdown
-////////////////////////////////////////////
 // add each layer to the map
 // add the overlay for the tectonic plates and for the earthquakes
 let overlays = {
+    "Tectonic Plates": tectonicplates,
     "Earthquake Data": earthquakes,
     "Dog Friendliest Cities": dogPoints,
     "Happiest Cities": happiestPoints,
     "InterGen Mobility Cities": IntergenerationalMobilityPoints,
-    "Weather Data": WeatherPoints
+    "Weather Data": weatherpoints
     
 };
 // add the Layer control
 L.control
     .layers(basemaps, overlays)
     .addTo(myMap);
-////////////////////////////////////////////
-// END: Layer Overlay Definition Dropdown
-////////////////////////////////////////////
-
-
-
-
-
 
     
 // // add the legend to the map
