@@ -4,13 +4,16 @@ import os
 import numpy as np
 import json
 import pandas as pd
+from decimal import Decimal 
 
 
 # Connect to POSTGRES
 ##################################
+
 rds_connection_string = "postgresql://vzgrmmdttkwsnk:5b0f5e6c07de8fc1c547861230ed3726ec9a09021f0e40db1cd92c4a119d1bce@ec2-52-86-56-90.compute-1.amazonaws.com:5432/df4j8v6ob22efh"
 engine = create_engine(rds_connection_string)
 #conn = engine.connect()
+
 
 
 # Flask Setup
@@ -55,6 +58,7 @@ def poplocs():
     data = engine.execute("SELECT latitude, longitude, estimated_population FROM zips")
     result = json.dumps([dict(r) for r in data])
     return result
+
 
 @app.route("/api/v1.0/petfriendly-rankings")
 def pets():
@@ -115,6 +119,7 @@ def IntergenerationalMobility():
       GROUP BY cbsa.ZipCode,zips.Latitude,zips.Longitude;''')
   result = json.dumps([dict(r) for r in data])
   return result
+
 
 if __name__ == '__main__':
     app.run(debug=True)
