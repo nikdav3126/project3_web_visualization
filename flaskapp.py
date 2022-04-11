@@ -36,6 +36,7 @@ def welcome():
         f'<h3>/api/v1.0/happiest-cities</h3>'
         f'<h3>/api/v1.0/income-and-population</h3>'
         f'<h3>/api/v1.0/number-disasters-by-state</h3>'
+        #f'<h3>/api/v1.0/IntergenerationalMobility</h3>'
 
     )
 
@@ -96,6 +97,13 @@ def disasters():
       GROUP BY naturaldisasters.state;''')
   result = json.dumps([dict(r) for r in data])
   return result
+
+# New App Route Placeholder for Intergenerational Mobility
+#@app.route('/api/v1.0/IntergenerationalMobility')
+#def IntergenerationalMobility():
+#  data = engine.execute(''';''')
+#  result = json.dumps([dict(r) for r in data])
+#  return result
 
 if __name__ == '__main__':
     app.run(debug=True)
