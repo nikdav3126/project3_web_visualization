@@ -176,12 +176,50 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
         happiestPoints.addTo(myMap);
     });
 
-// add the earthquake layer to the map
+//  New Layer Group for Map
+    let IntergenerationalMobilityPoints = new L.layerGroup();
+
+// New Function for IntergenerationalMobility
+    d3.json("/GeojsonData/IntergenerationalMobilityFinal.json")
+.then(
+    function(IntergenerationalMobility){
+        // console log to make sure the data loaded
+        console.log(IntergenerationalMobility);
+        // add on to the style for each data point
+        function dataStyle(feature)
+        {
+            return {
+                opacity: 1,
+                fillOpacity: 0.5,
+                fillColor: "#17A589", 
+                color: "#17A589", 
+                radius: 10, 
+                weight: 1,
+                stroke: true
+            }
+        }
+        L.geoJson(IntergenerationalMobility, {
+            // make each feature a marker that is on the map, each marker is a circle
+            pointToLayer: function(feature, latLng) {
+                return L.circleMarker(latLng);
+            },
+            // set the style for each marker
+            style: dataStyle, // calls the data style function 
+            onEachFeature: function(feature, layer){
+                layer.bindPopup(`Zip Code: <b>${feature.properties.ZipCode}</b><br>
+                                Abs Upward Mobility: <b>${feature.properties.AbsoluteUpdwardMobility}</b>`);
+            }
+        }).addTo(IntergenerationalMobilityPoints);
+        IntergenerationalMobilityPoints.addTo(myMap);
+    });
+
+// add each layer to the map
 // add the overlay for the tectonic plates and for the earthquakes
 let overlays = {
     "Earthquake Data": earthquakes,
     "Dog Friendliest Cities": dogPoints,
-    "Happiest Cities": happiestPoints
+    "Happiest Cities": happiestPoints,
+    "InterGen Mobility Cities": IntergenerationalMobilityPoints
     
 };
 // add the Layer control

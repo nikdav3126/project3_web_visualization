@@ -1,0 +1,60 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.04,40.81 ]
+    },
+    "properties": {
+    "ZipCode":"00501",
+    "AbsoluteUpdwardMobility":"43.9"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.61,42.06 ]
+    },
+    "properties": {
+      "ZipCode":"01001",
+      "AbsoluteUpdwardMobility":"41.2"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.52,42.37 ]
+    },
+    "properties": {
+      "ZipCode":"01002",
+      "AbsoluteUpdwardMobility":"41.2"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.40,42.27 ]
+    },
+    "properties": {
+      "ZipCode":"01007",
+      "AbsoluteUpdwardMobility":"41.2"
+    }
+  },
+    {
+      "type": "Feature",
+      "geometry": {
+         "type": "Point",
+         "coordinates":  [ -72.52,42.37 ]
+      },
+      "properties": {
+        "ZipCode":"01003",
+        "AbsoluteUpdwardMobility":"41.2"
+      }
+    }
+] 
+}
