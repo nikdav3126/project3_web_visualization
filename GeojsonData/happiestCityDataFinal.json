@@ -1,0 +1,2735 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.98,37.56 ]
+   },
+   "properties": {
+   "overall_rank":1,
+   "city":"Fremont CA",
+   "total_score":77,
+   "emotional_physical":1,
+   "income_employment":46,
+   "community_environment":2
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -76.85,39.2 ]
+   },
+   "properties": {
+   "overall_rank":2,
+   "city":"Columbia MD",
+   "total_score":72,
+   "emotional_physical":3,
+   "income_employment":161,
+   "community_environment":5
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -122.36,37.81 ]
+   },
+   "properties": {
+   "overall_rank":3,
+   "city":"San Francisco CA",
+   "total_score":71,
+   "emotional_physical":4,
+   "income_employment":1,
+   "community_environment":44
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.94,37.42 ]
+   },
+   "properties": {
+   "overall_rank":4,
+   "city":"San Jose CA",
+   "total_score":71,
+   "emotional_physical":2,
+   "income_employment":6,
+   "community_environment":55
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.76,33.74 ]
+   },
+   "properties": {
+   "overall_rank":5,
+   "city":"Irvine CA",
+   "total_score":70,
+   "emotional_physical":5,
+   "income_employment":16,
+   "community_environment":12
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -89.4,43.07 ]
+   },
+   "properties": {
+   "overall_rank":6,
+   "city":"Madison WI",
+   "total_score":68,
+   "emotional_physical":10,
+   "income_employment":11,
+   "community_environment":19
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -122.38,47.77 ]
+   },
+   "properties": {
+   "overall_rank":7,
+   "city":"Seattle WA",
+   "total_score":68,
+   "emotional_physical":6,
+   "income_employment":2,
+   "community_environment":99
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -94.68,38.9 ]
+   },
+   "properties": {
+   "overall_rank":8,
+   "city":"Overland Park KS",
+   "total_score":67,
+   "emotional_physical":12,
+   "income_employment":54,
+   "community_environment":13
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -118.0,33.72 ]
+   },
+   "properties": {
+   "overall_rank":9,
+   "city":"Huntington Beach CA",
+   "total_score":66,
+   "emotional_physical":9,
+   "income_employment":51,
+   "community_environment":43
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.12,33.02 ]
+   },
+   "properties": {
+   "overall_rank":10,
+   "city":"San Diego CA",
+   "total_score":66,
+   "emotional_physical":14,
+   "income_employment":18,
+   "community_environment":25
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.81,46.87 ]
+   },
+   "properties": {
+   "overall_rank":11,
+   "city":"Fargo ND",
+   "total_score":65,
+   "emotional_physical":22,
+   "income_employment":24,
+   "community_environment":23
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -93.26,44.98 ]
+   },
+   "properties": {
+   "overall_rank":12,
+   "city":"Minneapolis MN",
+   "total_score":65,
+   "emotional_physical":8,
+   "income_employment":20,
+   "community_environment":80
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -100.75,46.91 ]
+   },
+   "properties": {
+   "overall_rank":13,
+   "city":"Bismarck ND",
+   "total_score":65,
+   "emotional_physical":48,
+   "income_employment":32,
+   "community_environment":4
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -122.76,38.5 ]
+   },
+   "properties": {
+   "overall_rank":14,
+   "city":"Santa Rosa CA",
+   "total_score":65,
+   "emotional_physical":13,
+   "income_employment":22,
+   "community_environment":105
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -118.4,34.53 ]
+   },
+   "properties": {
+   "overall_rank":15,
+   "city":"Santa Clarita CA",
+   "total_score":64,
+   "emotional_physical":15,
+   "income_employment":100,
+   "community_environment":29
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -122.23,37.84 ]
+   },
+   "properties": {
+   "overall_rank":16,
+   "city":"Oakland CA",
+   "total_score":64,
+   "emotional_physical":7,
+   "income_employment":105,
+   "community_environment":87
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.7,43.6 ]
+   },
+   "properties": {
+   "overall_rank":17,
+   "city":"Sioux Falls SD",
+   "total_score":64,
+   "emotional_physical":20,
+   "income_employment":74,
+   "community_environment":27
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -118.24,34.19 ]
+   },
+   "properties": {
+   "overall_rank":18,
+   "city":"Glendale CA",
+   "total_score":64,
+   "emotional_physical":31,
+   "income_employment":91,
+   "community_environment":11
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -111.78,33.85 ]
+   },
+   "properties": {
+   "overall_rank":19,
+   "city":"Scottsdale AZ",
+   "total_score":64,
+   "emotional_physical":50,
+   "income_employment":43,
+   "community_environment":6
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.74,33.86 ]
+   },
+   "properties": {
+   "overall_rank":20,
+   "city":"Anaheim CA",
+   "total_score":64,
+   "emotional_physical":25,
+   "income_employment":75,
+   "community_environment":33
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -88.25,41.77 ]
+   },
+   "properties": {
+   "overall_rank":21,
+   "city":"Aurora IL",
+   "total_score":64,
+   "emotional_physical":21,
+   "income_employment":144,
+   "community_environment":8
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.74,33.04 ]
+   },
+   "properties": {
+   "overall_rank":22,
+   "city":"Plano TX",
+   "total_score":63,
+   "emotional_physical":37,
+   "income_employment":48,
+   "community_environment":24
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -119.16,34.25 ]
+   },
+   "properties": {
+   "overall_rank":23,
+   "city":"Oxnard CA",
+   "total_score":63,
+   "emotional_physical":26,
+   "income_employment":132,
+   "community_environment":10
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -118.03,33.78 ]
+   },
+   "properties": {
+   "overall_rank":24,
+   "city":"Garden Grove CA",
+   "total_score":63,
+   "emotional_physical":24,
+   "income_employment":80,
+   "community_environment":52
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -116.94,32.66 ]
+   },
+   "properties": {
+   "overall_rank":25,
+   "city":"Chula Vista CA",
+   "total_score":63,
+   "emotional_physical":17,
+   "income_employment":113,
+   "community_environment":30
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -79.99,32.78 ]
+   },
+   "properties": {
+   "overall_rank":26,
+   "city":"Charleston SC",
+   "total_score":63,
+   "emotional_physical":53,
+   "income_employment":3,
+   "community_environment":31
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -78.75,35.88 ]
+   },
+   "properties": {
+   "overall_rank":27,
+   "city":"Raleigh NC",
+   "total_score":62,
+   "emotional_physical":23,
+   "income_employment":71,
+   "community_environment":63
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -157.87,21.35 ]
+   },
+   "properties": {
+   "overall_rank":28,
+   "city":"Honolulu HI",
+   "total_score":62,
+   "emotional_physical":44,
+   "income_employment":72,
+   "community_environment":21
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -91.66,41.97 ]
+   },
+   "properties": {
+   "overall_rank":29,
+   "city":"Cedar Rapids IA",
+   "total_score":62,
+   "emotional_physical":38,
+   "income_employment":83,
+   "community_environment":40
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.68,30.37 ]
+   },
+   "properties": {
+   "overall_rank":30,
+   "city":"Austin TX",
+   "total_score":62,
+   "emotional_physical":35,
+   "income_employment":5,
+   "community_environment":109
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -70.25,43.66 ]
+   },
+   "properties": {
+   "overall_rank":31,
+   "city":"Portland ME",
+   "total_score":62,
+   "emotional_physical":28,
+   "income_employment":10,
+   "community_environment":150
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -157.96,21.4 ]
+   },
+   "properties": {
+   "overall_rank":32,
+   "city":"Pearl City HI",
+   "total_score":62,
+   "emotional_physical":36,
+   "income_employment":148,
+   "community_environment":22
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.43,33.35 ]
+   },
+   "properties": {
+   "overall_rank":33,
+   "city":"Oceanside CA",
+   "total_score":62,
+   "emotional_physical":30,
+   "income_employment":110,
+   "community_environment":53
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -111.75,33.36 ]
+   },
+   "properties": {
+   "overall_rank":34,
+   "city":"Gilbert AZ",
+   "total_score":62,
+   "emotional_physical":55,
+   "income_employment":34,
+   "community_environment":17
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.68,40.81 ]
+   },
+   "properties": {
+   "overall_rank":35,
+   "city":"Lincoln NE",
+   "total_score":61,
+   "emotional_physical":27,
+   "income_employment":67,
+   "community_environment":104
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -71.06,42.35 ]
+   },
+   "properties": {
+   "overall_rank":36,
+   "city":"Boston MA",
+   "total_score":61,
+   "emotional_physical":43,
+   "income_employment":15,
+   "community_environment":89
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -73.21,44.44 ]
+   },
+   "properties": {
+   "overall_rank":37,
+   "city":"South Burlington VT",
+   "total_score":61,
+   "emotional_physical":11,
+   "income_employment":56,
+   "community_environment":181
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.88,33.76 ]
+   },
+   "properties": {
+   "overall_rank":38,
+   "city":"Santa Ana CA",
+   "total_score":61,
+   "emotional_physical":45,
+   "income_employment":31,
+   "community_environment":86
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -80.34,26.0 ]
+   },
+   "properties": {
+   "overall_rank":39,
+   "city":"Pembroke Pines FL",
+   "total_score":61,
+   "emotional_physical":51,
+   "income_employment":125,
+   "community_environment":15
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -73.27,44.48 ]
+   },
+   "properties": {
+   "overall_rank":40,
+   "city":"Burlington VT",
+   "total_score":60,
+   "emotional_physical":34,
+   "income_employment":9,
+   "community_environment":170
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -122.76,45.73 ]
+   },
+   "properties": {
+   "overall_rank":41,
+   "city":"Portland OR",
+   "total_score":60,
+   "emotional_physical":49,
+   "income_employment":21,
+   "community_environment":88
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -104.81,39.69 ]
+   },
+   "properties": {
+   "overall_rank":42,
+   "city":"Aurora CO",
+   "total_score":60,
+   "emotional_physical":19,
+   "income_employment":154,
+   "community_environment":69
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -74.08,40.72 ]
+   },
+   "properties": {
+   "overall_rank":43,
+   "city":"Jersey City NJ",
+   "total_score":60,
+   "emotional_physical":40,
+   "income_employment":170,
+   "community_environment":20
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -73.86,40.94 ]
+   },
+   "properties": {
+   "overall_rank":44,
+   "city":"Yonkers NY",
+   "total_score":60,
+   "emotional_physical":18,
+   "income_employment":163,
+   "community_environment":102
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -111.87,33.32 ]
+   },
+   "properties": {
+   "overall_rank":45,
+   "city":"Chandler AZ",
+   "total_score":60,
+   "emotional_physical":58,
+   "income_employment":60,
+   "community_environment":38
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -93.19,45.07 ]
+   },
+   "properties": {
+   "overall_rank":46,
+   "city":"Saint Paul MN",
+   "total_score":60,
+   "emotional_physical":33,
+   "income_employment":96,
+   "community_environment":121
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.01,41.26 ]
+   },
+   "properties": {
+   "overall_rank":47,
+   "city":"Omaha NE",
+   "total_score":59,
+   "emotional_physical":52,
+   "income_employment":79,
+   "community_environment":56
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -134.77,58.58 ]
+   },
+   "properties": {
+   "overall_rank":48,
+   "city":"Juneau AK",
+   "total_score":59,
+   "emotional_physical":32,
+   "income_employment":14,
+   "community_environment":179
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.54,38.71 ]
+   },
+   "properties": {
+   "overall_rank":49,
+   "city":"Sacramento CA",
+   "total_score":59,
+   "emotional_physical":64,
+   "income_employment":30,
+   "community_environment":49
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -104.79,41.14 ]
+   },
+   "properties": {
+   "overall_rank":50,
+   "city":"Cheyenne WY",
+   "total_score":59,
+   "emotional_physical":101,
+   "income_employment":47,
+   "community_environment":3
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -76.08,36.78 ]
+   },
+   "properties": {
+   "overall_rank":51,
+   "city":"Virginia Beach VA",
+   "total_score":59,
+   "emotional_physical":62,
+   "income_employment":120,
+   "community_environment":18
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -112.24,33.76 ]
+   },
+   "properties": {
+   "overall_rank":52,
+   "city":"Peoria AZ",
+   "total_score":59,
+   "emotional_physical":72,
+   "income_employment":58,
+   "community_environment":16
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -111.91,33.43 ]
+   },
+   "properties": {
+   "overall_rank":53,
+   "city":"Tempe AZ",
+   "total_score":59,
+   "emotional_physical":71,
+   "income_employment":17,
+   "community_environment":50
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -118.33,34.13 ]
+   },
+   "properties": {
+   "overall_rank":54,
+   "city":"Los Angeles CA",
+   "total_score":59,
+   "emotional_physical":39,
+   "income_employment":85,
+   "community_environment":128
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -111.94,40.81 ]
+   },
+   "properties": {
+   "overall_rank":55,
+   "city":"Salt Lake City UT",
+   "total_score":59,
+   "emotional_physical":57,
+   "income_employment":33,
+   "community_environment":116
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -87.9,41.98 ]
+   },
+   "properties": {
+   "overall_rank":56,
+   "city":"Chicago IL",
+   "total_score":58,
+   "emotional_physical":47,
+   "income_employment":166,
+   "community_environment":46
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -104.87,39.76 ]
+   },
+   "properties": {
+   "overall_rank":57,
+   "city":"Denver CO",
+   "total_score":58,
+   "emotional_physical":16,
+   "income_employment":134,
+   "community_environment":153
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -73.98,40.77 ]
+   },
+   "properties": {
+   "overall_rank":58,
+   "city":"New York NY",
+   "total_score":58,
+   "emotional_physical":46,
+   "income_employment":164,
+   "community_environment":51
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -150.63,61.45 ]
+   },
+   "properties": {
+   "overall_rank":59,
+   "city":"Anchorage AK",
+   "total_score":58,
+   "emotional_physical":60,
+   "income_employment":102,
+   "community_environment":54
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -118.18,33.86 ]
+   },
+   "properties": {
+   "overall_rank":60,
+   "city":"Long Beach CA",
+   "total_score":58,
+   "emotional_physical":41,
+   "income_employment":142,
+   "community_environment":101
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -71.49,42.74 ]
+   },
+   "properties": {
+   "overall_rank":61,
+   "city":"Nashua NH",
+   "total_score":58,
+   "emotional_physical":68,
+   "income_employment":104,
+   "community_environment":35
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -116.2,43.74 ]
+   },
+   "properties": {
+   "overall_rank":62,
+   "city":"Boise ID",
+   "total_score":58,
+   "emotional_physical":59,
+   "income_employment":13,
+   "community_environment":119
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -81.99,26.63 ]
+   },
+   "properties": {
+   "overall_rank":63,
+   "city":"Cape Coral FL",
+   "total_score":58,
+   "emotional_physical":89,
+   "income_employment":45,
+   "community_environment":9
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -104.7,38.94 ]
+   },
+   "properties": {
+   "overall_rank":64,
+   "city":"Colorado Springs CO",
+   "total_score":58,
+   "emotional_physical":63,
+   "income_employment":97,
+   "community_environment":59
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -79.99,40.44 ]
+   },
+   "properties": {
+   "overall_rank":65,
+   "city":"Pittsburgh PA",
+   "total_score":58,
+   "emotional_physical":80,
+   "income_employment":29,
+   "community_environment":41
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -80.13,26.14 ]
+   },
+   "properties": {
+   "overall_rank":66,
+   "city":"Fort Lauderdale FL",
+   "total_score":58,
+   "emotional_physical":67,
+   "income_employment":84,
+   "community_environment":62
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -80.84,35.22 ]
+   },
+   "properties": {
+   "overall_rank":67,
+   "city":"Charlotte NC",
+   "total_score":58,
+   "emotional_physical":61,
+   "income_employment":78,
+   "community_environment":68
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -73.19,41.18 ]
+   },
+   "properties": {
+   "overall_rank":68,
+   "city":"Bridgeport CT",
+   "total_score":57,
+   "emotional_physical":42,
+   "income_employment":165,
+   "community_environment":91
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -76.3,36.67 ]
+   },
+   "properties": {
+   "overall_rank":69,
+   "city":"Chesapeake VA",
+   "total_score":57,
+   "emotional_physical":81,
+   "income_employment":145,
+   "community_environment":7
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -71.42,41.7 ]
+   },
+   "properties": {
+   "overall_rank":70,
+   "city":"Warwick RI",
+   "total_score":57,
+   "emotional_physical":69,
+   "income_employment":62,
+   "community_environment":90
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.61,34.19 ]
+   },
+   "properties": {
+   "overall_rank":71,
+   "city":"Rancho Cucamonga CA",
+   "total_score":57,
+   "emotional_physical":83,
+   "income_employment":36,
+   "community_environment":48
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -103.23,44.07 ]
+   },
+   "properties": {
+   "overall_rank":72,
+   "city":"Rapid City SD",
+   "total_score":57,
+   "emotional_physical":76,
+   "income_employment":27,
+   "community_environment":76
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -114.12,46.98 ]
+   },
+   "properties": {
+   "overall_rank":73,
+   "city":"Missoula MT",
+   "total_score":57,
+   "emotional_physical":88,
+   "income_employment":40,
+   "community_environment":28
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -78.91,35.98 ]
+   },
+   "properties": {
+   "overall_rank":74,
+   "city":"Durham NC",
+   "total_score":57,
+   "emotional_physical":54,
+   "income_employment":69,
+   "community_environment":123
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -80.23,25.93 ]
+   },
+   "properties": {
+   "overall_rank":75,
+   "city":"Miami FL",
+   "total_score":57,
+   "emotional_physical":56,
+   "income_employment":52,
+   "community_environment":142
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -93.6,41.6 ]
+   },
+   "properties": {
+   "overall_rank":76,
+   "city":"Des Moines IA",
+   "total_score":57,
+   "emotional_physical":70,
+   "income_employment":68,
+   "community_environment":81
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -81.03,34.0 ]
+   },
+   "properties": {
+   "overall_rank":77,
+   "city":"Columbia SC",
+   "total_score":57,
+   "emotional_physical":108,
+   "income_employment":4,
+   "community_environment":37
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -119.68,39.91 ]
+   },
+   "properties": {
+   "overall_rank":78,
+   "city":"Reno NV",
+   "total_score":56,
+   "emotional_physical":65,
+   "income_employment":37,
+   "community_environment":143
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -106.32,42.83 ]
+   },
+   "properties": {
+   "overall_rank":79,
+   "city":"Casper WY",
+   "total_score":56,
+   "emotional_physical":127,
+   "income_employment":123,
+   "community_environment":1
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -82.53,27.95 ]
+   },
+   "properties": {
+   "overall_rank":80,
+   "city":"Tampa FL",
+   "total_score":56,
+   "emotional_physical":94,
+   "income_employment":38,
+   "community_environment":60
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -112.00,40.69 ]
+   },
+   "properties": {
+   "overall_rank":81,
+   "city":"West Valley City UT",
+   "total_score":56,
+   "emotional_physical":78,
+   "income_employment":82,
+   "community_environment":85
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -122.5,47.29 ]
+   },
+   "properties": {
+   "overall_rank":82,
+   "city":"Tacoma WA",
+   "total_score":56,
+   "emotional_physical":75,
+   "income_employment":98,
+   "community_environment":93
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.01,32.69 ]
+   },
+   "properties": {
+   "overall_rank":83,
+   "city":"Grand Prairie TX",
+   "total_score":55,
+   "emotional_physical":98,
+   "income_employment":89,
+   "community_environment":42
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -122.74,45.72 ]
+   },
+   "properties": {
+   "overall_rank":84,
+   "city":"Vancouver WA",
+   "total_score":55,
+   "emotional_physical":73,
+   "income_employment":49,
+   "community_environment":147
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -77.05,38.97 ]
+   },
+   "properties": {
+   "overall_rank":85,
+   "city":"Washington DC",
+   "total_score":55,
+   "emotional_physical":29,
+   "income_employment":57,
+   "community_environment":182
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -80.35,27.27 ]
+   },
+   "properties": {
+   "overall_rank":86,
+   "city":"Port Saint Lucie FL",
+   "total_score":55,
+   "emotional_physical":115,
+   "income_employment":65,
+   "community_environment":14
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -111.44,33.59 ]
+   },
+   "properties": {
+   "overall_rank":87,
+   "city":"Mesa AZ",
+   "total_score":55,
+   "emotional_physical":86,
+   "income_employment":77,
+   "community_environment":64
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -71.41,41.82 ]
+   },
+   "properties": {
+   "overall_rank":88,
+   "city":"Providence RI",
+   "total_score":55,
+   "emotional_physical":113,
+   "income_employment":25,
+   "community_environment":47
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.96,32.85 ]
+   },
+   "properties": {
+   "overall_rank":89,
+   "city":"Irving TX",
+   "total_score":55,
+   "emotional_physical":85,
+   "income_employment":55,
+   "community_environment":98
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -71.45,42.99 ]
+   },
+   "properties": {
+   "overall_rank":90,
+   "city":"Manchester NH",
+   "total_score":55,
+   "emotional_physical":84,
+   "income_employment":129,
+   "community_environment":57
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -81.38,28.54 ]
+   },
+   "properties": {
+   "overall_rank":91,
+   "city":"Orlando FL",
+   "total_score":55,
+   "emotional_physical":96,
+   "income_employment":19,
+   "community_environment":108
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -85.77,42.97 ]
+   },
+   "properties": {
+   "overall_rank":92,
+   "city":"Grand Rapids MI",
+   "total_score":54,
+   "emotional_physical":104,
+   "income_employment":53,
+   "community_environment":66
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -84.32,33.97 ]
+   },
+   "properties": {
+   "overall_rank":93,
+   "city":"Atlanta GA",
+   "total_score":54,
+   "emotional_physical":79,
+   "income_employment":87,
+   "community_environment":115
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -80.29,25.86 ]
+   },
+   "properties": {
+   "overall_rank":94,
+   "city":"Hialeah FL",
+   "total_score":54,
+   "emotional_physical":66,
+   "income_employment":157,
+   "community_environment":110
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -84.18,30.56 ]
+   },
+   "properties": {
+   "overall_rank":95,
+   "city":"Tallahassee FL",
+   "total_score":54,
+   "emotional_physical":130,
+   "income_employment":8,
+   "community_environment":45
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.62,34.07 ]
+   },
+   "properties": {
+   "overall_rank":96,
+   "city":"Ontario CA",
+   "total_score":54,
+   "emotional_physical":119,
+   "income_employment":64,
+   "community_environment":32
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.62,32.91 ]
+   },
+   "properties": {
+   "overall_rank":97,
+   "city":"Garland TX",
+   "total_score":54,
+   "emotional_physical":92,
+   "income_employment":108,
+   "community_environment":67
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -114.94,36.09 ]
+   },
+   "properties": {
+   "overall_rank":98,
+   "city":"Henderson NV",
+   "total_score":54,
+   "emotional_physical":87,
+   "income_employment":143,
+   "community_environment":58
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.45,34.14 ]
+   },
+   "properties": {
+   "overall_rank":99,
+   "city":"Fontana CA",
+   "total_score":53,
+   "emotional_physical":118,
+   "income_employment":95,
+   "community_environment":34
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -82.64,27.75 ]
+   },
+   "properties": {
+   "overall_rank":100,
+   "city":"Saint Petersburg FL",
+   "total_score":53,
+   "emotional_physical":100,
+   "income_employment":35,
+   "community_environment":134
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.03,37.72 ]
+   },
+   "properties": {
+   "overall_rank":101,
+   "city":"Modesto CA",
+   "total_score":53,
+   "emotional_physical":112,
+   "income_employment":42,
+   "community_environment":92
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.25,33.97 ]
+   },
+   "properties": {
+   "overall_rank":102,
+   "city":"Moreno Valley CA",
+   "total_score":53,
+   "emotional_physical":120,
+   "income_employment":116,
+   "community_environment":26
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.33,32.75 ]
+   },
+   "properties": {
+   "overall_rank":103,
+   "city":"Fort Worth TX",
+   "total_score":53,
+   "emotional_physical":97,
+   "income_employment":124,
+   "community_environment":83
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.44,33.99 ]
+   },
+   "properties": {
+   "overall_rank":104,
+   "city":"Riverside CA",
+   "total_score":53,
+   "emotional_physical":107,
+   "income_employment":28,
+   "community_environment":125
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -108.47,45.87 ]
+   },
+   "properties": {
+   "overall_rank":105,
+   "city":"Billings MT",
+   "total_score":53,
+   "emotional_physical":122,
+   "income_employment":26,
+   "community_environment":107
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.38,47.79 ]
+   },
+   "properties": {
+   "overall_rank":106,
+   "city":"Spokane WA",
+   "total_score":52,
+   "emotional_physical":126,
+   "income_employment":7,
+   "community_environment":129
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.12,32.69 ]
+   },
+   "properties": {
+   "overall_rank":107,
+   "city":"Arlington TX",
+   "total_score":52,
+   "emotional_physical":93,
+   "income_employment":122,
+   "community_environment":118
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -112.17,33.71 ]
+   },
+   "properties": {
+   "overall_rank":108,
+   "city":"Glendale AZ",
+   "total_score":52,
+   "emotional_physical":106,
+   "income_employment":112,
+   "community_environment":114
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -86.78,36.17 ]
+   },
+   "properties": {
+   "overall_rank":109,
+   "city":"Nashville TN",
+   "total_score":52,
+   "emotional_physical":117,
+   "income_employment":107,
+   "community_environment":74
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -71.8,42.26 ]
+   },
+   "properties": {
+   "overall_rank":110,
+   "city":"Worcester MA",
+   "total_score":52,
+   "emotional_physical":95,
+   "income_employment":139,
+   "community_environment":126
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.8,32.96 ]
+   },
+   "properties": {
+   "overall_rank":111,
+   "city":"Dallas TX",
+   "total_score":52,
+   "emotional_physical":90,
+   "income_employment":93,
+   "community_environment":154
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -95.24,29.86 ]
+   },
+   "properties": {
+   "overall_rank":112,
+   "city":"Houston TX",
+   "total_score":51,
+   "emotional_physical":74,
+   "income_employment":140,
+   "community_environment":164
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -76.28,36.84 ]
+   },
+   "properties": {
+   "overall_rank":113,
+   "city":"Norfolk VA",
+   "total_score":51,
+   "emotional_physical":102,
+   "income_employment":167,
+   "community_environment":96
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -87.96,43.06 ]
+   },
+   "properties": {
+   "overall_rank":114,
+   "city":"Milwaukee WI",
+   "total_score":51,
+   "emotional_physical":103,
+   "income_employment":152,
+   "community_environment":113
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -75.5,39.81 ]
+   },
+   "properties": {
+   "overall_rank":115,
+   "city":"Wilmington DE",
+   "total_score":51,
+   "emotional_physical":125,
+   "income_employment":126,
+   "community_environment":77
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -99.48,27.53 ]
+   },
+   "properties": {
+   "overall_rank":115,
+   "city":"Laredo TX",
+   "total_score":51,
+   "emotional_physical":105,
+   "income_employment":50,
+   "community_environment":165
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -110.95,32.54 ]
+   },
+   "properties": {
+   "overall_rank":117,
+   "city":"Tucson AZ",
+   "total_score":51,
+   "emotional_physical":114,
+   "income_employment":66,
+   "community_environment":148
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -72.92,41.31 ]
+   },
+   "properties": {
+   "overall_rank":118,
+   "city":"New Haven CT",
+   "total_score":51,
+   "emotional_physical":77,
+   "income_employment":115,
+   "community_environment":178
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -112.11,33.83 ]
+   },
+   "properties": {
+   "overall_rank":119,
+   "city":"Phoenix AZ",
+   "total_score":50,
+   "emotional_physical":91,
+   "income_employment":106,
+   "community_environment":169
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -106.43,31.84 ]
+   },
+   "properties": {
+   "overall_rank":120,
+   "city":"El Paso TX",
+   "total_score":50,
+   "emotional_physical":109,
+   "income_employment":130,
+   "community_environment":132
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -106.62,35.11 ]
+   },
+   "properties": {
+   "overall_rank":121,
+   "city":"Albuquerque NM",
+   "total_score":50,
+   "emotional_physical":82,
+   "income_employment":101,
+   "community_environment":176
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.35,38.04 ]
+   },
+   "properties": {
+   "overall_rank":122,
+   "city":"Stockton CA",
+   "total_score":50,
+   "emotional_physical":99,
+   "income_employment":150,
+   "community_environment":137
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -119.75,36.9 ]
+   },
+   "properties": {
+   "overall_rank":123,
+   "city":"Fresno CA",
+   "total_score":50,
+   "emotional_physical":123,
+   "income_employment":86,
+   "community_environment":136
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -116.62,43.7 ]
+   },
+   "properties": {
+   "overall_rank":124,
+   "city":"Nampa ID",
+   "total_score":50,
+   "emotional_physical":145,
+   "income_employment":99,
+   "community_environment":39
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.48,25.92 ]
+   },
+   "properties": {
+   "overall_rank":125,
+   "city":"Brownsville TX",
+   "total_score":50,
+   "emotional_physical":133,
+   "income_employment":73,
+   "community_environment":122
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -118.92,35.55 ]
+   },
+   "properties": {
+   "overall_rank":126,
+   "city":"Bakersfield CA",
+   "total_score":50,
+   "emotional_physical":132,
+   "income_employment":103,
+   "community_environment":100
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -81.41,30.38 ]
+   },
+   "properties": {
+   "overall_rank":127,
+   "city":"Jacksonville FL",
+   "total_score":50,
+   "emotional_physical":147,
+   "income_employment":109,
+   "community_environment":36
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -106.75,32.33 ]
+   },
+   "properties": {
+   "overall_rank":128,
+   "city":"Las Cruces NM",
+   "total_score":50,
+   "emotional_physical":110,
+   "income_employment":118,
+   "community_environment":156
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -80.24,36.1 ]
+   },
+   "properties": {
+   "overall_rank":129,
+   "city":"Winston Salem NC",
+   "total_score":49,
+   "emotional_physical":138,
+   "income_employment":94,
+   "community_environment":97
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -98.42,29.53 ]
+   },
+   "properties": {
+   "overall_rank":130,
+   "city":"San Antonio TX",
+   "total_score":49,
+   "emotional_physical":116,
+   "income_employment":88,
+   "community_environment":160
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -77.61,43.16 ]
+   },
+   "properties": {
+   "overall_rank":131,
+   "city":"Rochester NY",
+   "total_score":49,
+   "emotional_physical":131,
+   "income_employment":114,
+   "community_environment":139
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -74.17,40.73 ]
+   },
+   "properties": {
+   "overall_rank":132,
+   "city":"Newark NJ",
+   "total_score":49,
+   "emotional_physical":111,
+   "income_employment":182,
+   "community_environment":73
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -115.35,36.32 ]
+   },
+   "properties": {
+   "overall_rank":133,
+   "city":"Las Vegas NV",
+   "total_score":49,
+   "emotional_physical":124,
+   "income_employment":169,
+   "community_environment":95
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -82.86,40.03 ]
+   },
+   "properties": {
+   "overall_rank":134,
+   "city":"Columbus OH",
+   "total_score":48,
+   "emotional_physical":128,
+   "income_employment":138,
+   "community_environment":145
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -114.88,36.37 ]
+   },
+   "properties": {
+   "overall_rank":135,
+   "city":"North Las Vegas NV",
+   "total_score":48,
+   "emotional_physical":135,
+   "income_employment":175,
+   "community_environment":61
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -78.85,42.88 ]
+   },
+   "properties": {
+   "overall_rank":136,
+   "city":"Buffalo NY",
+   "total_score":48,
+   "emotional_physical":121,
+   "income_employment":136,
+   "community_environment":157
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -79.95,36.07 ]
+   },
+   "properties": {
+   "overall_rank":137,
+   "city":"Greensboro NC",
+   "total_score":48,
+   "emotional_physical":129,
+   "income_employment":70,
+   "community_environment":167
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -84.5,38.05 ]
+   },
+   "properties": {
+   "overall_rank":138,
+   "city":"Lexington KY",
+   "total_score":48,
+   "emotional_physical":134,
+   "income_employment":121,
+   "community_environment":144
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.39,27.8 ]
+   },
+   "properties": {
+   "overall_rank":139,
+   "city":"Corpus Christi TX",
+   "total_score":48,
+   "emotional_physical":137,
+   "income_employment":62,
+   "community_environment":159
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -86.62,34.7 ]
+   },
+   "properties": {
+   "overall_rank":140,
+   "city":"Huntsville AL",
+   "total_score":47,
+   "emotional_physical":152,
+   "income_employment":119,
+   "community_environment":79
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.34,37.68 ]
+   },
+   "properties": {
+   "overall_rank":141,
+   "city":"Wichita KS",
+   "total_score":47,
+   "emotional_physical":143,
+   "income_employment":127,
+   "community_environment":130
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -75.07,40.06 ]
+   },
+   "properties": {
+   "overall_rank":141,
+   "city":"Philadelphia PA",
+   "total_score":47,
+   "emotional_physical":148,
+   "income_employment":146,
+   "community_environment":75
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -101.71,35.26 ]
+   },
+   "properties": {
+   "overall_rank":143,
+   "city":"Amarillo TX",
+   "total_score":47,
+   "emotional_physical":159,
+   "income_employment":76,
+   "community_environment":70
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -70.17,44.08 ]
+   },
+   "properties": {
+   "overall_rank":144,
+   "city":"Lewiston ME",
+   "total_score":47,
+   "emotional_physical":166,
+   "income_employment":12,
+   "community_environment":78
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -123.02,45.03 ]
+   },
+   "properties": {
+   "overall_rank":145,
+   "city":"Salem OR",
+   "total_score":46,
+   "emotional_physical":144,
+   "income_employment":41,
+   "community_environment":175
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -76.51,37.07 ]
+   },
+   "properties": {
+   "overall_rank":146,
+   "city":"Newport News VA",
+   "total_score":46,
+   "emotional_physical":141,
+   "income_employment":174,
+   "community_environment":72
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -89.93,30.06 ]
+   },
+   "properties": {
+   "overall_rank":147,
+   "city":"New Orleans LA",
+   "total_score":46,
+   "emotional_physical":146,
+   "income_employment":111,
+   "community_environment":146
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.56,35.52 ]
+   },
+   "properties": {
+   "overall_rank":148,
+   "city":"Oklahoma City OK",
+   "total_score":46,
+   "emotional_physical":155,
+   "income_employment":135,
+   "community_environment":82
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -76.7,39.35 ]
+   },
+   "properties": {
+   "overall_rank":149,
+   "city":"Baltimore MD",
+   "total_score":46,
+   "emotional_physical":142,
+   "income_employment":178,
+   "community_environment":84
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -77.46,37.55 ]
+   },
+   "properties": {
+   "overall_rank":150,
+   "city":"Richmond VA",
+   "total_score":46,
+   "emotional_physical":136,
+   "income_employment":176,
+   "community_environment":133
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -75.54,39.15 ]
+   },
+   "properties": {
+   "overall_rank":151,
+   "city":"Dover DE",
+   "total_score":46,
+   "emotional_physical":151,
+   "income_employment":92,
+   "community_environment":155
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -94.58,39.09 ]
+   },
+   "properties": {
+   "overall_rank":152,
+   "city":"Kansas City MO",
+   "total_score":46,
+   "emotional_physical":140,
+   "income_employment":128,
+   "community_environment":166
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.37,34.22 ]
+   },
+   "properties": {
+   "overall_rank":153,
+   "city":"San Bernardino CA",
+   "total_score":45,
+   "emotional_physical":149,
+   "income_employment":137,
+   "community_environment":140
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -84.45,39.15 ]
+   },
+   "properties": {
+   "overall_rank":154,
+   "city":"Cincinnati OH",
+   "total_score":45,
+   "emotional_physical":139,
+   "income_employment":147,
+   "community_environment":163
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -85.13,41.07 ]
+   },
+   "properties": {
+   "overall_rank":155,
+   "city":"Fort Wayne IN",
+   "total_score":45,
+   "emotional_physical":154,
+   "income_employment":149,
+   "community_environment":117
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -93.28,37.19 ]
+   },
+   "properties": {
+   "overall_rank":156,
+   "city":"Springfield MO",
+   "total_score":45,
+   "emotional_physical":167,
+   "income_employment":44,
+   "community_environment":103
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -101.87,33.57 ]
+   },
+   "properties": {
+   "overall_rank":157,
+   "city":"Lubbock TX",
+   "total_score":45,
+   "emotional_physical":157,
+   "income_employment":23,
+   "community_environment":168
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -91.18,30.45 ]
+   },
+   "properties": {
+   "overall_rank":158,
+   "city":"Baton Rouge LA",
+   "total_score":44,
+   "emotional_physical":156,
+   "income_employment":90,
+   "community_environment":152
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -85.74,38.22 ]
+   },
+   "properties": {
+   "overall_rank":159,
+   "city":"Louisville KY",
+   "total_score":44,
+   "emotional_physical":158,
+   "income_employment":151,
+   "community_environment":111
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -86.16,39.77 ]
+   },
+   "properties": {
+   "overall_rank":160,
+   "city":"Indianapolis IN",
+   "total_score":44,
+   "emotional_physical":150,
+   "income_employment":177,
+   "community_environment":131
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -90.56,38.65 ]
+   },
+   "properties": {
+   "overall_rank":161,
+   "city":"Saint Louis MO",
+   "total_score":44,
+   "emotional_physical":153,
+   "income_employment":160,
+   "community_environment":149
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -95.99,36.15 ]
+   },
+   "properties": {
+   "overall_rank":162,
+   "city":"Tulsa OK",
+   "total_score":43,
+   "emotional_physical":163,
+   "income_employment":117,
+   "community_environment":138
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -92.28,34.75 ]
+   },
+   "properties": {
+   "overall_rank":163,
+   "city":"Little Rock AR",
+   "total_score":43,
+   "emotional_physical":164,
+   "income_employment":133,
+   "community_environment":106
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -83.94,35.97 ]
+   },
+   "properties": {
+   "overall_rank":164,
+   "city":"Knoxville TN",
+   "total_score":43,
+   "emotional_physical":169,
+   "income_employment":59,
+   "community_environment":94
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -81.52,41.08 ]
+   },
+   "properties": {
+   "overall_rank":165,
+   "city":"Akron OH",
+   "total_score":42,
+   "emotional_physical":162,
+   "income_employment":168,
+   "community_environment":112
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -85.25,35.06 ]
+   },
+   "properties": {
+   "overall_rank":166,
+   "city":"Chattanooga TN",
+   "total_score":42,
+   "emotional_physical":165,
+   "income_employment":141,
+   "community_environment":120
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -84.87,32.51 ]
+   },
+   "properties": {
+   "overall_rank":167,
+   "city":"Columbus GA",
+   "total_score":41,
+   "emotional_physical":177,
+   "income_employment":131,
+   "community_environment":65
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -78.87,35.05 ]
+   },
+   "properties": {
+   "overall_rank":168,
+   "city":"Fayetteville NC",
+   "total_score":41,
+   "emotional_physical":161,
+   "income_employment":155,
+   "community_environment":171
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -90.2,32.32 ]
+   },
+   "properties": {
+   "overall_rank":169,
+   "city":"Jackson MS",
+   "total_score":41,
+   "emotional_physical":160,
+   "income_employment":159,
+   "community_environment":174
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -86.78,33.53 ]
+   },
+   "properties": {
+   "overall_rank":170,
+   "city":"Birmingham AL",
+   "total_score":40,
+   "emotional_physical":168,
+   "income_employment":158,
+   "community_environment":162
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -83.58,41.66 ]
+   },
+   "properties": {
+   "overall_rank":171,
+   "city":"Toledo OH",
+   "total_score":39,
+   "emotional_physical":172,
+   "income_employment":171,
+   "community_environment":127
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -81.63,38.35 ]
+   },
+   "properties": {
+   "overall_rank":172,
+   "city":"Charleston WV",
+   "total_score":39,
+   "emotional_physical":173,
+   "income_employment":81,
+   "community_environment":173
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -93.75,32.52 ]
+   },
+   "properties": {
+   "overall_rank":173,
+   "city":"Shreveport LA",
+   "total_score":39,
+   "emotional_physical":175,
+   "income_employment":173,
+   "community_environment":71
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -88.04,30.69 ]
+   },
+   "properties": {
+   "overall_rank":174,
+   "city":"Mobile AL",
+   "total_score":39,
+   "emotional_physical":171,
+   "income_employment":172,
+   "community_environment":124
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -94.38,35.36 ]
+   },
+   "properties": {
+   "overall_rank":175,
+   "city":"Fort Smith AR",
+   "total_score":37,
+   "emotional_physical":180,
+   "income_employment":61,
+   "community_environment":158
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -81.96,33.47 ]
+   },
+   "properties": {
+   "overall_rank":176,
+   "city":"Augusta GA",
+   "total_score":37,
+   "emotional_physical":178,
+   "income_employment":162,
+   "community_environment":135
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -81.69,41.49 ]
+   },
+   "properties": {
+   "overall_rank":177,
+   "city":"Cleveland OH",
+   "total_score":37,
+   "emotional_physical":170,
+   "income_employment":156,
+   "community_environment":180
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -86.28,32.35 ]
+   },
+   "properties": {
+   "overall_rank":178,
+   "city":"Montgomery AL",
+   "total_score":36,
+   "emotional_physical":174,
+   "income_employment":180,
+   "community_environment":161
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -82.43,38.41 ]
+   },
+   "properties": {
+   "overall_rank":179,
+   "city":"Huntington WV",
+   "total_score":36,
+   "emotional_physical":182,
+   "income_employment":39,
+   "community_environment":141
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -90.05,35.15 ]
+   },
+   "properties": {
+   "overall_rank":180,
+   "city":"Memphis TN",
+   "total_score":35,
+   "emotional_physical":176,
+   "income_employment":181,
+   "community_environment":172
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -89.06,30.38 ]
+   },
+   "properties": {
+   "overall_rank":181,
+   "city":"Gulfport MS",
+   "total_score":35,
+   "emotional_physical":181,
+   "income_employment":153,
+   "community_environment":151
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -83.1,42.38 ]
+   },
+   "properties": {
+   "overall_rank":182,
+   "city":"Detroit MI",
+   "total_score":32,
+   "emotional_physical":179,
+   "income_employment":179,
+   "community_environment":177
+   }
+ }
+]
+}

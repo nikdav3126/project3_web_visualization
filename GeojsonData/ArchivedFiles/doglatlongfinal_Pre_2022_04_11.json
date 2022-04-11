@@ -1,0 +1,1605 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.62,35.11 ]
+    },
+    "properties": {
+    "overallRank":14,
+    "City":"Albuquerque",
+    "State":" NM",
+    "totalScore ":56.1,
+    "petBudget ":16,
+    "petHealthWellness ":83,
+    "outdoorPetFriendliness ":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.74,33.86 ]
+    },
+    "properties": {
+    "overallRank":93,
+    "City":"Anaheim",
+    "State":" CA",
+    "totalScore ":43.26,
+    "petBudget ":94,
+    "petHealthWellness ":51,
+    "outdoorPetFriendliness ":33
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -150.63,61.45 ]
+    },
+    "properties": {
+    "overallRank":89,
+    "City":"Anchorage",
+    "State":" AK",
+    "totalScore ":44.45,
+    "petBudget ":80,
+    "petHealthWellness ":92,
+    "outdoorPetFriendliness ":23
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.67,48.18 ]
+    },
+    "properties": {
+    "overallRank":69,
+    "City":"Arlington",
+    "State":" TX",
+    "totalScore ":47.67,
+    "petBudget ":66,
+    "petHealthWellness ":45,
+    "outdoorPetFriendliness ":67
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.15,45 ]
+    },
+    "properties": {
+    "overallRank":12,
+    "City":"Atlanta",
+    "State":" GA",
+    "totalScore ":56.82,
+    "petBudget ":25,
+    "petHealthWellness ":11,
+    "outdoorPetFriendliness ":56
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.24,47.53 ]
+    },
+    "properties": {
+    "overallRank":62,
+    "City":"Aurora",
+    "State":" CO",
+    "totalScore ":48.29,
+    "petBudget ":64,
+    "petHealthWellness ":28,
+    "outdoorPetFriendliness ":68
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.97,43.67 ]
+    },
+    "properties": {
+    "overallRank":15,
+    "City":"Austin",
+    "State":" TX",
+    "totalScore ":56.01,
+    "petBudget ":51,
+    "petHealthWellness ":6,
+    "outdoorPetFriendliness ":64
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.8,44.78 ]
+    },
+    "properties": {
+    "overallRank":83,
+    "City":"Bakersfield",
+    "State":" CA",
+    "totalScore ":45.48,
+    "petBudget ":72,
+    "petHealthWellness ":79,
+    "outdoorPetFriendliness ":43
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.6,39.84 ]
+    },
+    "properties": {
+    "overallRank":87,
+    "City":"Baltimore",
+    "State":" MD",
+    "totalScore ":44.64,
+    "petBudget ":62,
+    "petHealthWellness ":87,
+    "outdoorPetFriendliness ":53
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.18,30.45 ]
+    },
+    "properties": {
+    "overallRank":50,
+    "City":"Baton Rouge",
+    "State":" LA",
+    "totalScore ":49.75,
+    "petBudget ":44,
+    "petHealthWellness ":17,
+    "outdoorPetFriendliness ":97
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.21,42.54 ]
+    },
+    "properties": {
+    "overallRank":5,
+    "City":"Birmingham",
+    "State":" AL",
+    "totalScore ":59.81,
+    "petBudget ":9,
+    "petHealthWellness ":15,
+    "outdoorPetFriendliness ":77
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.2,43.74 ]
+    },
+    "properties": {
+    "overallRank":13,
+    "City":"Boise",
+    "State":" ID",
+    "totalScore ":56.4,
+    "petBudget ":38,
+    "petHealthWellness ":48,
+    "outdoorPetFriendliness ":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.72,42.61 ]
+    },
+    "properties": {
+    "overallRank":67,
+    "City":"Boston",
+    "State":" MA",
+    "totalScore ":47.71,
+    "petBudget ":85,
+    "petHealthWellness ":40,
+    "outdoorPetFriendliness ":35
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.55,46.92 ]
+    },
+    "properties": {
+    "overallRank":86,
+    "City":"Buffalo",
+    "State":" NY",
+    "totalScore ":45.11,
+    "petBudget ":57,
+    "petHealthWellness ":74,
+    "outdoorPetFriendliness ":90
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.94,43.92 ]
+    },
+    "properties": {
+    "overallRank":81,
+    "City":"Chandler",
+    "State":" AZ",
+    "totalScore ":45.8,
+    "petBudget ":65,
+    "petHealthWellness ":59,
+    "outdoorPetFriendliness ":76
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.25,44.3 ]
+    },
+    "properties": {
+    "overallRank":94,
+    "City":"Charlotte",
+    "State":" NC",
+    "totalScore ":43.22,
+    "petBudget ":67,
+    "petHealthWellness ":56,
+    "outdoorPetFriendliness ":99
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.45,38.43 ]
+    },
+    "properties": {
+    "overallRank":48,
+    "City":"Chesapeake",
+    "State":" VA",
+    "totalScore ":49.95,
+    "petBudget ":58,
+    "petHealthWellness ":81,
+    "outdoorPetFriendliness ":21
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.9,41.98 ]
+    },
+    "properties": {
+    "overallRank":64,
+    "City":"Chicago",
+    "State":" IL",
+    "totalScore ":48.24,
+    "petBudget ":90,
+    "petHealthWellness ":13,
+    "outdoorPetFriendliness ":46
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.94,32.66 ]
+    },
+    "properties": {
+    "overallRank":70,
+    "City":"Chula Vista",
+    "State":" CA",
+    "totalScore ":47.53,
+    "petBudget ":87,
+    "petHealthWellness ":31,
+    "outdoorPetFriendliness ":36
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.92,40.63 ]
+    },
+    "properties": {
+    "overallRank":8,
+    "City":"Cincinnati",
+    "State":" OH",
+    "totalScore ":58,
+    "petBudget ":19,
+    "petHealthWellness ":20,
+    "outdoorPetFriendliness ":38
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.12,46.89 ]
+    },
+    "properties": {
+    "overallRank":63,
+    "City":"Cleveland",
+    "State":" OH",
+    "totalScore ":48.27,
+    "petBudget ":24,
+    "petHealthWellness ":75,
+    "outdoorPetFriendliness ":81
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7,38.94 ]
+    },
+    "properties": {
+    "overallRank":18,
+    "City":"Colorado Springs",
+    "State":" CO",
+    "totalScore ":55.25,
+    "petBudget ":53,
+    "petHealthWellness ":26,
+    "outdoorPetFriendliness ":22
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -102.78,48.9 ]
+    },
+    "properties": {
+    "overallRank":40,
+    "City":"Columbus",
+    "State":" OH",
+    "totalScore ":51.11,
+    "petBudget ":2,
+    "petHealthWellness ":95,
+    "outdoorPetFriendliness ":54
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.39,27.8 ]
+    },
+    "properties": {
+    "overallRank":39,
+    "City":"Corpus Christi",
+    "State":" TX",
+    "totalScore ":51.18,
+    "petBudget ":10,
+    "petHealthWellness ":78,
+    "outdoorPetFriendliness ":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.81,45.25 ]
+    },
+    "properties": {
+    "overallRank":72,
+    "City":"Dallas",
+    "State":" TX",
+    "totalScore ":47.47,
+    "petBudget ":79,
+    "petHealthWellness ":36,
+    "outdoorPetFriendliness ":51
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.33,42.67 ]
+    },
+    "properties": {
+    "overallRank":16,
+    "City":"Denver",
+    "State":" CO",
+    "totalScore ":55.76,
+    "petBudget ":60,
+    "petHealthWellness ":7,
+    "outdoorPetFriendliness ":31
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.29,44.79 ]
+    },
+    "properties": {
+    "overallRank":96,
+    "City":"Detroit",
+    "State":" MI",
+    "totalScore ":42.11,
+    "petBudget ":33,
+    "petHealthWellness ":98,
+    "outdoorPetFriendliness ":78
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.12,43.92 ]
+    },
+    "properties": {
+    "overallRank":84,
+    "City":"Durham",
+    "State":" NC",
+    "totalScore ":45.43,
+    "petBudget ":8,
+    "petHealthWellness ":89,
+    "outdoorPetFriendliness ":93
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.01,40.73 ]
+    },
+    "properties": {
+    "overallRank":52,
+    "City":"El Paso",
+    "State":" TX",
+    "totalScore ":49.65,
+    "petBudget ":41,
+    "petHealthWellness ":77,
+    "outdoorPetFriendliness ":47
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.13,41.07 ]
+    },
+    "properties": {
+    "overallRank":45,
+    "City":"Fort Wayne",
+    "State":" IN",
+    "totalScore ":50.26,
+    "petBudget ":1,
+    "petHealthWellness ":65,
+    "outdoorPetFriendliness ":100
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.33,32.75 ]
+    },
+    "properties": {
+    "overallRank":35,
+    "City":"Fort Worth",
+    "State":" TX",
+    "totalScore ":52.01,
+    "petBudget ":28,
+    "petHealthWellness ":23,
+    "outdoorPetFriendliness ":83
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.87,44.25 ]
+    },
+    "properties": {
+    "overallRank":91,
+    "City":"Fremont",
+    "State":" CA",
+    "totalScore ":43.47,
+    "petBudget ":100,
+    "petHealthWellness ":64,
+    "outdoorPetFriendliness ":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.75,40.36 ]
+    },
+    "properties": {
+    "overallRank":97,
+    "City":"Fresno",
+    "State":" CA",
+    "totalScore ":42.1,
+    "petBudget ":75,
+    "petHealthWellness ":90,
+    "outdoorPetFriendliness ":55
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.16,45.03 ]
+    },
+    "properties": {
+    "overallRank":74,
+    "City":"Garland",
+    "State":" TX",
+    "totalScore ":47.35,
+    "petBudget ":69,
+    "petHealthWellness ":53,
+    "outdoorPetFriendliness ":62
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.46,47.49 ]
+    },
+    "properties": {
+    "overallRank":57,
+    "City":"Gilbert",
+    "State":" AZ",
+    "totalScore ":48.86,
+    "petBudget ":68,
+    "petHealthWellness ":12,
+    "outdoorPetFriendliness ":89
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.4,42.79 ]
+    },
+    "properties": {
+    "overallRank":49,
+    "City":"Glendale",
+    "State":" AZ",
+    "totalScore ":49.86,
+    "petBudget ":46,
+    "petHealthWellness ":49,
+    "outdoorPetFriendliness ":71
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.28,44.58 ]
+    },
+    "properties": {
+    "overallRank":54,
+    "City":"Greensboro",
+    "State":" NC",
+    "totalScore ":49.31,
+    "petBudget ":13,
+    "petHealthWellness ":68,
+    "outdoorPetFriendliness ":72
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.9,44.53 ]
+    },
+    "properties": {
+    "overallRank":56,
+    "City":"Henderson",
+    "State":" NV",
+    "totalScore ":49,
+    "petBudget ":54,
+    "petHealthWellness ":91,
+    "outdoorPetFriendliness ":24
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.29,25.86 ]
+    },
+    "properties": {
+    "overallRank":79,
+    "City":"Hialeah",
+    "State":" FL",
+    "totalScore ":46.29,
+    "petBudget ":61,
+    "petHealthWellness ":66,
+    "outdoorPetFriendliness ":65
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -157.87,21.35 ]
+    },
+    "properties": {
+    "overallRank":99,
+    "City":"Honolulu",
+    "State":" HI",
+    "totalScore ":39.76,
+    "petBudget ":84,
+    "petHealthWellness ":99,
+    "outdoorPetFriendliness ":28
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -149.68,61.66 ]
+    },
+    "properties": {
+    "overallRank":36,
+    "City":"Houston",
+    "State":" TX",
+    "totalScore ":51.72,
+    "petBudget ":27,
+    "petHealthWellness ":43,
+    "outdoorPetFriendliness ":66
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.16,39.77 ]
+    },
+    "properties": {
+    "overallRank":43,
+    "City":"Indianapolis",
+    "State":" IN",
+    "totalScore ":50.5,
+    "petBudget ":14,
+    "petHealthWellness ":47,
+    "outdoorPetFriendliness ":96
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.18,41.84 ]
+    },
+    "properties": {
+    "overallRank":38,
+    "City":"Irvine",
+    "State":" CA",
+    "totalScore ":51.28,
+    "petBudget ":97,
+    "petHealthWellness ":8,
+    "outdoorPetFriendliness ":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.04,42.56 ]
+    },
+    "properties": {
+    "overallRank":82,
+    "City":"Irving",
+    "State":" TX",
+    "totalScore ":45.51,
+    "petBudget ":73,
+    "petHealthWellness ":33,
+    "outdoorPetFriendliness ":91
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.82,42.79 ]
+    },
+    "properties": {
+    "overallRank":51,
+    "City":"Jacksonville",
+    "State":" FL",
+    "totalScore ":49.66,
+    "petBudget ":26,
+    "petHealthWellness ":72,
+    "outdoorPetFriendliness ":63
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.08,40.72 ]
+    },
+    "properties": {
+    "overallRank":78,
+    "City":"Jersey City",
+    "State":" NJ",
+    "totalScore ":46.44,
+    "petBudget ":82,
+    "petHealthWellness ":52,
+    "outdoorPetFriendliness ":45
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.62,39.1 ]
+    },
+    "properties": {
+    "overallRank":46,
+    "City":"Kansas City",
+    "State":" MO",
+    "totalScore ":50.03,
+    "petBudget ":12,
+    "petHealthWellness ":86,
+    "outdoorPetFriendliness ":58
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.44,40.02 ]
+    },
+    "properties": {
+    "overallRank":95,
+    "City":"Laredo",
+    "State":" TX",
+    "totalScore ":42.86,
+    "petBudget ":35,
+    "petHealthWellness ":100,
+    "outdoorPetFriendliness ":48
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -115.35,36.32 ]
+    },
+    "properties": {
+    "overallRank":4,
+    "City":"Las Vegas",
+    "State":" NV",
+    "totalScore ":60.48,
+    "petBudget ":32,
+    "petHealthWellness ":34,
+    "outdoorPetFriendliness ":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.46,47.83 ]
+    },
+    "properties": {
+    "overallRank":21,
+    "City":"Lincoln",
+    "State":" NE",
+    "totalScore ":54.16,
+    "petBudget ":4,
+    "petHealthWellness ":67,
+    "outdoorPetFriendliness ":69
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.03,46.39 ]
+    },
+    "properties": {
+    "overallRank":68,
+    "City":"Long Beach",
+    "State":" CA",
+    "totalScore ":47.67,
+    "petBudget ":93,
+    "petHealthWellness ":27,
+    "outdoorPetFriendliness ":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.33,34.13 ]
+    },
+    "properties": {
+    "overallRank":73,
+    "City":"Los Angeles",
+    "State":" CA",
+    "totalScore ":47.35,
+    "petBudget ":96,
+    "petHealthWellness ":44,
+    "outdoorPetFriendliness ":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.16,40.99 ]
+    },
+    "properties": {
+    "overallRank":42,
+    "City":"Louisville",
+    "State":" KY",
+    "totalScore ":50.55,
+    "petBudget ":29,
+    "petHealthWellness ":24,
+    "outdoorPetFriendliness ":95
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -101.87,33.57 ]
+    },
+    "properties": {
+    "overallRank":55,
+    "City":"Lubbock",
+    "State":" TX",
+    "totalScore ":49.22,
+    "petBudget ":39,
+    "petHealthWellness ":55,
+    "outdoorPetFriendliness ":86
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.18,45.01 ]
+    },
+    "properties": {
+    "overallRank":26,
+    "City":"Madison",
+    "State":" WI",
+    "totalScore ":53.67,
+    "petBudget ":52,
+    "petHealthWellness ":38,
+    "outdoorPetFriendliness ":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.37,43.08 ]
+    },
+    "properties": {
+    "overallRank":47,
+    "City":"Memphis",
+    "State":" TN",
+    "totalScore ":50.01,
+    "petBudget ":5,
+    "petHealthWellness ":84,
+    "outdoorPetFriendliness ":88
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.15,46.58 ]
+    },
+    "properties": {
+    "overallRank":80,
+    "City":"Mesa",
+    "State":" AZ",
+    "totalScore ":46.13,
+    "petBudget ":59,
+    "petHealthWellness ":73,
+    "outdoorPetFriendliness ":74
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.97,40.6 ]
+    },
+    "properties": {
+    "overallRank":23,
+    "City":"Miami",
+    "State":" FL",
+    "totalScore ":54.05,
+    "petBudget ":36,
+    "petHealthWellness ":19,
+    "outdoorPetFriendliness ":57
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.96,43.06 ]
+    },
+    "properties": {
+    "overallRank":85,
+    "City":"Milwaukee",
+    "State":" WI",
+    "totalScore ":45.21,
+    "petBudget ":17,
+    "petHealthWellness ":97,
+    "outdoorPetFriendliness ":82
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.26,44.98 ]
+    },
+    "properties": {
+    "overallRank":28,
+    "City":"Minneapolis",
+    "State":" MN",
+    "totalScore ":53.35,
+    "petBudget ":63,
+    "petHealthWellness ":25,
+    "outdoorPetFriendliness ":25
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.09,42.6 ]
+    },
+    "properties": {
+    "overallRank":34,
+    "City":"Nashville",
+    "State":" TN",
+    "totalScore ":52.24,
+    "petBudget ":11,
+    "petHealthWellness ":62,
+    "outdoorPetFriendliness ":75
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.09,43.04 ]
+    },
+    "properties": {
+    "overallRank":98,
+    "City":"Newark",
+    "State":" NJ",
+    "totalScore ":41.99,
+    "petBudget ":88,
+    "petHealthWellness ":32,
+    "outdoorPetFriendliness ":92
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.93,30.06 ]
+    },
+    "properties": {
+    "overallRank":10,
+    "City":"New Orleans",
+    "State":" LA",
+    "totalScore ":57.22,
+    "petBudget ":34,
+    "petHealthWellness ":10,
+    "outdoorPetFriendliness ":44
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98,40.77 ]
+    },
+    "properties": {
+    "overallRank":90,
+    "City":"New York",
+    "State":" NY",
+    "totalScore ":43.69,
+    "petBudget ":95,
+    "petHealthWellness ":71,
+    "outdoorPetFriendliness ":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.98,44.8 ]
+    },
+    "properties": {
+    "overallRank":92,
+    "City":"Norfolk",
+    "State":" VA",
+    "totalScore ":43.27,
+    "petBudget ":56,
+    "petHealthWellness ":94,
+    "outdoorPetFriendliness ":73
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -114.88,36.37 ]
+    },
+    "properties": {
+    "overallRank":31,
+    "City":"North Las Vegas",
+    "State":" NV",
+    "totalScore ":52.49,
+    "petBudget ":45,
+    "petHealthWellness ":80,
+    "outdoorPetFriendliness ":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.71,44.55 ]
+    },
+    "properties": {
+    "overallRank":58,
+    "City":"Oakland",
+    "State":" CA",
+    "totalScore ":48.82,
+    "petBudget ":89,
+    "petHealthWellness ":39,
+    "outdoorPetFriendliness ":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.56,35.52 ]
+    },
+    "properties": {
+    "overallRank":32,
+    "City":"Oklahoma City",
+    "State":" OK",
+    "totalScore ":52.3,
+    "petBudget ":7,
+    "petHealthWellness ":61,
+    "outdoorPetFriendliness ":85
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.01,41.26 ]
+    },
+    "properties": {
+    "overallRank":24,
+    "City":"Omaha",
+    "State":" NE",
+    "totalScore ":53.9,
+    "petBudget ":23,
+    "petHealthWellness ":30,
+    "outdoorPetFriendliness ":52
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.56,38.89 ]
+    },
+    "properties": {
+    "overallRank":3,
+    "City":"Orlando",
+    "State":" FL",
+    "totalScore ":62.2,
+    "petBudget ":31,
+    "petHealthWellness ":3,
+    "outdoorPetFriendliness ":34
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.7,44.15 ]
+    },
+    "properties": {
+    "overallRank":77,
+    "City":"Philadelphia",
+    "State":" PA",
+    "totalScore ":46.74,
+    "petBudget ":77,
+    "petHealthWellness ":69,
+    "outdoorPetFriendliness ":37
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.29,43.23 ]
+    },
+    "properties": {
+    "overallRank":22,
+    "City":"Phoenix",
+    "State":" AZ",
+    "totalScore ":54.09,
+    "petBudget ":40,
+    "petHealthWellness ":63,
+    "outdoorPetFriendliness ":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.99,40.44 ]
+    },
+    "properties": {
+    "overallRank":11,
+    "City":"Pittsburgh",
+    "State":" PA",
+    "totalScore ":56.9,
+    "petBudget ":22,
+    "petHealthWellness ":46,
+    "outdoorPetFriendliness ":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.53,41.66 ]
+    },
+    "properties": {
+    "overallRank":20,
+    "City":"Plano",
+    "State":" TX",
+    "totalScore ":54.81,
+    "petBudget ":81,
+    "petHealthWellness ":4,
+    "outdoorPetFriendliness ":32
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.36,47.49 ]
+    },
+    "properties": {
+    "overallRank":19,
+    "City":"Portland",
+    "State":" OR",
+    "totalScore ":55.2,
+    "petBudget ":76,
+    "petHealthWellness ":21,
+    "outdoorPetFriendliness ":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -101.3,46.36 ]
+    },
+    "properties": {
+    "overallRank":29,
+    "City":"Raleigh",
+    "State":" NC",
+    "totalScore ":53.21,
+    "petBudget ":21,
+    "petHealthWellness ":35,
+    "outdoorPetFriendliness ":60
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.74,41.42 ]
+    },
+    "properties": {
+    "overallRank":65,
+    "City":"Reno",
+    "State":" NV",
+    "totalScore ":47.98,
+    "petBudget ":49,
+    "petHealthWellness ":50,
+    "outdoorPetFriendliness ":80
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.35,48.56 ]
+    },
+    "properties": {
+    "overallRank":53,
+    "City":"Riverside",
+    "State":" CA",
+    "totalScore ":49.47,
+    "petBudget ":78,
+    "petHealthWellness ":37,
+    "outdoorPetFriendliness ":41
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.61,40.64 ]
+    },
+    "properties": {
+    "overallRank":25,
+    "City":"Sacramento",
+    "State":" CA",
+    "totalScore ":53.87,
+    "petBudget ":83,
+    "petHealthWellness ":14,
+    "outdoorPetFriendliness ":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.86,33.91 ]
+    },
+    "properties": {
+    "overallRank":71,
+    "City":"San Antonio",
+    "State":" TX",
+    "totalScore ":47.53,
+    "petBudget ":55,
+    "petHealthWellness ":70,
+    "outdoorPetFriendliness ":61
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.37,34.22 ]
+    },
+    "properties": {
+    "overallRank":88,
+    "City":"San Bernardino",
+    "State":" CA",
+    "totalScore ":44.49,
+    "petBudget ":86,
+    "petHealthWellness ":85,
+    "outdoorPetFriendliness ":27
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.12,33.02 ]
+    },
+    "properties": {
+    "overallRank":9,
+    "City":"San Diego",
+    "State":" CA",
+    "totalScore ":57.28,
+    "petBudget ":92,
+    "petHealthWellness ":2,
+    "outdoorPetFriendliness ":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.36,37.81 ]
+    },
+    "properties": {
+    "overallRank":59,
+    "City":"San Francisco",
+    "State":" CA",
+    "totalScore ":48.58,
+    "petBudget ":99,
+    "petHealthWellness ":29,
+    "outdoorPetFriendliness ":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.6,40.3 ]
+    },
+    "properties": {
+    "overallRank":44,
+    "City":"San Jose",
+    "State":" CA",
+    "totalScore ":50.43,
+    "petBudget ":74,
+    "petHealthWellness ":57,
+    "outdoorPetFriendliness ":26
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.88,33.76 ]
+    },
+    "properties": {
+    "overallRank":100,
+    "City":"Santa Ana",
+    "State":" CA",
+    "totalScore ":36.22,
+    "petBudget ":98,
+    "petHealthWellness ":76,
+    "outdoorPetFriendliness ":70
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.78,33.85 ]
+    },
+    "properties": {
+    "overallRank":1,
+    "City":"Scottsdale",
+    "State":" AZ",
+    "totalScore ":63.28,
+    "petBudget ":71,
+    "petHealthWellness ":1,
+    "outdoorPetFriendliness ":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.38,47.77 ]
+    },
+    "properties": {
+    "overallRank":17,
+    "City":"Seattle",
+    "State":" WA",
+    "totalScore ":55.61,
+    "petBudget ":70,
+    "petHealthWellness ":18,
+    "outdoorPetFriendliness ":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.77,44.02 ]
+    },
+    "properties": {
+    "overallRank":75,
+    "City":"Stockton",
+    "State":" CA",
+    "totalScore ":47.08,
+    "petBudget ":37,
+    "petHealthWellness ":96,
+    "outdoorPetFriendliness ":49
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.15,38.54 ]
+    },
+    "properties": {
+    "overallRank":2,
+    "City":"Tampa",
+    "State":" FL",
+    "totalScore ":62.25,
+    "petBudget ":42,
+    "petHealthWellness ":5,
+    "outdoorPetFriendliness ":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.76,46.45 ]
+    },
+    "properties": {
+    "overallRank":66,
+    "City":"Toledo",
+    "State":" OH",
+    "totalScore ":47.74,
+    "petBudget ":6,
+    "petHealthWellness ":93,
+    "outdoorPetFriendliness ":59
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -110.95,32.54 ]
+    },
+    "properties": {
+    "overallRank":30,
+    "City":"Tucson",
+    "State":" AZ",
+    "totalScore ":52.55,
+    "petBudget ":48,
+    "petHealthWellness ":42,
+    "outdoorPetFriendliness ":40
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.99,36.15 ]
+    },
+    "properties": {
+    "overallRank":27,
+    "City":"Tulsa",
+    "State":" OK",
+    "totalScore ":53.63,
+    "petBudget ":15,
+    "petHealthWellness ":58,
+    "outdoorPetFriendliness ":50
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.08,36.78 ]
+    },
+    "properties": {
+    "overallRank":60,
+    "City":"Virginia Beach",
+    "State":" VA",
+    "totalScore ":48.49,
+    "petBudget ":50,
+    "petHealthWellness ":54,
+    "outdoorPetFriendliness ":79
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.36,44.27 ]
+    },
+    "properties": {
+    "overallRank":61,
+    "City":"Washington",
+    "State":" DC",
+    "totalScore ":48.46,
+    "petBudget ":91,
+    "petHealthWellness ":41,
+    "outdoorPetFriendliness ":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.34,37.68 ]
+    },
+    "properties": {
+    "overallRank":76,
+    "City":"Wichita",
+    "State":" KS",
+    "totalScore ":46.95,
+    "petBudget ":20,
+    "petHealthWellness ":82,
+    "outdoorPetFriendliness ":98
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 90.19,38.62 ]
+    },
+    "properties": {
+    "overallRank":6,
+    "City":"St Louis",
+    "State":" MO",
+    "totalScore ":58.32,
+    "petBudget ":18,
+    "petHealthWellness ":16,
+    "outdoorPetFriendliness ":39
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.63,27.77 ]
+    },
+    "properties": {
+    "overallRank":7,
+    "City":"St Petersburg",
+    "State":" FL",
+    "totalScore ":58.31,
+    "petBudget ":42,
+    "petHealthWellness ":9,
+    "outdoorPetFriendliness ":29
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.09,44.95 ]
+    },
+    "properties": {
+    "overallRank":33,
+    "City":"St Paul",
+    "State":" MN",
+    "totalScore ":52.28,
+    "petBudget ":30,
+    "petHealthWellness ":60,
+    "outdoorPetFriendliness ":42
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.24,36.09 ]
+    },
+    "properties": {
+    "overallRank":37,
+    "City":"Winston-Salem",
+    "State":" NC",
+    "totalScore ":51.5,
+    "petBudget ":3,
+    "petHealthWellness ":88,
+    "outdoorPetFriendliness ":84
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.5,38.04 ]
+    },
+    "properties": {
+    "overallRank":41,
+    "City":"Lexington Fayette",
+    "State":" KY",
+    "totalScore ":50.67,
+    "petBudget ":47,
+    "petHealthWellness ":22,
+    "outdoorPetFriendliness ":94
+    }
+  }
+]
+}

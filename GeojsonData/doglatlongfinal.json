@@ -1,0 +1,1505 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -111.78,33.85 ]
+   },
+   "properties": {
+   "overall_rank":"1",
+   "city":"Scottsdale Az",
+   "total_score":"63",
+   "pet_budget":"71",
+   "pet_health":"1",
+   "outdoor_friendliness":"3"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -82.53,27.95 ]
+   },
+   "properties": {
+   "overall_rank":"2",
+   "city":"Tampa Fl",
+   "total_score":"62",
+   "pet_budget":"42",
+   "pet_health":"5",
+   "outdoor_friendliness":"13"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -81.38,28.54 ]
+   },
+   "properties": {
+   "overall_rank":"3",
+   "city":"Orlando Fl",
+   "total_score":"62",
+   "pet_budget":"31",
+   "pet_health":"3",
+   "outdoor_friendliness":"34"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -115.35,36.32 ]
+   },
+   "properties": {
+   "overall_rank":"4",
+   "city":"Las Vegas Nv",
+   "total_score":"60",
+   "pet_budget":"32",
+   "pet_health":"34",
+   "outdoor_friendliness":"1"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -86.78,33.53 ]
+   },
+   "properties": {
+   "overall_rank":"5",
+   "city":"Birmingham Al",
+   "total_score":"60",
+   "pet_budget":"9",
+   "pet_health":"15",
+   "outdoor_friendliness":"77"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -90.56,38.65 ]
+   },
+   "properties": {
+   "overall_rank":"6",
+   "city":"Saint Louis Mo",
+   "total_score":"58",
+   "pet_budget":"18",
+   "pet_health":"16",
+   "outdoor_friendliness":"39"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -82.64,27.75 ]
+   },
+   "properties": {
+   "overall_rank":"7",
+   "city":"Saint Petersburg Fl",
+   "total_score":"58",
+   "pet_budget":"42",
+   "pet_health":"9",
+   "outdoor_friendliness":"29"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -84.45,39.15 ]
+   },
+   "properties": {
+   "overall_rank":"8",
+   "city":"Cincinnati Oh",
+   "total_score":"58",
+   "pet_budget":"19",
+   "pet_health":"20",
+   "outdoor_friendliness":"38"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.12,33.02 ]
+   },
+   "properties": {
+   "overall_rank":"9",
+   "city":"San Diego Ca",
+   "total_score":"57",
+   "pet_budget":"92",
+   "pet_health":"2",
+   "outdoor_friendliness":"8"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -89.93,30.06 ]
+   },
+   "properties": {
+   "overall_rank":"10",
+   "city":"New Orleans La",
+   "total_score":"57",
+   "pet_budget":"34",
+   "pet_health":"10",
+   "outdoor_friendliness":"44"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -79.99,40.44 ]
+   },
+   "properties": {
+   "overall_rank":"11",
+   "city":"Pittsburgh Pa",
+   "total_score":"57",
+   "pet_budget":"22",
+   "pet_health":"46",
+   "outdoor_friendliness":"20"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -84.32,33.97 ]
+   },
+   "properties": {
+   "overall_rank":"12",
+   "city":"Atlanta Ga",
+   "total_score":"57",
+   "pet_budget":"25",
+   "pet_health":"11",
+   "outdoor_friendliness":"56"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -116.2,43.74 ]
+   },
+   "properties": {
+   "overall_rank":"13",
+   "city":"Boise Id",
+   "total_score":"56",
+   "pet_budget":"38",
+   "pet_health":"48",
+   "outdoor_friendliness":"12"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -106.62,35.11 ]
+   },
+   "properties": {
+   "overall_rank":"14",
+   "city":"Albuquerque Nm",
+   "total_score":"56",
+   "pet_budget":"16",
+   "pet_health":"83",
+   "outdoor_friendliness":"7"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.68,30.37 ]
+   },
+   "properties": {
+   "overall_rank":"15",
+   "city":"Austin Tx",
+   "total_score":"56",
+   "pet_budget":"51",
+   "pet_health":"6",
+   "outdoor_friendliness":"64"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -104.87,39.76 ]
+   },
+   "properties": {
+   "overall_rank":"16",
+   "city":"Denver Co",
+   "total_score":"56",
+   "pet_budget":"60",
+   "pet_health":"7",
+   "outdoor_friendliness":"31"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -122.38,47.77 ]
+   },
+   "properties": {
+   "overall_rank":"17",
+   "city":"Seattle Wa",
+   "total_score":"56",
+   "pet_budget":"70",
+   "pet_health":"18",
+   "outdoor_friendliness":"11"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -104.7,38.94 ]
+   },
+   "properties": {
+   "overall_rank":"18",
+   "city":"Colorado Springs Co",
+   "total_score":"55",
+   "pet_budget":"53",
+   "pet_health":"26",
+   "outdoor_friendliness":"22"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -122.76,45.73 ]
+   },
+   "properties": {
+   "overall_rank":"19",
+   "city":"Portland Or",
+   "total_score":"55",
+   "pet_budget":"76",
+   "pet_health":"21",
+   "outdoor_friendliness":"4"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.74,33.04 ]
+   },
+   "properties": {
+   "overall_rank":"20",
+   "city":"Plano Tx",
+   "total_score":"55",
+   "pet_budget":"81",
+   "pet_health":"4",
+   "outdoor_friendliness":"32"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.68,40.81 ]
+   },
+   "properties": {
+   "overall_rank":"21",
+   "city":"Lincoln Ne",
+   "total_score":"54",
+   "pet_budget":"4",
+   "pet_health":"67",
+   "outdoor_friendliness":"69"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -112.11,33.83 ]
+   },
+   "properties": {
+   "overall_rank":"22",
+   "city":"Phoenix Az",
+   "total_score":"54",
+   "pet_budget":"40",
+   "pet_health":"63",
+   "outdoor_friendliness":"19"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -80.23,25.93 ]
+   },
+   "properties": {
+   "overall_rank":"23",
+   "city":"Miami Fl",
+   "total_score":"54",
+   "pet_budget":"36",
+   "pet_health":"19",
+   "outdoor_friendliness":"57"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.01,41.26 ]
+   },
+   "properties": {
+   "overall_rank":"24",
+   "city":"Omaha Ne",
+   "total_score":"54",
+   "pet_budget":"23",
+   "pet_health":"30",
+   "outdoor_friendliness":"52"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.54,38.71 ]
+   },
+   "properties": {
+   "overall_rank":"25",
+   "city":"Sacramento Ca",
+   "total_score":"54",
+   "pet_budget":"83",
+   "pet_health":"14",
+   "outdoor_friendliness":"17"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -89.4,43.07 ]
+   },
+   "properties": {
+   "overall_rank":"26",
+   "city":"Madison Wi",
+   "total_score":"54",
+   "pet_budget":"52",
+   "pet_health":"38",
+   "outdoor_friendliness":"30"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -95.99,36.15 ]
+   },
+   "properties": {
+   "overall_rank":"27",
+   "city":"Tulsa Ok",
+   "total_score":"54",
+   "pet_budget":"15",
+   "pet_health":"58",
+   "outdoor_friendliness":"50"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -93.26,44.98 ]
+   },
+   "properties": {
+   "overall_rank":"28",
+   "city":"Minneapolis Mn",
+   "total_score":"53",
+   "pet_budget":"63",
+   "pet_health":"25",
+   "outdoor_friendliness":"25"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -78.75,35.88 ]
+   },
+   "properties": {
+   "overall_rank":"29",
+   "city":"Raleigh Nc",
+   "total_score":"53",
+   "pet_budget":"21",
+   "pet_health":"35",
+   "outdoor_friendliness":"60"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -110.95,32.54 ]
+   },
+   "properties": {
+   "overall_rank":"30",
+   "city":"Tucson Az",
+   "total_score":"53",
+   "pet_budget":"48",
+   "pet_health":"42",
+   "outdoor_friendliness":"40"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -114.88,36.37 ]
+   },
+   "properties": {
+   "overall_rank":"31",
+   "city":"North Las Vegas Nv",
+   "total_score":"52",
+   "pet_budget":"45",
+   "pet_health":"80",
+   "outdoor_friendliness":"15"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.56,35.52 ]
+   },
+   "properties": {
+   "overall_rank":"32",
+   "city":"Oklahoma City Ok",
+   "total_score":"52",
+   "pet_budget":"7",
+   "pet_health":"61",
+   "outdoor_friendliness":"85"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -93.19,45.07 ]
+   },
+   "properties": {
+   "overall_rank":"33",
+   "city":"Saint Paul Mn",
+   "total_score":"52",
+   "pet_budget":"30",
+   "pet_health":"60",
+   "outdoor_friendliness":"42"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -86.78,36.17 ]
+   },
+   "properties": {
+   "overall_rank":"34",
+   "city":"Nashville Tn",
+   "total_score":"52",
+   "pet_budget":"11",
+   "pet_health":"62",
+   "outdoor_friendliness":"75"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.33,32.75 ]
+   },
+   "properties": {
+   "overall_rank":"35",
+   "city":"Fort Worth Tx",
+   "total_score":"52",
+   "pet_budget":"28",
+   "pet_health":"23",
+   "outdoor_friendliness":"83"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -95.24,29.86 ]
+   },
+   "properties": {
+   "overall_rank":"36",
+   "city":"Houston Tx",
+   "total_score":"52",
+   "pet_budget":"27",
+   "pet_health":"43",
+   "outdoor_friendliness":"66"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -80.24,36.1 ]
+   },
+   "properties": {
+   "overall_rank":"37",
+   "city":"Winston Salem Nc",
+   "total_score":"52",
+   "pet_budget":"3",
+   "pet_health":"88",
+   "outdoor_friendliness":"84"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.76,33.74 ]
+   },
+   "properties": {
+   "overall_rank":"38",
+   "city":"Irvine Ca",
+   "total_score":"51",
+   "pet_budget":"97",
+   "pet_health":"8",
+   "outdoor_friendliness":"5"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.39,27.8 ]
+   },
+   "properties": {
+   "overall_rank":"39",
+   "city":"Corpus Christi Tx",
+   "total_score":"51",
+   "pet_budget":"10",
+   "pet_health":"78",
+   "outdoor_friendliness":"87"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -82.86,40.03 ]
+   },
+   "properties": {
+   "overall_rank":"40",
+   "city":"Columbus Oh",
+   "total_score":"51",
+   "pet_budget":"2",
+   "pet_health":"95",
+   "outdoor_friendliness":"54"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -84.5,38.05 ]
+   },
+   "properties": {
+   "overall_rank":"41",
+   "city":"Lexington Ky",
+   "total_score":"51",
+   "pet_budget":"47",
+   "pet_health":"22",
+   "outdoor_friendliness":"94"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -85.74,38.22 ]
+   },
+   "properties": {
+   "overall_rank":"42",
+   "city":"Louisville Ky",
+   "total_score":"51",
+   "pet_budget":"29",
+   "pet_health":"24",
+   "outdoor_friendliness":"95"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -86.16,39.77 ]
+   },
+   "properties": {
+   "overall_rank":"43",
+   "city":"Indianapolis In",
+   "total_score":"51",
+   "pet_budget":"14",
+   "pet_health":"47",
+   "outdoor_friendliness":"96"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.94,37.42 ]
+   },
+   "properties": {
+   "overall_rank":"44",
+   "city":"San Jose Ca",
+   "total_score":"50",
+   "pet_budget":"74",
+   "pet_health":"57",
+   "outdoor_friendliness":"26"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -85.13,41.07 ]
+   },
+   "properties": {
+   "overall_rank":"45",
+   "city":"Fort Wayne In",
+   "total_score":"50",
+   "pet_budget":"1",
+   "pet_health":"65",
+   "outdoor_friendliness":"100"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -94.58,39.09 ]
+   },
+   "properties": {
+   "overall_rank":"46",
+   "city":"Kansas City Mo",
+   "total_score":"50",
+   "pet_budget":"12",
+   "pet_health":"86",
+   "outdoor_friendliness":"58"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -90.05,35.15 ]
+   },
+   "properties": {
+   "overall_rank":"47",
+   "city":"Memphis Tn",
+   "total_score":"50",
+   "pet_budget":"5",
+   "pet_health":"84",
+   "outdoor_friendliness":"88"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -76.3,36.67 ]
+   },
+   "properties": {
+   "overall_rank":"48",
+   "city":"Chesapeake Va",
+   "total_score":"50",
+   "pet_budget":"58",
+   "pet_health":"81",
+   "outdoor_friendliness":"21"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -112.17,33.71 ]
+   },
+   "properties": {
+   "overall_rank":"49",
+   "city":"Glendale Az",
+   "total_score":"50",
+   "pet_budget":"46",
+   "pet_health":"49",
+   "outdoor_friendliness":"71"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -91.18,30.45 ]
+   },
+   "properties": {
+   "overall_rank":"50",
+   "city":"Baton Rouge La",
+   "total_score":"50",
+   "pet_budget":"44",
+   "pet_health":"17",
+   "outdoor_friendliness":"97"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -81.41,30.38 ]
+   },
+   "properties": {
+   "overall_rank":"51",
+   "city":"Jacksonville Fl",
+   "total_score":"50",
+   "pet_budget":"26",
+   "pet_health":"72",
+   "outdoor_friendliness":"63"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -106.43,31.84 ]
+   },
+   "properties": {
+   "overall_rank":"52",
+   "city":"El Paso Tx",
+   "total_score":"50",
+   "pet_budget":"41",
+   "pet_health":"77",
+   "outdoor_friendliness":"47"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.44,33.99 ]
+   },
+   "properties": {
+   "overall_rank":"53",
+   "city":"Riverside Ca",
+   "total_score":"49",
+   "pet_budget":"78",
+   "pet_health":"37",
+   "outdoor_friendliness":"41"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -79.95,36.07 ]
+   },
+   "properties": {
+   "overall_rank":"54",
+   "city":"Greensboro Nc",
+   "total_score":"49",
+   "pet_budget":"13",
+   "pet_health":"68",
+   "outdoor_friendliness":"72"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -101.87,33.57 ]
+   },
+   "properties": {
+   "overall_rank":"55",
+   "city":"Lubbock Tx",
+   "total_score":"49",
+   "pet_budget":"39",
+   "pet_health":"55",
+   "outdoor_friendliness":"86"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -114.94,36.09 ]
+   },
+   "properties": {
+   "overall_rank":"56",
+   "city":"Henderson Nv",
+   "total_score":"49",
+   "pet_budget":"54",
+   "pet_health":"91",
+   "outdoor_friendliness":"24"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -111.75,33.36 ]
+   },
+   "properties": {
+   "overall_rank":"57",
+   "city":"Gilbert Az",
+   "total_score":"49",
+   "pet_budget":"68",
+   "pet_health":"12",
+   "outdoor_friendliness":"89"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -122.23,37.84 ]
+   },
+   "properties": {
+   "overall_rank":"58",
+   "city":"Oakland Ca",
+   "total_score":"49",
+   "pet_budget":"89",
+   "pet_health":"39",
+   "outdoor_friendliness":"14"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -122.36,37.81 ]
+   },
+   "properties": {
+   "overall_rank":"59",
+   "city":"San Francisco Ca",
+   "total_score":"49",
+   "pet_budget":"99",
+   "pet_health":"29",
+   "outdoor_friendliness":"2"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -76.08,36.78 ]
+   },
+   "properties": {
+   "overall_rank":"60",
+   "city":"Virginia Beach Va",
+   "total_score":"48",
+   "pet_budget":"50",
+   "pet_health":"54",
+   "outdoor_friendliness":"79"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -77.05,38.97 ]
+   },
+   "properties": {
+   "overall_rank":"61",
+   "city":"Washington Dc",
+   "total_score":"48",
+   "pet_budget":"91",
+   "pet_health":"41",
+   "outdoor_friendliness":"9"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -104.81,39.69 ]
+   },
+   "properties": {
+   "overall_rank":"62",
+   "city":"Aurora Co",
+   "total_score":"48",
+   "pet_budget":"64",
+   "pet_health":"28",
+   "outdoor_friendliness":"68"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -81.69,41.49 ]
+   },
+   "properties": {
+   "overall_rank":"63",
+   "city":"Cleveland Oh",
+   "total_score":"48",
+   "pet_budget":"24",
+   "pet_health":"75",
+   "outdoor_friendliness":"81"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -87.9,41.98 ]
+   },
+   "properties": {
+   "overall_rank":"64",
+   "city":"Chicago Il",
+   "total_score":"48",
+   "pet_budget":"90",
+   "pet_health":"13",
+   "outdoor_friendliness":"46"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -119.68,39.91 ]
+   },
+   "properties": {
+   "overall_rank":"65",
+   "city":"Reno Nv",
+   "total_score":"48",
+   "pet_budget":"49",
+   "pet_health":"50",
+   "outdoor_friendliness":"80"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -83.58,41.66 ]
+   },
+   "properties": {
+   "overall_rank":"66",
+   "city":"Toledo Oh",
+   "total_score":"48",
+   "pet_budget":"6",
+   "pet_health":"93",
+   "outdoor_friendliness":"59"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -71.06,42.35 ]
+   },
+   "properties": {
+   "overall_rank":"67",
+   "city":"Boston Ma",
+   "total_score":"48",
+   "pet_budget":"85",
+   "pet_health":"40",
+   "outdoor_friendliness":"35"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -118.18,33.86 ]
+   },
+   "properties": {
+   "overall_rank":"68",
+   "city":"Long Beach Ca",
+   "total_score":"48",
+   "pet_budget":"93",
+   "pet_health":"27",
+   "outdoor_friendliness":"18"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.12,32.69 ]
+   },
+   "properties": {
+   "overall_rank":"69",
+   "city":"Arlington Tx",
+   "total_score":"48",
+   "pet_budget":"66",
+   "pet_health":"45",
+   "outdoor_friendliness":"67"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -116.94,32.66 ]
+   },
+   "properties": {
+   "overall_rank":"70",
+   "city":"Chula Vista Ca",
+   "total_score":"48",
+   "pet_budget":"87",
+   "pet_health":"31",
+   "outdoor_friendliness":"36"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -98.42,29.53 ]
+   },
+   "properties": {
+   "overall_rank":"71",
+   "city":"San Antonio Tx",
+   "total_score":"48",
+   "pet_budget":"55",
+   "pet_health":"70",
+   "outdoor_friendliness":"61"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.8,32.96 ]
+   },
+   "properties": {
+   "overall_rank":"72",
+   "city":"Dallas Tx",
+   "total_score":"47",
+   "pet_budget":"79",
+   "pet_health":"36",
+   "outdoor_friendliness":"51"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -118.33,34.13 ]
+   },
+   "properties": {
+   "overall_rank":"73",
+   "city":"Los Angeles Ca",
+   "total_score":"47",
+   "pet_budget":"96",
+   "pet_health":"44",
+   "outdoor_friendliness":"6"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.62,32.91 ]
+   },
+   "properties": {
+   "overall_rank":"74",
+   "city":"Garland Tx",
+   "total_score":"47",
+   "pet_budget":"69",
+   "pet_health":"53",
+   "outdoor_friendliness":"62"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.35,38.04 ]
+   },
+   "properties": {
+   "overall_rank":"75",
+   "city":"Stockton Ca",
+   "total_score":"47",
+   "pet_budget":"37",
+   "pet_health":"96",
+   "outdoor_friendliness":"49"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -97.34,37.68 ]
+   },
+   "properties": {
+   "overall_rank":"76",
+   "city":"Wichita Ks",
+   "total_score":"47",
+   "pet_budget":"20",
+   "pet_health":"82",
+   "outdoor_friendliness":"98"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -75.07,40.06 ]
+   },
+   "properties": {
+   "overall_rank":"77",
+   "city":"Philadelphia Pa",
+   "total_score":"47",
+   "pet_budget":"77",
+   "pet_health":"69",
+   "outdoor_friendliness":"37"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -74.08,40.72 ]
+   },
+   "properties": {
+   "overall_rank":"78",
+   "city":"Jersey City Nj",
+   "total_score":"46",
+   "pet_budget":"82",
+   "pet_health":"52",
+   "outdoor_friendliness":"45"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -80.29,25.86 ]
+   },
+   "properties": {
+   "overall_rank":"79",
+   "city":"Hialeah Fl",
+   "total_score":"46",
+   "pet_budget":"61",
+   "pet_health":"66",
+   "outdoor_friendliness":"65"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -111.44,33.59 ]
+   },
+   "properties": {
+   "overall_rank":"80",
+   "city":"Mesa Az",
+   "total_score":"46",
+   "pet_budget":"59",
+   "pet_health":"73",
+   "outdoor_friendliness":"74"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -111.87,33.32 ]
+   },
+   "properties": {
+   "overall_rank":"81",
+   "city":"Chandler Az",
+   "total_score":"46",
+   "pet_budget":"65",
+   "pet_health":"59",
+   "outdoor_friendliness":"76"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -96.96,32.85 ]
+   },
+   "properties": {
+   "overall_rank":"82",
+   "city":"Irving Tx",
+   "total_score":"46",
+   "pet_budget":"73",
+   "pet_health":"33",
+   "outdoor_friendliness":"91"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -118.92,35.55 ]
+   },
+   "properties": {
+   "overall_rank":"83",
+   "city":"Bakersfield Ca",
+   "total_score":"45",
+   "pet_budget":"72",
+   "pet_health":"79",
+   "outdoor_friendliness":"43"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -78.91,35.98 ]
+   },
+   "properties": {
+   "overall_rank":"84",
+   "city":"Durham Nc",
+   "total_score":"45",
+   "pet_budget":"8",
+   "pet_health":"89",
+   "outdoor_friendliness":"93"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -87.96,43.06 ]
+   },
+   "properties": {
+   "overall_rank":"85",
+   "city":"Milwaukee Wi",
+   "total_score":"45",
+   "pet_budget":"17",
+   "pet_health":"97",
+   "outdoor_friendliness":"82"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -78.85,42.88 ]
+   },
+   "properties": {
+   "overall_rank":"86",
+   "city":"Buffalo Ny",
+   "total_score":"45",
+   "pet_budget":"57",
+   "pet_health":"74",
+   "outdoor_friendliness":"90"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -76.7,39.35 ]
+   },
+   "properties": {
+   "overall_rank":"87",
+   "city":"Baltimore Md",
+   "total_score":"45",
+   "pet_budget":"62",
+   "pet_health":"87",
+   "outdoor_friendliness":"53"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.37,34.22 ]
+   },
+   "properties": {
+   "overall_rank":"88",
+   "city":"San Bernardino Ca",
+   "total_score":"44",
+   "pet_budget":"86",
+   "pet_health":"85",
+   "outdoor_friendliness":"27"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -150.63,61.45 ]
+   },
+   "properties": {
+   "overall_rank":"89",
+   "city":"Anchorage Ak",
+   "total_score":"44",
+   "pet_budget":"80",
+   "pet_health":"92",
+   "outdoor_friendliness":"23"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -73.98,40.77 ]
+   },
+   "properties": {
+   "overall_rank":"90",
+   "city":"New York Ny",
+   "total_score":"44",
+   "pet_budget":"95",
+   "pet_health":"71",
+   "outdoor_friendliness":"16"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -121.98,37.56 ]
+   },
+   "properties": {
+   "overall_rank":"91",
+   "city":"Fremont Ca",
+   "total_score":"43",
+   "pet_budget":"100",
+   "pet_health":"64",
+   "outdoor_friendliness":"10"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -76.28,36.84 ]
+   },
+   "properties": {
+   "overall_rank":"92",
+   "city":"Norfolk Va",
+   "total_score":"43",
+   "pet_budget":"56",
+   "pet_health":"94",
+   "outdoor_friendliness":"73"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.74,33.86 ]
+   },
+   "properties": {
+   "overall_rank":"93",
+   "city":"Anaheim Ca",
+   "total_score":"43",
+   "pet_budget":"94",
+   "pet_health":"51",
+   "outdoor_friendliness":"33"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -80.84,35.22 ]
+   },
+   "properties": {
+   "overall_rank":"94",
+   "city":"Charlotte Nc",
+   "total_score":"43",
+   "pet_budget":"67",
+   "pet_health":"56",
+   "outdoor_friendliness":"99"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -99.48,27.53 ]
+   },
+   "properties": {
+   "overall_rank":"95",
+   "city":"Laredo Tx",
+   "total_score":"43",
+   "pet_budget":"35",
+   "pet_health":"100",
+   "outdoor_friendliness":"48"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -83.1,42.38 ]
+   },
+   "properties": {
+   "overall_rank":"96",
+   "city":"Detroit Mi",
+   "total_score":"42",
+   "pet_budget":"33",
+   "pet_health":"98",
+   "outdoor_friendliness":"78"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -119.75,36.9 ]
+   },
+   "properties": {
+   "overall_rank":"97",
+   "city":"Fresno Ca",
+   "total_score":"42",
+   "pet_budget":"75",
+   "pet_health":"90",
+   "outdoor_friendliness":"55"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -74.17,40.73 ]
+   },
+   "properties": {
+   "overall_rank":"98",
+   "city":"Newark Nj",
+   "total_score":"42",
+   "pet_budget":"88",
+   "pet_health":"32",
+   "outdoor_friendliness":"92"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -157.87,21.35 ]
+   },
+   "properties": {
+   "overall_rank":"99",
+   "city":"Honolulu Hi",
+   "total_score":"40",
+   "pet_budget":"84",
+   "pet_health":"99",
+   "outdoor_friendliness":"28"
+   }
+ },
+ {
+   "type": "Feature",
+   "geometry": {
+      "type": "Point",
+      "coordinates":  [ -117.88,33.76 ]
+   },
+   "properties": {
+   "overall_rank":"100",
+   "city":"Santa Ana Ca",
+   "total_score":"36",
+   "pet_budget":"98",
+   "pet_health":"76",
+   "outdoor_friendliness":"70"
+   }
+ }
+]
+}
