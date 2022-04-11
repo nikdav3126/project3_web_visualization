@@ -1,3 +1,6 @@
+////////////////////////////////////////////
+// BEGIN: Map Base Layer Logic
+////////////////////////////////////////////
 // create the tile layers for the backgrounds of the map
 var defaultMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	maxZoom: 19,
@@ -39,7 +42,14 @@ var myMap = L.map("map", {
 });
 // add the default map to the map
 defaultMap.addTo(myMap);
+////////////////////////////////////////////
+// END: Map Base Layer Logic
+////////////////////////////////////////////
 
+
+////////////////////////////////////////////
+// BEGIN: 1 - Existing Earthquake Data Layer
+////////////////////////////////////////////
 
 // variable to hold the earthquake data layer
 let earthquakes = new L.layerGroup();
@@ -105,7 +115,14 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
         earthquakes.addTo(myMap);
     }
 );
+////////////////////////////////////////////
+// END: 1 - Existing Earthquake Data Layer
+////////////////////////////////////////////
 
+
+////////////////////////////////////////////
+// BEGIN: 2 - DogFriendly Data Layer
+////////////////////////////////////////////
 let dogPoints = new L.layerGroup();
 
 d3.json("/GeojsonData/doglatlongfinal.json")
@@ -113,51 +130,46 @@ d3.json("/GeojsonData/doglatlongfinal.json")
     function(dogData){
         // console log to make sure the data loaded
         console.log(dogData);
-
-        function radiusSize(size){
-            if (properties.overallRank == 0)
-                return 1; // makes sure that a 0 mag earthquake shows up
-            else
-                return overallRank * 5; // makes sure that the circle is pronounced in the map
-        }
-
-        function dataStyle(feature)
-        {
-            return {
-                opacity: 0.5,
-                fillOpacity: 0.5,
-                fillColor: "red", // use index 2 for the depth
-                color: "000000", // black outline
-                radius: radiusSize(feature.properties.overallRank), // grabs the magnitude
-                weight: 0.5,
-                stroke: true
-            }
-        }
-
+                // add on to the style for each data point
+                function dataStyle(feature)
+                {
+                    return {
+                        opacity: 1,
+                        fillOpacity: 0.5,
+                        fillColor: "#6C3483", 
+                        color: "#6C3483", 
+                        radius: 10, 
+                        weight: 1,
+                        stroke: true
+                    }
+                }
         L.geoJson(dogData, {
             // make each feature a marker that is on the map, each marker is a circle
             pointToLayer: function(feature, latLng) {
                 return L.circleMarker(latLng);
             },
-
             // set the style for each marker
-            style: dataStyle, // calls the data style function and passes in the earthquake data
-            // add popups
+            style: dataStyle, // calls the data style function 
             onEachFeature: function(feature, layer){
                 layer.bindPopup(`Overall Rank: <b>${feature.properties.overallRank}</b><br>
                                 City: <b>${feature.properties.City}</b><br>
-                                Total Score: <b>${feature.properties.totalScore}</b>
-                                Pet Budget: <b>${feature.properties.petBudget}</b>
-                                Pet Health and Wellness: <b>${feature.properties.petHealthWellness}</b>
+                                Total Score: <b>${feature.properties.totalScore}</b><br>
+                                Pet Budget: <b>${feature.properties.petBudget}</b><br>
+                                Pet Health and Wellness: <b>${feature.properties.petHealthWellness}</b><br>
                                 Outdoor Pet Friendliness: <b>${feature.properties.outdoorPetFriendliness}</b>`);
-    
             }
-
         }).addTo(dogPoints);
         dogPoints.addTo(myMap);    
 
     });
+////////////////////////////////////////////
+// END: 2 - DogFriendly Data Layer
+////////////////////////////////////////////
 
+
+////////////////////////////////////////////
+// BEGIN: 3 - HappiestCity Data Layer
+////////////////////////////////////////////
 let happiestPoints = new L.layerGroup();
 
 d3.json("/GeojsonData/happiestCityDataFinal.json")
@@ -165,7 +177,6 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
     function(happiestData){
         // console log to make sure the data loaded
         console.log(happiestData);
-
         L.geoJson(happiestData, {
             // make each feature a marker that is on the map, each marker is a circle
             pointToLayer: function(feature, latLng) {
@@ -182,10 +193,14 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
         }).addTo(happiestPoints);
         happiestPoints.addTo(myMap);
     });
+////////////////////////////////////////////
+// END: 3 - HappiestCity Data Layer
+////////////////////////////////////////////
 
 
-
-
+////////////////////////////////////////////
+// BEGIN: 4 - IntergenerationMobility Data Layer
+////////////////////////////////////////////
 //  New Layer Group for Map
     let IntergenerationalMobilityPoints = new L.layerGroup();
 
@@ -222,10 +237,14 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
         }).addTo(IntergenerationalMobilityPoints);
         IntergenerationalMobilityPoints.addTo(myMap);
     });
+////////////////////////////////////////////
+// END: 4 - IntergenerationMobility Data Layer
+////////////////////////////////////////////
 
 
-
-    
+////////////////////////////////////////////
+// BEGIN: 5 - Weather Data Layer
+////////////////////////////////////////////
 //  New Layer Group for Map
 let WeatherPoints = new L.layerGroup();
 
@@ -267,7 +286,15 @@ let WeatherPoints = new L.layerGroup();
         }).addTo(WeatherPoints);
         WeatherPoints.addTo(myMap);
     });
+////////////////////////////////////////////
+// END: 5 - Weather Data Layer
+////////////////////////////////////////////
 
+
+
+////////////////////////////////////////////
+// BEGIN: Layer Overlay Definition Dropdown
+////////////////////////////////////////////
 // add each layer to the map
 // add the overlay for the tectonic plates and for the earthquakes
 let overlays = {
@@ -282,6 +309,14 @@ let overlays = {
 L.control
     .layers(basemaps, overlays)
     .addTo(myMap);
+////////////////////////////////////////////
+// END: Layer Overlay Definition Dropdown
+////////////////////////////////////////////
+
+
+
+
+
 
     
 // // add the legend to the map
