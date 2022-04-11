@@ -171,10 +171,20 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
             pointToLayer: function(feature, latLng) {
                 return L.circleMarker(latLng);
             },
-
+            onEachFeature: function(feature, layer){
+                layer.bindPopup(`Overall Rank: <b>${feature.properties.overall_rank}</b><br>
+                                City: <b>${feature.properties.city}</b><br>
+                                Total Score: <b>${feature.properties.total_score}</b><br>
+                                Emotional/Physical: <b>${feature.properties.emotional_physical}</b><br>
+                                Income/Employment: <b>${feature.properties.income_employment}</b><br>
+                                Community/Environment: <b>${feature.properties.community_environment}</b>`);
+            }
         }).addTo(happiestPoints);
         happiestPoints.addTo(myMap);
     });
+
+
+
 
 //  New Layer Group for Map
     let IntergenerationalMobilityPoints = new L.layerGroup();
