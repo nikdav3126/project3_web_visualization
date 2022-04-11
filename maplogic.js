@@ -193,7 +193,7 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
                 fillOpacity: 0.5,
                 fillColor: "#17A589", 
                 color: "#17A589", 
-                radius: 10, 
+                radius: 1, 
                 weight: 1,
                 stroke: true
             }
@@ -206,8 +206,8 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
             // set the style for each marker
             style: dataStyle, // calls the data style function 
             onEachFeature: function(feature, layer){
-                layer.bindPopup(`Zip Code: <b>${feature.properties.ZipCode}</b><br>
-                                Abs Upward Mobility: <b>${feature.properties.AbsoluteUpdwardMobility}</b>`);
+                layer.bindPopup(`Zip Code: <b>${feature.properties.zipcode}</b><br>
+                                Abs Upward Mobility: <b>${feature.properties.absoluteupwardmobility}</b>`);
             }
         }).addTo(IntergenerationalMobilityPoints);
         IntergenerationalMobilityPoints.addTo(myMap);
