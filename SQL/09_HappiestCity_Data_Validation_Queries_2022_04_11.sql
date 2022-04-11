@@ -1,22 +1,13 @@
---Total Records: 5,995
-SELECT zips.primary_city
-, happiestcities.overall_rank
-, zips.latitude
-, zips.longitude
-, happiestcities.total_score 
-FROM zips JOIN happiestcities ON zips.primary_city=happiestcities.city
-
 --Total Records: 182 
 SELECT * FROM happiestcities
 ORDER BY Overall_Rank ASC
 
-
 --Total Records: 29,786
 SELECT * FROM MasterCity
 
---Total Records: 182 Reords (Gotta look for the special chars in names - missing 10 records)
+--Total Records: 182 Reords 
 SELECT hc.Overall_Rank
-,hc.City
+,hc.City AS CityState
 ,hc.Total_Score
 ,hc.Emotional_Physical
 ,hc.Income_Employment
@@ -27,14 +18,15 @@ FROM HappiestCities hc
 JOIN MasterCity mc ON hc.City=mc.primary_city
 ORDER BY Overall_Rank ASC
 
+--(Gotta look for the special chars in names - missing 10 records)
 --Total Records: 10 - These are the special city names 
 SELECT * FROM happiestcities
-WHERE Overall_Rank IN (2,3,4,46,81,86,100,116,129,138,161)
+WHERE Overall_Rank IN (2,3,4,46,81,86,100,129,138,161)
 ORDER BY Overall_Rank ASC
 
 --Total Records 10: Identify the missing Cities in the Master City Table
 SELECT * FROM MasterCity mc
-WHERE mc.Primary_City IN ('Columbia MD','San Francisco CA','San Jose CA','St. Paul MN','West Valley City UT','Port St. Lucie FL','St. Petersburg FL','Winston-Salem NC','Lexington-Fayette KY')
+WHERE mc.Primary_City IN ('Columbia MD','San Francisco CA','San Jose CA','St. Paul MN','St. Louis MO','West Valley City UT','Port St. Lucie FL','St. Petersburg FL','Winston-Salem NC','Lexington-Fayette KY')
 
 --Total Records: 3 - 3 Records need update in Happiest City Table - remove "[...]"
 SELECT * FROM MasterCity mc
@@ -48,9 +40,9 @@ WHERE mc.Primary_City IN ('Winston Salem NC')
 SELECT * FROM MasterCity mc
 WHERE mc.Primary_City IN ('Lexington KY')
 
---Total Records: 3 Records need to be updated in Happiest City Table - Change "st." to "Saint"
+--Total Records: 4 Records need to be updated in Happiest City Table - Change "st." to "Saint"
 SELECT * FROM MasterCity mc
-WHERE mc.Primary_City IN ('Saint Paul MN','Port Saint Lucie FL','Saint Petersburg FL')
+WHERE mc.Primary_City IN ('Saint Paul MN','Port Saint Lucie FL','Saint Petersburg FL','Saint Louis MO' )
 
 --Total Records: 1 Records need to be added to Master City Table -'West Valley City UT' - DOES NOT EXIST OTHERWISE!!! 
 SELECT * FROM MasterCity mc
@@ -61,9 +53,9 @@ SELECT * FROM happiestcities
 WHERE Overall_Rank IN (115)
 ORDER BY Overall_Rank ASC
 
--------------------
---UPDATE STATEMENTS
--------------------
+-------------------------
+--BEGIN UPDATE STATEMENTS
+-------------------------
 /*
 SELECT * FROM happiestcities WHERE Overall_Rank=2 
 UPDATE happiestcities SET City='Columbia MD' WHERE Overall_Rank=2
@@ -105,7 +97,9 @@ SELECT * FROM happiestcities WHERE Overall_Rank=161
 SELECT * FROM MasterCity mc WHERE mc.Primary_City ='West Valley City UT'
 INSERT INTO MasterCity (Primary_City,Latitude,Longitude) VALUES ('West Valley City UT',40.69,-112.00)
 SELECT * FROM MasterCity mc WHERE mc.Primary_City ='West Valley City UT'
-
+-----------------------
+--END UPDATE STATEMENTS
+-----------------------
 */
 
 --Total Records: 10 Reords Corrected Final Update Review Checkscript

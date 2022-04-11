@@ -223,13 +223,59 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
         IntergenerationalMobilityPoints.addTo(myMap);
     });
 
+
+
+    
+//  New Layer Group for Map
+let WeatherPoints = new L.layerGroup();
+
+// New Function for Weather Data
+    d3.json("/GeojsonData/WeatherDataFinal.json")
+.then(
+    function(WeatherData){
+        // console log to make sure the data loaded
+        console.log(WeatherData);
+        // add on to the style for each data point
+        function dataStyle(feature)
+        {
+            return {
+                opacity: 1,
+                fillOpacity: 0.5,
+                fillColor: "#E66C37", 
+                color: "#E66C37", 
+                radius: 1, 
+                weight: 1,
+                stroke: true
+            }
+        }
+        L.geoJson(WeatherData, {
+            // make each feature a marker that is on the map, each marker is a circle
+            pointToLayer: function(feature, latLng) {
+                return L.circleMarker(latLng);
+            },
+            // set the style for each marker
+            style: dataStyle, // calls the data style function 
+            onEachFeature: function(feature, layer){
+                layer.bindPopup(`Zip Code: <b>${feature.properties.zip_code}</b><br>
+                                Temperature: <b>${feature.properties.temp}</b><br>
+                                Wind Speed: <b>${feature.properties.wind_speed}</b><br>
+                                Humidity: <b>${feature.properties.humidity}</b><br>
+                                Barometric Pressure: <b>${feature.properties.pressure}</b><br>
+                                Clouds: <b>${feature.properties.clouds}</b><br>
+                                `);
+            }
+        }).addTo(WeatherPoints);
+        WeatherPoints.addTo(myMap);
+    });
+
 // add each layer to the map
 // add the overlay for the tectonic plates and for the earthquakes
 let overlays = {
     "Earthquake Data": earthquakes,
     "Dog Friendliest Cities": dogPoints,
     "Happiest Cities": happiestPoints,
-    "InterGen Mobility Cities": IntergenerationalMobilityPoints
+    "InterGen Mobility Cities": IntergenerationalMobilityPoints,
+    "Weather Data": WeatherPoints
     
 };
 // add the Layer control
