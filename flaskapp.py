@@ -36,7 +36,7 @@ def welcome():
         f'<h3>/api/v1.0/happiest-cities</h3>'
         f'<h3>/api/v1.0/income-and-population</h3>'
         f'<h3>/api/v1.0/number-disasters-by-state</h3>'
-        #f'<h3>/api/v1.0/IntergenerationalMobility</h3>'
+        f'<h3>/api/v1.0/IntergenerationalMobility</h3>'
 
     )
 
@@ -99,11 +99,24 @@ def disasters():
   return result
 
 # New App Route Placeholder for Intergenerational Mobility
-#@app.route('/api/v1.0/IntergenerationalMobility')
-#def IntergenerationalMobility():
-#  data = engine.execute(''';''')
-#  result = json.dumps([dict(r) for r in data])
-#  return result
+@app.route('/api/v1.0/IntergenerationalMobility')
+def IntergenerationalMobility():
+  data = engine.execute('''SELECT cbsa.ZipCode,im.AbsoluteUpwardMobility,zips.Latitude,zips.Longitude
+      FROM IntergenerationalMobility im 
+      JOIN ZipCode_CBSA_Mapping cbsa ON im.CBSA=cbsa.CBSA
+      JOIN Zips zips ON cbsa.ZipCode=zips.US_Zip_Code
+      WHERE cbsa.ZipCode IN (SELECT ZipCode FROM ZipCodeCounts
+      WHERE RecordCount =1)
+      UNION ALL
+      SELECT cbsa.ZipCode,MAX(im.AbsoluteUpwardMobility) AS AbsoluteUpwardMobility,zips.Latitude,zips.Longitude
+      FROM IntergenerationalMobility im 
+      JOIN ZipCode_CBSA_Mapping cbsa ON im.CBSA=cbsa.CBSA
+      JOIN Zips zips ON cbsa.ZipCode=zips.US_Zip_Code
+      WHERE cbsa.ZipCode IN (SELECT ZipCode FROM ZipCodeCounts
+      WHERE RecordCount >1)
+      GROUP BY cbsa.ZipCode,zips.Latitude,zips.Longitude;''')
+  result = json.dumps([dict(r) for r in data])
+  return result
 
 if __name__ == '__main__':
     app.run(debug=True)
