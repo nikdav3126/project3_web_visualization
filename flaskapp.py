@@ -81,10 +81,10 @@ def happy():
 
 @app.route('/api/v1.0/income-and-population')
 def income():
-  data = engine.execute('''SELECT zips.primary_city, income_and_population.zipcode as states, income_and_population.avg_income, income_and_population.total_pop
+  data = engine.execute('''SELECT zips.primary_city, income_and_population.zipcode, income_and_population.avg_income, income_and_population.total_pop
     FROM zips
-    INNER JOIN income_and_population ON zips.us_zip_code=income_and_population.state
-    GROUP BY zips.primary_city, states, income_and_population.avg_income, income_and_population.total_pop;''')
+    INNER JOIN income_and_population ON zips.us_zip_code=income_and_population.zipcode
+    GROUP BY zips.primary_city, income_and_population.zipcode, income_and_population.avg_income, income_and_population.total_pop;''')
   result = json.dumps([dict(r) for r in data])
   return result
 
