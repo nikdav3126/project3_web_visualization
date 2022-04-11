@@ -1,25 +1,15 @@
 const natDisasters = "http://127.0.0.1:5000/api/v1.0/number-disasters-by-state";
-<<<<<<< Updated upstream
-=======
 const petFriendly = "http://127.0.0.1:5000/api/v1.0/petfriendly-rankings"
 const happiestCities = "http://127.0.0.1:5000/api/v1.0/happiest-cities"
->>>>>>> Stashed changes
-
 // Promise Pending
 const disasterPromise = d3.json(natDisasters);
-console.log("Data Promise: ", disasterPromise);
 
-<<<<<<< Updated upstream
-=======
 const petPromise = d3.json(petFriendly);
 
 const happiestPromise= d3.json(happiestCities);
->>>>>>> Stashed changes
 // Fetch the JSON data and console log it
 
 d3.json(natDisasters).then(function(data) {
-  console.log(data);
-
   var x = [];
   var y = [];
   for (var i = 0; i < data.length; i++) {
@@ -27,7 +17,7 @@ d3.json(natDisasters).then(function(data) {
     y.push((data[i].disasters));
   }
 
-  var trace = [
+  var disasterTrace = [
     {
       x,
       y,
@@ -35,20 +25,13 @@ d3.json(natDisasters).then(function(data) {
     }
   ];
 
-  var layout = {
+  var disasterLayout = {
     title: 'Number of Natural Disasters by State Since 1953',
     font:{
       family: 'Raleway, sans-serif'
     },
     bargap: 0.10
   };
-<<<<<<< Updated upstream
-  Plotly.newPlot('myDiv', trace, layout);
-
-  console.log(x)
-  console.log(y)
-})
-=======
   Plotly.newPlot('disasterDiv', disasterTrace, disasterLayout);
 });
 
@@ -104,13 +87,13 @@ Plotly.newPlot('happyDiv', happyData, happyLayout);
 d3.json(happiestCities).then(function(data){
   var x2 = [];
   var y3 = [];
-  
+
   for (var i=0; i<data.length; i++){
     if (data[i].emotional_physical < 15){
       x2.push((data[i].primary_city));
       y3.push(100-5*(data[i].emotional_physical));
   }};
-  
+
   var happy2trace = {
     x: x2,
     y: y3,
@@ -120,24 +103,24 @@ d3.json(happiestCities).then(function(data){
       color: 'rgb(175,0,255)'
     }
   };
-  
+
   var happyData = [happy2trace]
   var happyLayout = {barmode: 'bar', title: 'Highest Emotional & Physical Scores', xaxis:{tickangle:-45}};
   var happyConfig = {responsive: true};
-  
+
   Plotly.newPlot('happy1Div', happyData, happyLayout);
   });
 
 d3.json(happiestCities).then(function(data){
     var x2 = [];
     var y3 = [];
-    
+
     for (var i=0; i<data.length; i++){
       if (data[i].income_employment < 15){
         x2.push((data[i].primary_city));
         y3.push(100-5*(data[i].income_employment));
     }};
-    
+
     var happy2trace = {
       x: x2,
       y: y3,
@@ -147,7 +130,7 @@ d3.json(happiestCities).then(function(data){
         color: 'rgb(100,125,25)'
       }
     };
-    
+
     var happyData = [happy2trace]
     var happyLayout = {barmode: 'bar', title: 'Highest Income & Employment', xaxis:{tickangle:-45}};
     var happyConfig = {responsive: true};
@@ -157,13 +140,13 @@ d3.json(happiestCities).then(function(data){
 d3.json(happiestCities).then(function(data){
   var x2 = [];
   var y3 = [];
-      
+
   for (var i=0; i<data.length; i++){
     if (data[i].community_environment < 15){
       x2.push((data[i].primary_city));
       y3.push(100-5*(data[i].community_environment));
   }};
-      
+
   var happy2trace = {
     x: x2,
     y: y3,
@@ -173,7 +156,7 @@ d3.json(happiestCities).then(function(data){
       color: 'rgb(0,150,225)'
     }
   };
-      
+
   var happyData = [happy2trace]
   var happyLayout = {barmode: 'bar', title: 'Highest Community & Environment Scores', xaxis:{tickangle:-45}};
   var happyConfig = {responsive: true};
@@ -183,13 +166,13 @@ d3.json(happiestCities).then(function(data){
 d3.json(happiestCities).then(function(data){
   var x2 = [];
   var y3 = [];
-        
+
   for (var i=0; i<data.length; i++){
     if (data[i].overall_rank < 15){
       x2.push((data[i].primary_city));
       y3.push(100-5*(data[i].overall_rank));
   }};
-        
+
   var happy2trace = {
     x: x2,
     y: y3,
@@ -199,7 +182,7 @@ d3.json(happiestCities).then(function(data){
       color: 'rgb(175,225,0)'
     }
   };
-        
+
   var happyData = [happy2trace]
   var happyLayout = {barmode: 'bar', title: 'Highest Overall Happiness Scores', xaxis:{tickangle:-45}};
   var happyConfig = {responsive: true};
@@ -210,18 +193,18 @@ d3.json(petFriendly).then(function(data){
   var x1 = [];
   var y1 = [];
 
-  
+
   for (var i=0; i< data.length; i++){
     if (data[i].overall_rank < 100){
       x1.push((data[i].primary_city));
-      y1.push((data[i].overall_rank));  
-    }  
+      y1.push((data[i].overall_rank));
+    }
   }
   var petValues = [
     x1,
     y1]
-  
-  
+
+
   var petData = [{
     type: "table",
     header: {
@@ -241,4 +224,40 @@ d3.json(petFriendly).then(function(data){
   var petConfig = {responsive: true}
   Plotly.newPlot('petDiv', petData, petConfig);
   });
->>>>>>> Stashed changes
+  Plotly.newPlot('myDiv', disasterTrace, disasterLayout);
+});
+d3.json(petFriendly).then(function(data){
+var x1 = [];
+var y1 = [];
+
+for (var i=0; i< data.length; i++){
+  if (data[i].overall_rank < 50){
+    x1.push((data[i].primary_city));
+    y1.push((data[i].overall_rank));
+  }
+}
+
+console.log(x1)
+console.log(y1)
+var petValues = [
+  x1,
+  y1]
+
+
+var petData = [{
+  type: "table",
+  font:{
+    values: [['<b>City</b>'], ['<b>Pet Friendly Rank<b>']],
+    align: 'center',
+    line: {width: 1, color: 'black'},
+  },
+  cells: {
+    values: petValues,
+    align: 'center',
+    line: {color: 'black', width: 1},
+    font: {family: "Arial", size: 11, color: ['black']}
+  }
+}];
+
+Plotly.newPlot('myDiv1', petData);
+});

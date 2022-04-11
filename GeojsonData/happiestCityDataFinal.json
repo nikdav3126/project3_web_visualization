@@ -1,0 +1,2917 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.62,35.11 ]
+    },
+    "properties": {
+    "overallRank":121,
+    "City":"Albuquerque",
+    "State":" NM",
+    "totalScore":50.31,
+    "emotionalPhysicalWellbeing":82,
+    "incomeEmployment":101,
+    "communityEnvironment":176
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.51,43.56 ]
+    },
+    "properties": {
+    "overallRank":165,
+    "City":"Akron",
+    "State":" OH",
+    "totalScore":42.29,
+    "emotionalPhysicalWellbeing":162,
+    "incomeEmployment":168,
+    "communityEnvironment":112
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -101.71,35.26 ]
+    },
+    "properties": {
+    "overallRank":143,
+    "City":"Amarillo",
+    "State":" TX",
+    "totalScore":46.75,
+    "emotionalPhysicalWellbeing":159,
+    "incomeEmployment":76,
+    "communityEnvironment":70
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.74,33.86 ]
+    },
+    "properties": {
+    "overallRank":20,
+    "City":"Anaheim",
+    "State":" CA",
+    "totalScore":63.72,
+    "emotionalPhysicalWellbeing":25,
+    "incomeEmployment":75,
+    "communityEnvironment":33
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -150.63,61.45 ]
+    },
+    "properties": {
+    "overallRank":59,
+    "City":"Anchorage",
+    "State":" AK",
+    "totalScore":58.18,
+    "emotionalPhysicalWellbeing":60,
+    "incomeEmployment":102,
+    "communityEnvironment":54
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -121.67,48.18 ]
+    },
+    "properties": {
+    "overallRank":107,
+    "City":"Arlington",
+    "State":" TX",
+    "totalScore":52.14,
+    "emotionalPhysicalWellbeing":93,
+    "incomeEmployment":122,
+    "communityEnvironment":118
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.15,45 ]
+    },
+    "properties": {
+    "overallRank":93,
+    "City":"Atlanta",
+    "State":" GA",
+    "totalScore":54.27,
+    "emotionalPhysicalWellbeing":79,
+    "incomeEmployment":87,
+    "communityEnvironment":115
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -112.6,47.58 ]
+    },
+    "properties": {
+    "overallRank":176,
+    "City":"Augusta",
+    "State":" GA",
+    "totalScore":36.64,
+    "emotionalPhysicalWellbeing":178,
+    "incomeEmployment":162,
+    "communityEnvironment":135
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.24,47.53 ]
+    },
+    "properties": {
+    "overallRank":21,
+    "City":"Aurora",
+    "State":" IL",
+    "totalScore":63.6,
+    "emotionalPhysicalWellbeing":21,
+    "incomeEmployment":144,
+    "communityEnvironment":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.24,47.53 ]
+    },
+    "properties": {
+    "overallRank":42,
+    "City":"Aurora",
+    "State":" CO",
+    "totalScore":60.15,
+    "emotionalPhysicalWellbeing":19,
+    "incomeEmployment":154,
+    "communityEnvironment":69
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.97,43.67 ]
+    },
+    "properties": {
+    "overallRank":30,
+    "City":"Austin",
+    "State":" TX",
+    "totalScore":62.04,
+    "emotionalPhysicalWellbeing":35,
+    "incomeEmployment":5,
+    "communityEnvironment":109
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.8,44.78 ]
+    },
+    "properties": {
+    "overallRank":126,
+    "City":"Bakersfield",
+    "State":" CA",
+    "totalScore":49.98,
+    "emotionalPhysicalWellbeing":132,
+    "incomeEmployment":103,
+    "communityEnvironment":100
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.6,39.84 ]
+    },
+    "properties": {
+    "overallRank":149,
+    "City":"Baltimore",
+    "State":" MD",
+    "totalScore":45.97,
+    "emotionalPhysicalWellbeing":142,
+    "incomeEmployment":178,
+    "communityEnvironment":84
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.18,30.45 ]
+    },
+    "properties": {
+    "overallRank":158,
+    "City":"Baton Rouge",
+    "State":" LA",
+    "totalScore":44.37,
+    "emotionalPhysicalWellbeing":156,
+    "incomeEmployment":90,
+    "communityEnvironment":152
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -108.47,45.87 ]
+    },
+    "properties": {
+    "overallRank":105,
+    "City":"Billings",
+    "State":" MT",
+    "totalScore":52.51,
+    "emotionalPhysicalWellbeing":122,
+    "incomeEmployment":26,
+    "communityEnvironment":107
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -83.21,42.54 ]
+    },
+    "properties": {
+    "overallRank":170,
+    "City":"Birmingham",
+    "State":" AL",
+    "totalScore":39.54,
+    "emotionalPhysicalWellbeing":168,
+    "incomeEmployment":158,
+    "communityEnvironment":162
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -100.75,46.91 ]
+    },
+    "properties": {
+    "overallRank":13,
+    "City":"Bismarck",
+    "State":" ND",
+    "totalScore":64.65,
+    "emotionalPhysicalWellbeing":48,
+    "incomeEmployment":32,
+    "communityEnvironment":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.2,43.74 ]
+    },
+    "properties": {
+    "overallRank":62,
+    "City":"Boise",
+    "State":" ID",
+    "totalScore":58.09,
+    "emotionalPhysicalWellbeing":59,
+    "incomeEmployment":13,
+    "communityEnvironment":119
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.72,42.61 ]
+    },
+    "properties": {
+    "overallRank":36,
+    "City":"Boston",
+    "State":" MA",
+    "totalScore":61.07,
+    "emotionalPhysicalWellbeing":43,
+    "incomeEmployment":15,
+    "communityEnvironment":89
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.59,47.97 ]
+    },
+    "properties": {
+    "overallRank":68,
+    "City":"Bridgeport",
+    "State":" CT",
+    "totalScore":57.34,
+    "emotionalPhysicalWellbeing":42,
+    "incomeEmployment":165,
+    "communityEnvironment":91
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.94,44.38 ]
+    },
+    "properties": {
+    "overallRank":125,
+    "City":"Brownsville",
+    "State":" TX",
+    "totalScore":50.05,
+    "emotionalPhysicalWellbeing":133,
+    "incomeEmployment":73,
+    "communityEnvironment":122
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.55,46.92 ]
+    },
+    "properties": {
+    "overallRank":136,
+    "City":"Buffalo",
+    "State":" NY",
+    "totalScore":48.2,
+    "emotionalPhysicalWellbeing":121,
+    "incomeEmployment":136,
+    "communityEnvironment":157
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.31,48.53 ]
+    },
+    "properties": {
+    "overallRank":40,
+    "City":"Burlington",
+    "State":" VT",
+    "totalScore":60.32,
+    "emotionalPhysicalWellbeing":34,
+    "incomeEmployment":9,
+    "communityEnvironment":170
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.99,26.63 ]
+    },
+    "properties": {
+    "overallRank":63,
+    "City":"Cape Coral",
+    "State":" FL",
+    "totalScore":58.05,
+    "emotionalPhysicalWellbeing":89,
+    "incomeEmployment":45,
+    "communityEnvironment":9
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.32,42.83 ]
+    },
+    "properties": {
+    "overallRank":79,
+    "City":"Casper",
+    "State":" WY",
+    "totalScore":55.76,
+    "emotionalPhysicalWellbeing":127,
+    "incomeEmployment":123,
+    "communityEnvironment":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.66,41.97 ]
+    },
+    "properties": {
+    "overallRank":29,
+    "City":"Cedar Rapids",
+    "State":" IA",
+    "totalScore":62.22,
+    "emotionalPhysicalWellbeing":38,
+    "incomeEmployment":83,
+    "communityEnvironment":40
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.94,43.92 ]
+    },
+    "properties": {
+    "overallRank":45,
+    "City":"Chandler",
+    "State":" AZ",
+    "totalScore":59.62,
+    "emotionalPhysicalWellbeing":58,
+    "incomeEmployment":60,
+    "communityEnvironment":38
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.04,45.08 ]
+    },
+    "properties": {
+    "overallRank":26,
+    "City":"Charleston",
+    "State":" SC",
+    "totalScore":62.76,
+    "emotionalPhysicalWellbeing":53,
+    "incomeEmployment":3,
+    "communityEnvironment":31
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.04,45.08 ]
+    },
+    "properties": {
+    "overallRank":172,
+    "City":"Charleston",
+    "State":" WV",
+    "totalScore":39.13,
+    "emotionalPhysicalWellbeing":173,
+    "incomeEmployment":81,
+    "communityEnvironment":173
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.25,44.3 ]
+    },
+    "properties": {
+    "overallRank":67,
+    "City":"Charlotte",
+    "State":" NC",
+    "totalScore":57.61,
+    "emotionalPhysicalWellbeing":61,
+    "incomeEmployment":78,
+    "communityEnvironment":68
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.25,35.06 ]
+    },
+    "properties": {
+    "overallRank":166,
+    "City":"Chattanooga",
+    "State":" TN",
+    "totalScore":42.24,
+    "emotionalPhysicalWellbeing":165,
+    "incomeEmployment":141,
+    "communityEnvironment":120
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.45,38.43 ]
+    },
+    "properties": {
+    "overallRank":69,
+    "City":"Chesapeake",
+    "State":" VA",
+    "totalScore":57.32,
+    "emotionalPhysicalWellbeing":81,
+    "incomeEmployment":145,
+    "communityEnvironment":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.79,41.14 ]
+    },
+    "properties": {
+    "overallRank":50,
+    "City":"Cheyenne",
+    "State":" WY",
+    "totalScore":59.05,
+    "emotionalPhysicalWellbeing":101,
+    "incomeEmployment":47,
+    "communityEnvironment":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.9,41.98 ]
+    },
+    "properties": {
+    "overallRank":56,
+    "City":"Chicago",
+    "State":" IL",
+    "totalScore":58.43,
+    "emotionalPhysicalWellbeing":47,
+    "incomeEmployment":166,
+    "communityEnvironment":46
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.94,32.66 ]
+    },
+    "properties": {
+    "overallRank":25,
+    "City":"Chula Vista",
+    "State":" CA",
+    "totalScore":63.01,
+    "emotionalPhysicalWellbeing":17,
+    "incomeEmployment":113,
+    "communityEnvironment":30
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.92,40.63 ]
+    },
+    "properties": {
+    "overallRank":154,
+    "City":"Cincinnati",
+    "State":" OH",
+    "totalScore":45.15,
+    "emotionalPhysicalWellbeing":139,
+    "incomeEmployment":147,
+    "communityEnvironment":163
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.12,46.89 ]
+    },
+    "properties": {
+    "overallRank":177,
+    "City":"Cleveland",
+    "State":" OH",
+    "totalScore":36.52,
+    "emotionalPhysicalWellbeing":170,
+    "incomeEmployment":156,
+    "communityEnvironment":180
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -104.7,38.94 ]
+    },
+    "properties": {
+    "overallRank":64,
+    "City":"Colorado Springs",
+    "State":" CO",
+    "totalScore":57.74,
+    "emotionalPhysicalWellbeing":63,
+    "incomeEmployment":97,
+    "communityEnvironment":59
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.31,45.61 ]
+    },
+    "properties": {
+    "overallRank":2,
+    "City":"Columbia",
+    "State":" MD",
+    "totalScore":71.64,
+    "emotionalPhysicalWellbeing":3,
+    "incomeEmployment":161,
+    "communityEnvironment":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.31,45.61 ]
+    },
+    "properties": {
+    "overallRank":77,
+    "City":"Columbia",
+    "State":" SC",
+    "totalScore":56.62,
+    "emotionalPhysicalWellbeing":108,
+    "incomeEmployment":4,
+    "communityEnvironment":37
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -102.78,48.9 ]
+    },
+    "properties": {
+    "overallRank":134,
+    "City":"Columbus",
+    "State":" OH",
+    "totalScore":48.28,
+    "emotionalPhysicalWellbeing":128,
+    "incomeEmployment":138,
+    "communityEnvironment":145
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -102.78,48.9 ]
+    },
+    "properties": {
+    "overallRank":167,
+    "City":"Columbus",
+    "State":" GA",
+    "totalScore":40.9,
+    "emotionalPhysicalWellbeing":177,
+    "incomeEmployment":131,
+    "communityEnvironment":65
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.39,27.8 ]
+    },
+    "properties": {
+    "overallRank":139,
+    "City":"Corpus Christi",
+    "State":" TX",
+    "totalScore":47.54,
+    "emotionalPhysicalWellbeing":137,
+    "incomeEmployment":62,
+    "communityEnvironment":159
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.81,45.25 ]
+    },
+    "properties": {
+    "overallRank":111,
+    "City":"Dallas",
+    "State":" TX",
+    "totalScore":51.5,
+    "emotionalPhysicalWellbeing":90,
+    "incomeEmployment":93,
+    "communityEnvironment":154
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.33,42.67 ]
+    },
+    "properties": {
+    "overallRank":57,
+    "City":"Denver",
+    "State":" CO",
+    "totalScore":58.41,
+    "emotionalPhysicalWellbeing":16,
+    "incomeEmployment":134,
+    "communityEnvironment":153
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.6,41.6 ]
+    },
+    "properties": {
+    "overallRank":76,
+    "City":"Des Moines",
+    "State":" IA",
+    "totalScore":56.65,
+    "emotionalPhysicalWellbeing":70,
+    "incomeEmployment":68,
+    "communityEnvironment":81
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.29,44.79 ]
+    },
+    "properties": {
+    "overallRank":182,
+    "City":"Detroit",
+    "State":" MI",
+    "totalScore":32.31,
+    "emotionalPhysicalWellbeing":179,
+    "incomeEmployment":179,
+    "communityEnvironment":177
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.6,48.25 ]
+    },
+    "properties": {
+    "overallRank":151,
+    "City":"Dover",
+    "State":" DE",
+    "totalScore":45.74,
+    "emotionalPhysicalWellbeing":151,
+    "incomeEmployment":92,
+    "communityEnvironment":155
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.12,43.92 ]
+    },
+    "properties": {
+    "overallRank":74,
+    "City":"Durham",
+    "State":" NC",
+    "totalScore":56.92,
+    "emotionalPhysicalWellbeing":54,
+    "incomeEmployment":69,
+    "communityEnvironment":123
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.01,40.73 ]
+    },
+    "properties": {
+    "overallRank":120,
+    "City":"El Paso",
+    "State":" TX",
+    "totalScore":50.31,
+    "emotionalPhysicalWellbeing":109,
+    "incomeEmployment":130,
+    "communityEnvironment":132
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.81,46.87 ]
+    },
+    "properties": {
+    "overallRank":11,
+    "City":"Fargo",
+    "State":" ND",
+    "totalScore":65.46,
+    "emotionalPhysicalWellbeing":22,
+    "incomeEmployment":24,
+    "communityEnvironment":23
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76,43.02 ]
+    },
+    "properties": {
+    "overallRank":168,
+    "City":"Fayetteville",
+    "State":" NC",
+    "totalScore":40.83,
+    "emotionalPhysicalWellbeing":161,
+    "incomeEmployment":155,
+    "communityEnvironment":171
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.55,42.54 ]
+    },
+    "properties": {
+    "overallRank":99,
+    "City":"Fontana",
+    "State":" CA",
+    "totalScore":53.44,
+    "emotionalPhysicalWellbeing":118,
+    "incomeEmployment":95,
+    "communityEnvironment":34
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.13,26.14 ]
+    },
+    "properties": {
+    "overallRank":66,
+    "City":"Fort Lauderdale",
+    "State":" FL",
+    "totalScore":57.65,
+    "emotionalPhysicalWellbeing":67,
+    "incomeEmployment":84,
+    "communityEnvironment":62
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -107.93,45.24 ]
+    },
+    "properties": {
+    "overallRank":175,
+    "City":"Fort Smith",
+    "State":" AR",
+    "totalScore":37.45,
+    "emotionalPhysicalWellbeing":180,
+    "incomeEmployment":61,
+    "communityEnvironment":158
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.13,41.07 ]
+    },
+    "properties": {
+    "overallRank":155,
+    "City":"Fort Wayne",
+    "State":" IN",
+    "totalScore":45,
+    "emotionalPhysicalWellbeing":154,
+    "incomeEmployment":149,
+    "communityEnvironment":117
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.33,32.75 ]
+    },
+    "properties": {
+    "overallRank":103,
+    "City":"Fort Worth",
+    "State":" TX",
+    "totalScore":52.85,
+    "emotionalPhysicalWellbeing":97,
+    "incomeEmployment":124,
+    "communityEnvironment":83
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.87,44.25 ]
+    },
+    "properties": {
+    "overallRank":1,
+    "City":"Fremont",
+    "State":" CA",
+    "totalScore":77.13,
+    "emotionalPhysicalWellbeing":1,
+    "incomeEmployment":46,
+    "communityEnvironment":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.75,40.36 ]
+    },
+    "properties": {
+    "overallRank":123,
+    "City":"Fresno",
+    "State":" CA",
+    "totalScore":50.1,
+    "emotionalPhysicalWellbeing":123,
+    "incomeEmployment":86,
+    "communityEnvironment":136
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.6,40.82 ]
+    },
+    "properties": {
+    "overallRank":24,
+    "City":"Garden Grove",
+    "State":" CA",
+    "totalScore":63.15,
+    "emotionalPhysicalWellbeing":24,
+    "incomeEmployment":80,
+    "communityEnvironment":52
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.16,45.03 ]
+    },
+    "properties": {
+    "overallRank":97,
+    "City":"Garland",
+    "State":" TX",
+    "totalScore":53.82,
+    "emotionalPhysicalWellbeing":92,
+    "incomeEmployment":108,
+    "communityEnvironment":67
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.46,47.49 ]
+    },
+    "properties": {
+    "overallRank":34,
+    "City":"Gilbert",
+    "State":" AZ",
+    "totalScore":61.72,
+    "emotionalPhysicalWellbeing":55,
+    "incomeEmployment":34,
+    "communityEnvironment":17
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.4,42.79 ]
+    },
+    "properties": {
+    "overallRank":18,
+    "City":"Glendale",
+    "State":" CA",
+    "totalScore":64.05,
+    "emotionalPhysicalWellbeing":31,
+    "incomeEmployment":91,
+    "communityEnvironment":11
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.4,42.79 ]
+    },
+    "properties": {
+    "overallRank":108,
+    "City":"Glendale",
+    "State":" AZ",
+    "totalScore":51.84,
+    "emotionalPhysicalWellbeing":106,
+    "incomeEmployment":112,
+    "communityEnvironment":114
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.01,32.69 ]
+    },
+    "properties": {
+    "overallRank":83,
+    "City":"Grand Prairie",
+    "State":" TX",
+    "totalScore":55.08,
+    "emotionalPhysicalWellbeing":98,
+    "incomeEmployment":89,
+    "communityEnvironment":42
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.52,47.22 ]
+    },
+    "properties": {
+    "overallRank":92,
+    "City":"Grand Rapids",
+    "State":" MI",
+    "totalScore":54.32,
+    "emotionalPhysicalWellbeing":104,
+    "incomeEmployment":53,
+    "communityEnvironment":66
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.28,44.58 ]
+    },
+    "properties": {
+    "overallRank":137,
+    "City":"Greensboro",
+    "State":" NC",
+    "totalScore":48.12,
+    "emotionalPhysicalWellbeing":129,
+    "incomeEmployment":70,
+    "communityEnvironment":167
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.06,30.38 ]
+    },
+    "properties": {
+    "overallRank":181,
+    "City":"Gulfport",
+    "State":" MS",
+    "totalScore":34.71,
+    "emotionalPhysicalWellbeing":181,
+    "incomeEmployment":153,
+    "communityEnvironment":151
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.9,44.53 ]
+    },
+    "properties": {
+    "overallRank":98,
+    "City":"Henderson",
+    "State":" NV",
+    "totalScore":53.72,
+    "emotionalPhysicalWellbeing":87,
+    "incomeEmployment":143,
+    "communityEnvironment":58
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.29,25.86 ]
+    },
+    "properties": {
+    "overallRank":94,
+    "City":"Hialeah",
+    "State":" FL",
+    "totalScore":54.2,
+    "emotionalPhysicalWellbeing":66,
+    "incomeEmployment":157,
+    "communityEnvironment":110
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -157.87,21.35 ]
+    },
+    "properties": {
+    "overallRank":28,
+    "City":"Honolulu",
+    "State":" HI",
+    "totalScore":62.24,
+    "emotionalPhysicalWellbeing":44,
+    "incomeEmployment":72,
+    "communityEnvironment":21
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -149.68,61.66 ]
+    },
+    "properties": {
+    "overallRank":112,
+    "City":"Houston",
+    "State":" TX",
+    "totalScore":51.41,
+    "emotionalPhysicalWellbeing":74,
+    "incomeEmployment":140,
+    "communityEnvironment":164
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.38,44.45 ]
+    },
+    "properties": {
+    "overallRank":179,
+    "City":"Huntington",
+    "State":" WV",
+    "totalScore":35.53,
+    "emotionalPhysicalWellbeing":182,
+    "incomeEmployment":39,
+    "communityEnvironment":141
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118,33.72 ]
+    },
+    "properties": {
+    "overallRank":9,
+    "City":"Huntington Beach",
+    "State":" CA",
+    "totalScore":66.43,
+    "emotionalPhysicalWellbeing":9,
+    "incomeEmployment":51,
+    "communityEnvironment":43
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.69,41.28 ]
+    },
+    "properties": {
+    "overallRank":140,
+    "City":"Huntsville",
+    "State":" AL",
+    "totalScore":46.79,
+    "emotionalPhysicalWellbeing":152,
+    "incomeEmployment":119,
+    "communityEnvironment":79
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.16,39.77 ]
+    },
+    "properties": {
+    "overallRank":160,
+    "City":"Indianapolis",
+    "State":" IN",
+    "totalScore":43.7,
+    "emotionalPhysicalWellbeing":150,
+    "incomeEmployment":177,
+    "communityEnvironment":131
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.18,41.84 ]
+    },
+    "properties": {
+    "overallRank":5,
+    "City":"Irvine",
+    "State":" CA",
+    "totalScore":70.38,
+    "emotionalPhysicalWellbeing":5,
+    "incomeEmployment":16,
+    "communityEnvironment":12
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.04,42.56 ]
+    },
+    "properties": {
+    "overallRank":89,
+    "City":"Irving",
+    "State":" TX",
+    "totalScore":54.73,
+    "emotionalPhysicalWellbeing":85,
+    "incomeEmployment":55,
+    "communityEnvironment":98
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -113.35,45.31 ]
+    },
+    "properties": {
+    "overallRank":169,
+    "City":"Jackson",
+    "State":" MS",
+    "totalScore":40.6,
+    "emotionalPhysicalWellbeing":160,
+    "incomeEmployment":159,
+    "communityEnvironment":174
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.82,42.79 ]
+    },
+    "properties": {
+    "overallRank":127,
+    "City":"Jacksonville",
+    "State":" FL",
+    "totalScore":49.89,
+    "emotionalPhysicalWellbeing":147,
+    "incomeEmployment":109,
+    "communityEnvironment":36
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.08,40.72 ]
+    },
+    "properties": {
+    "overallRank":43,
+    "City":"Jersey City",
+    "State":" NJ",
+    "totalScore":59.74,
+    "emotionalPhysicalWellbeing":40,
+    "incomeEmployment":170,
+    "communityEnvironment":20
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -134.77,58.58 ]
+    },
+    "properties": {
+    "overallRank":48,
+    "City":"Juneau",
+    "State":" AK",
+    "totalScore":59.27,
+    "emotionalPhysicalWellbeing":32,
+    "incomeEmployment":14,
+    "communityEnvironment":179
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.62,39.1 ]
+    },
+    "properties": {
+    "overallRank":152,
+    "City":"Kansas City",
+    "State":" MO",
+    "totalScore":45.61,
+    "emotionalPhysicalWellbeing":140,
+    "incomeEmployment":128,
+    "communityEnvironment":166
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.43,41.95 ]
+    },
+    "properties": {
+    "overallRank":164,
+    "City":"Knoxville",
+    "State":" TN",
+    "totalScore":43.1,
+    "emotionalPhysicalWellbeing":169,
+    "incomeEmployment":59,
+    "communityEnvironment":94
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.44,40.02 ]
+    },
+    "properties": {
+    "overallRank":115,
+    "City":"Laredo",
+    "State":" TX",
+    "totalScore":50.64,
+    "emotionalPhysicalWellbeing":105,
+    "incomeEmployment":50,
+    "communityEnvironment":165
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.75,32.33 ]
+    },
+    "properties": {
+    "overallRank":128,
+    "City":"Las Cruces",
+    "State":" NM",
+    "totalScore":49.74,
+    "emotionalPhysicalWellbeing":110,
+    "incomeEmployment":118,
+    "communityEnvironment":156
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -115.35,36.32 ]
+    },
+    "properties": {
+    "overallRank":133,
+    "City":"Las Vegas",
+    "State":" NV",
+    "totalScore":48.61,
+    "emotionalPhysicalWellbeing":124,
+    "incomeEmployment":169,
+    "communityEnvironment":95
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.92,46.16 ]
+    },
+    "properties": {
+    "overallRank":144,
+    "City":"Lewiston",
+    "State":" ME",
+    "totalScore":46.71,
+    "emotionalPhysicalWellbeing":166,
+    "incomeEmployment":12,
+    "communityEnvironment":78
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.46,47.83 ]
+    },
+    "properties": {
+    "overallRank":35,
+    "City":"Lincoln",
+    "State":" NE",
+    "totalScore":61.1,
+    "emotionalPhysicalWellbeing":27,
+    "incomeEmployment":67,
+    "communityEnvironment":104
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.88,43.44 ]
+    },
+    "properties": {
+    "overallRank":163,
+    "City":"Little Rock",
+    "State":" AR",
+    "totalScore":43.25,
+    "emotionalPhysicalWellbeing":164,
+    "incomeEmployment":133,
+    "communityEnvironment":106
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -124.03,46.39 ]
+    },
+    "properties": {
+    "overallRank":60,
+    "City":"Long Beach",
+    "State":" CA",
+    "totalScore":58.13,
+    "emotionalPhysicalWellbeing":41,
+    "incomeEmployment":142,
+    "communityEnvironment":101
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.33,34.13 ]
+    },
+    "properties": {
+    "overallRank":54,
+    "City":"Los Angeles",
+    "State":" CA",
+    "totalScore":58.7,
+    "emotionalPhysicalWellbeing":39,
+    "incomeEmployment":85,
+    "communityEnvironment":128
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.16,40.99 ]
+    },
+    "properties": {
+    "overallRank":159,
+    "City":"Louisville",
+    "State":" KY",
+    "totalScore":44.1,
+    "emotionalPhysicalWellbeing":158,
+    "incomeEmployment":151,
+    "communityEnvironment":111
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -101.87,33.57 ]
+    },
+    "properties": {
+    "overallRank":157,
+    "City":"Lubbock",
+    "State":" TX",
+    "totalScore":44.89,
+    "emotionalPhysicalWellbeing":157,
+    "incomeEmployment":23,
+    "communityEnvironment":168
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.18,45.01 ]
+    },
+    "properties": {
+    "overallRank":6,
+    "City":"Madison",
+    "State":" WI",
+    "totalScore":68.1,
+    "emotionalPhysicalWellbeing":10,
+    "incomeEmployment":11,
+    "communityEnvironment":19
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.54,47.55 ]
+    },
+    "properties": {
+    "overallRank":90,
+    "City":"Manchester",
+    "State":" NH",
+    "totalScore":54.66,
+    "emotionalPhysicalWellbeing":84,
+    "incomeEmployment":129,
+    "communityEnvironment":57
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.37,43.08 ]
+    },
+    "properties": {
+    "overallRank":180,
+    "City":"Memphis",
+    "State":" TN",
+    "totalScore":34.86,
+    "emotionalPhysicalWellbeing":176,
+    "incomeEmployment":181,
+    "communityEnvironment":172
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.15,46.58 ]
+    },
+    "properties": {
+    "overallRank":87,
+    "City":"Mesa",
+    "State":" AZ",
+    "totalScore":55.01,
+    "emotionalPhysicalWellbeing":86,
+    "incomeEmployment":77,
+    "communityEnvironment":64
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.97,40.6 ]
+    },
+    "properties": {
+    "overallRank":75,
+    "City":"Miami",
+    "State":" FL",
+    "totalScore":56.78,
+    "emotionalPhysicalWellbeing":56,
+    "incomeEmployment":52,
+    "communityEnvironment":142
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -87.96,43.06 ]
+    },
+    "properties": {
+    "overallRank":114,
+    "City":"Milwaukee",
+    "State":" WI",
+    "totalScore":50.76,
+    "emotionalPhysicalWellbeing":103,
+    "incomeEmployment":152,
+    "communityEnvironment":113
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.26,44.98 ]
+    },
+    "properties": {
+    "overallRank":12,
+    "City":"Minneapolis",
+    "State":" MN",
+    "totalScore":65.09,
+    "emotionalPhysicalWellbeing":8,
+    "incomeEmployment":20,
+    "communityEnvironment":80
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -114.12,46.98 ]
+    },
+    "properties": {
+    "overallRank":73,
+    "City":"Missoula",
+    "State":" MT",
+    "totalScore":57.12,
+    "emotionalPhysicalWellbeing":88,
+    "incomeEmployment":40,
+    "communityEnvironment":28
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.04,30.69 ]
+    },
+    "properties": {
+    "overallRank":174,
+    "City":"Mobile",
+    "State":" AL",
+    "totalScore":38.94,
+    "emotionalPhysicalWellbeing":171,
+    "incomeEmployment":172,
+    "communityEnvironment":124
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.98,39.47 ]
+    },
+    "properties": {
+    "overallRank":101,
+    "City":"Modesto",
+    "State":" CA",
+    "totalScore":53.21,
+    "emotionalPhysicalWellbeing":112,
+    "incomeEmployment":42,
+    "communityEnvironment":92
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.63,44.9 ]
+    },
+    "properties": {
+    "overallRank":178,
+    "City":"Montgomery",
+    "State":" AL",
+    "totalScore":35.54,
+    "emotionalPhysicalWellbeing":174,
+    "incomeEmployment":180,
+    "communityEnvironment":161
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.25,33.97 ]
+    },
+    "properties": {
+    "overallRank":102,
+    "City":"Moreno Valley",
+    "State":" CA",
+    "totalScore":53.11,
+    "emotionalPhysicalWellbeing":120,
+    "incomeEmployment":116,
+    "communityEnvironment":26
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.62,43.7 ]
+    },
+    "properties": {
+    "overallRank":124,
+    "City":"Nampa",
+    "State":" ID",
+    "totalScore":50.06,
+    "emotionalPhysicalWellbeing":145,
+    "incomeEmployment":99,
+    "communityEnvironment":39
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.27,48.27 ]
+    },
+    "properties": {
+    "overallRank":61,
+    "City":"Nashua",
+    "State":" NH",
+    "totalScore":58.11,
+    "emotionalPhysicalWellbeing":68,
+    "incomeEmployment":104,
+    "communityEnvironment":35
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.09,42.6 ]
+    },
+    "properties": {
+    "overallRank":109,
+    "City":"Nashville",
+    "State":" TN",
+    "totalScore":51.83,
+    "emotionalPhysicalWellbeing":117,
+    "incomeEmployment":107,
+    "communityEnvironment":74
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.09,43.04 ]
+    },
+    "properties": {
+    "overallRank":132,
+    "City":"Newark",
+    "State":" NJ",
+    "totalScore":48.75,
+    "emotionalPhysicalWellbeing":111,
+    "incomeEmployment":182,
+    "communityEnvironment":73
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.15,44.12 ]
+    },
+    "properties": {
+    "overallRank":118,
+    "City":"New Haven",
+    "State":" CT",
+    "totalScore":50.58,
+    "emotionalPhysicalWellbeing":77,
+    "incomeEmployment":115,
+    "communityEnvironment":178
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.93,30.06 ]
+    },
+    "properties": {
+    "overallRank":147,
+    "City":"New Orleans",
+    "State":" LA",
+    "totalScore":46.35,
+    "emotionalPhysicalWellbeing":146,
+    "incomeEmployment":111,
+    "communityEnvironment":146
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.51,37.07 ]
+    },
+    "properties": {
+    "overallRank":146,
+    "City":"Newport News",
+    "State":" VA",
+    "totalScore":46.38,
+    "emotionalPhysicalWellbeing":141,
+    "incomeEmployment":174,
+    "communityEnvironment":72
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.98,40.77 ]
+    },
+    "properties": {
+    "overallRank":58,
+    "City":"New York",
+    "State":" NY",
+    "totalScore":58.35,
+    "emotionalPhysicalWellbeing":46,
+    "incomeEmployment":164,
+    "communityEnvironment":51
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.98,44.8 ]
+    },
+    "properties": {
+    "overallRank":113,
+    "City":"Norfolk",
+    "State":" VA",
+    "totalScore":50.85,
+    "emotionalPhysicalWellbeing":102,
+    "incomeEmployment":167,
+    "communityEnvironment":96
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -114.88,36.37 ]
+    },
+    "properties": {
+    "overallRank":135,
+    "City":"North Las Vegas",
+    "State":" NV",
+    "totalScore":48.21,
+    "emotionalPhysicalWellbeing":135,
+    "incomeEmployment":175,
+    "communityEnvironment":61
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.71,44.55 ]
+    },
+    "properties": {
+    "overallRank":16,
+    "City":"Oakland",
+    "State":" CA",
+    "totalScore":64.35,
+    "emotionalPhysicalWellbeing":7,
+    "incomeEmployment":105,
+    "communityEnvironment":87
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.96,45.45 ]
+    },
+    "properties": {
+    "overallRank":33,
+    "City":"Oceanside",
+    "State":" CA",
+    "totalScore":61.72,
+    "emotionalPhysicalWellbeing":30,
+    "incomeEmployment":110,
+    "communityEnvironment":53
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.56,35.52 ]
+    },
+    "properties": {
+    "overallRank":148,
+    "City":"Oklahoma City",
+    "State":" OK",
+    "totalScore":46.32,
+    "emotionalPhysicalWellbeing":155,
+    "incomeEmployment":135,
+    "communityEnvironment":82
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.01,41.26 ]
+    },
+    "properties": {
+    "overallRank":47,
+    "City":"Omaha",
+    "State":" NE",
+    "totalScore":59.48,
+    "emotionalPhysicalWellbeing":52,
+    "incomeEmployment":79,
+    "communityEnvironment":56
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.01,44.08 ]
+    },
+    "properties": {
+    "overallRank":96,
+    "City":"Ontario",
+    "State":" CA",
+    "totalScore":53.97,
+    "emotionalPhysicalWellbeing":119,
+    "incomeEmployment":64,
+    "communityEnvironment":32
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.56,38.89 ]
+    },
+    "properties": {
+    "overallRank":91,
+    "City":"Orlando",
+    "State":" FL",
+    "totalScore":54.59,
+    "emotionalPhysicalWellbeing":96,
+    "incomeEmployment":19,
+    "communityEnvironment":108
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.68,38.9 ]
+    },
+    "properties": {
+    "overallRank":8,
+    "City":"Overland Park",
+    "State":" KS",
+    "totalScore":67.46,
+    "emotionalPhysicalWellbeing":12,
+    "incomeEmployment":54,
+    "communityEnvironment":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.16,34.25 ]
+    },
+    "properties": {
+    "overallRank":23,
+    "City":"Oxnard",
+    "State":" CA",
+    "totalScore":63.29,
+    "emotionalPhysicalWellbeing":26,
+    "incomeEmployment":132,
+    "communityEnvironment":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.82,42.26 ]
+    },
+    "properties": {
+    "overallRank":32,
+    "City":"Pearl City",
+    "State":" HI",
+    "totalScore":61.78,
+    "emotionalPhysicalWellbeing":36,
+    "incomeEmployment":148,
+    "communityEnvironment":22
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.34,26 ]
+    },
+    "properties": {
+    "overallRank":39,
+    "City":"Pembroke Pines",
+    "State":" FL",
+    "totalScore":60.59,
+    "emotionalPhysicalWellbeing":51,
+    "incomeEmployment":125,
+    "communityEnvironment":15
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.6,40.74 ]
+    },
+    "properties": {
+    "overallRank":52,
+    "City":"Peoria",
+    "State":" AZ",
+    "totalScore":58.84,
+    "emotionalPhysicalWellbeing":72,
+    "incomeEmployment":58,
+    "communityEnvironment":16
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.7,44.15 ]
+    },
+    "properties": {
+    "overallRank":141,
+    "City":"Philadelphia",
+    "State":" PA",
+    "totalScore":46.78,
+    "emotionalPhysicalWellbeing":148,
+    "incomeEmployment":146,
+    "communityEnvironment":75
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.29,43.23 ]
+    },
+    "properties": {
+    "overallRank":119,
+    "City":"Phoenix",
+    "State":" AZ",
+    "totalScore":50.39,
+    "emotionalPhysicalWellbeing":91,
+    "incomeEmployment":106,
+    "communityEnvironment":169
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.99,40.44 ]
+    },
+    "properties": {
+    "overallRank":65,
+    "City":"Pittsburgh",
+    "State":" PA",
+    "totalScore":57.72,
+    "emotionalPhysicalWellbeing":80,
+    "incomeEmployment":29,
+    "communityEnvironment":41
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.53,41.66 ]
+    },
+    "properties": {
+    "overallRank":22,
+    "City":"Plano",
+    "State":" TX",
+    "totalScore":63.33,
+    "emotionalPhysicalWellbeing":37,
+    "incomeEmployment":48,
+    "communityEnvironment":24
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.36,47.49 ]
+    },
+    "properties": {
+    "overallRank":31,
+    "City":"Portland",
+    "State":" ME",
+    "totalScore":61.96,
+    "emotionalPhysicalWellbeing":28,
+    "incomeEmployment":10,
+    "communityEnvironment":150
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.36,47.49 ]
+    },
+    "properties": {
+    "overallRank":41,
+    "City":"Portland",
+    "State":" OR",
+    "totalScore":60.31,
+    "emotionalPhysicalWellbeing":49,
+    "incomeEmployment":21,
+    "communityEnvironment":88
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.41,41.82 ]
+    },
+    "properties": {
+    "overallRank":88,
+    "City":"Providence",
+    "State":" RI",
+    "totalScore":54.84,
+    "emotionalPhysicalWellbeing":113,
+    "incomeEmployment":25,
+    "communityEnvironment":47
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -101.3,46.36 ]
+    },
+    "properties": {
+    "overallRank":27,
+    "City":"Raleigh",
+    "State":" NC",
+    "totalScore":62.35,
+    "emotionalPhysicalWellbeing":23,
+    "incomeEmployment":71,
+    "communityEnvironment":63
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.61,34.19 ]
+    },
+    "properties": {
+    "overallRank":71,
+    "City":"Rancho Cucamonga",
+    "State":" CA",
+    "totalScore":57.13,
+    "emotionalPhysicalWellbeing":83,
+    "incomeEmployment":36,
+    "communityEnvironment":48
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.28,44.83 ]
+    },
+    "properties": {
+    "overallRank":72,
+    "City":"Rapid City",
+    "State":" SD",
+    "totalScore":57.12,
+    "emotionalPhysicalWellbeing":76,
+    "incomeEmployment":27,
+    "communityEnvironment":76
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.74,41.42 ]
+    },
+    "properties": {
+    "overallRank":78,
+    "City":"Reno",
+    "State":" NV",
+    "totalScore":56.13,
+    "emotionalPhysicalWellbeing":65,
+    "incomeEmployment":37,
+    "communityEnvironment":143
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.51,45.45 ]
+    },
+    "properties": {
+    "overallRank":150,
+    "City":"Richmond",
+    "State":" VA",
+    "totalScore":45.97,
+    "emotionalPhysicalWellbeing":136,
+    "incomeEmployment":176,
+    "communityEnvironment":133
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.35,48.56 ]
+    },
+    "properties": {
+    "overallRank":104,
+    "City":"Riverside",
+    "State":" CA",
+    "totalScore":52.84,
+    "emotionalPhysicalWellbeing":107,
+    "incomeEmployment":28,
+    "communityEnvironment":125
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.14,46.8 ]
+    },
+    "properties": {
+    "overallRank":131,
+    "City":"Rochester",
+    "State":" NY",
+    "totalScore":48.96,
+    "emotionalPhysicalWellbeing":131,
+    "incomeEmployment":114,
+    "communityEnvironment":139
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.61,40.64 ]
+    },
+    "properties": {
+    "overallRank":49,
+    "City":"Sacramento",
+    "State":" CA",
+    "totalScore":59.27,
+    "emotionalPhysicalWellbeing":64,
+    "incomeEmployment":30,
+    "communityEnvironment":49
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.02,45.03 ]
+    },
+    "properties": {
+    "overallRank":145,
+    "City":"Salem",
+    "State":" OR",
+    "totalScore":46.39,
+    "emotionalPhysicalWellbeing":144,
+    "incomeEmployment":41,
+    "communityEnvironment":175
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.94,40.81 ]
+    },
+    "properties": {
+    "overallRank":55,
+    "City":"Salt Lake City",
+    "State":" UT",
+    "totalScore":58.58,
+    "emotionalPhysicalWellbeing":57,
+    "incomeEmployment":33,
+    "communityEnvironment":116
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -106.86,33.91 ]
+    },
+    "properties": {
+    "overallRank":130,
+    "City":"San Antonio",
+    "State":" TX",
+    "totalScore":49.31,
+    "emotionalPhysicalWellbeing":116,
+    "incomeEmployment":88,
+    "communityEnvironment":160
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.37,34.22 ]
+    },
+    "properties": {
+    "overallRank":153,
+    "City":"San Bernardino",
+    "State":" CA",
+    "totalScore":45.36,
+    "emotionalPhysicalWellbeing":149,
+    "incomeEmployment":137,
+    "communityEnvironment":140
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.12,33.02 ]
+    },
+    "properties": {
+    "overallRank":10,
+    "City":"San Diego",
+    "State":" CA",
+    "totalScore":65.82,
+    "emotionalPhysicalWellbeing":14,
+    "incomeEmployment":18,
+    "communityEnvironment":25
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.36,37.81 ]
+    },
+    "properties": {
+    "overallRank":3,
+    "City":"San Francisco",
+    "State":" CA",
+    "totalScore":71.15,
+    "emotionalPhysicalWellbeing":4,
+    "incomeEmployment":1,
+    "communityEnvironment":44
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.6,40.3 ]
+    },
+    "properties": {
+    "overallRank":4,
+    "City":"San Jose",
+    "State":" CA",
+    "totalScore":71,
+    "emotionalPhysicalWellbeing":2,
+    "incomeEmployment":6,
+    "communityEnvironment":55
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.88,33.76 ]
+    },
+    "properties": {
+    "overallRank":38,
+    "City":"Santa Ana",
+    "State":" CA",
+    "totalScore":60.62,
+    "emotionalPhysicalWellbeing":45,
+    "incomeEmployment":31,
+    "communityEnvironment":86
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.4,34.53 ]
+    },
+    "properties": {
+    "overallRank":15,
+    "City":"Santa Clarita",
+    "State":" CA",
+    "totalScore":64.44,
+    "emotionalPhysicalWellbeing":15,
+    "incomeEmployment":100,
+    "communityEnvironment":29
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.76,38.5 ]
+    },
+    "properties": {
+    "overallRank":14,
+    "City":"Santa Rosa",
+    "State":" CA",
+    "totalScore":64.52,
+    "emotionalPhysicalWellbeing":13,
+    "incomeEmployment":22,
+    "communityEnvironment":105
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.78,33.85 ]
+    },
+    "properties": {
+    "overallRank":19,
+    "City":"Scottsdale",
+    "State":" AZ",
+    "totalScore":63.78,
+    "emotionalPhysicalWellbeing":50,
+    "incomeEmployment":43,
+    "communityEnvironment":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.38,47.77 ]
+    },
+    "properties": {
+    "overallRank":7,
+    "City":"Seattle",
+    "State":" WA",
+    "totalScore":67.67,
+    "emotionalPhysicalWellbeing":6,
+    "incomeEmployment":2,
+    "communityEnvironment":99
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.75,32.52 ]
+    },
+    "properties": {
+    "overallRank":173,
+    "City":"Shreveport",
+    "State":" LA",
+    "totalScore":39.01,
+    "emotionalPhysicalWellbeing":175,
+    "incomeEmployment":173,
+    "communityEnvironment":71
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -96.7,43.6 ]
+    },
+    "properties": {
+    "overallRank":17,
+    "City":"Sioux Falls",
+    "State":" SD",
+    "totalScore":64.34,
+    "emotionalPhysicalWellbeing":20,
+    "incomeEmployment":74,
+    "communityEnvironment":27
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.21,44.44 ]
+    },
+    "properties": {
+    "overallRank":37,
+    "City":"South Burlington",
+    "State":" VT",
+    "totalScore":60.65,
+    "emotionalPhysicalWellbeing":11,
+    "incomeEmployment":56,
+    "communityEnvironment":181
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -117.38,47.79 ]
+    },
+    "properties": {
+    "overallRank":106,
+    "City":"Spokane",
+    "State":" WA",
+    "totalScore":52.17,
+    "emotionalPhysicalWellbeing":126,
+    "incomeEmployment":7,
+    "communityEnvironment":129
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.13,45.39 ]
+    },
+    "properties": {
+    "overallRank":156,
+    "City":"Springfield",
+    "State":" MO",
+    "totalScore":44.95,
+    "emotionalPhysicalWellbeing":167,
+    "incomeEmployment":44,
+    "communityEnvironment":103
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.77,44.02 ]
+    },
+    "properties": {
+    "overallRank":122,
+    "City":"Stockton",
+    "State":" CA",
+    "totalScore":50.15,
+    "emotionalPhysicalWellbeing":99,
+    "incomeEmployment":150,
+    "communityEnvironment":137
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.5,47.29 ]
+    },
+    "properties": {
+    "overallRank":82,
+    "City":"Tacoma",
+    "State":" WA",
+    "totalScore":55.5,
+    "emotionalPhysicalWellbeing":75,
+    "incomeEmployment":98,
+    "communityEnvironment":93
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.18,30.56 ]
+    },
+    "properties": {
+    "overallRank":95,
+    "City":"Tallahassee",
+    "State":" FL",
+    "totalScore":54.16,
+    "emotionalPhysicalWellbeing":130,
+    "incomeEmployment":8,
+    "communityEnvironment":45
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.15,38.54 ]
+    },
+    "properties": {
+    "overallRank":80,
+    "City":"Tampa",
+    "State":" FL",
+    "totalScore":55.62,
+    "emotionalPhysicalWellbeing":94,
+    "incomeEmployment":38,
+    "communityEnvironment":60
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.91,33.43 ]
+    },
+    "properties": {
+    "overallRank":53,
+    "City":"Tempe",
+    "State":" AZ",
+    "totalScore":58.79,
+    "emotionalPhysicalWellbeing":71,
+    "incomeEmployment":17,
+    "communityEnvironment":50
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.76,46.45 ]
+    },
+    "properties": {
+    "overallRank":171,
+    "City":"Toledo",
+    "State":" OH",
+    "totalScore":39.17,
+    "emotionalPhysicalWellbeing":172,
+    "incomeEmployment":171,
+    "communityEnvironment":127
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -110.95,32.54 ]
+    },
+    "properties": {
+    "overallRank":117,
+    "City":"Tucson",
+    "State":" AZ",
+    "totalScore":50.6,
+    "emotionalPhysicalWellbeing":114,
+    "incomeEmployment":66,
+    "communityEnvironment":148
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -95.99,36.15 ]
+    },
+    "properties": {
+    "overallRank":162,
+    "City":"Tulsa",
+    "State":" OK",
+    "totalScore":43.35,
+    "emotionalPhysicalWellbeing":163,
+    "incomeEmployment":117,
+    "communityEnvironment":138
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -122.74,45.72 ]
+    },
+    "properties": {
+    "overallRank":84,
+    "City":"Vancouver",
+    "State":" WA",
+    "totalScore":55.08,
+    "emotionalPhysicalWellbeing":73,
+    "incomeEmployment":49,
+    "communityEnvironment":147
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.08,36.78 ]
+    },
+    "properties": {
+    "overallRank":51,
+    "City":"Virginia Beach",
+    "State":" VA",
+    "totalScore":58.9,
+    "emotionalPhysicalWellbeing":62,
+    "incomeEmployment":120,
+    "communityEnvironment":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.7,47.85 ]
+    },
+    "properties": {
+    "overallRank":70,
+    "City":"Warwick",
+    "State":" RI",
+    "totalScore":57.19,
+    "emotionalPhysicalWellbeing":69,
+    "incomeEmployment":62,
+    "communityEnvironment":90
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.36,44.27 ]
+    },
+    "properties": {
+    "overallRank":85,
+    "City":"Washington",
+    "State":" DC",
+    "totalScore":55.05,
+    "emotionalPhysicalWellbeing":29,
+    "incomeEmployment":57,
+    "communityEnvironment":182
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.34,37.68 ]
+    },
+    "properties": {
+    "overallRank":141,
+    "City":"Wichita",
+    "State":" KS",
+    "totalScore":46.78,
+    "emotionalPhysicalWellbeing":143,
+    "incomeEmployment":127,
+    "communityEnvironment":130
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.82,44.38 ]
+    },
+    "properties": {
+    "overallRank":115,
+    "City":"Wilmington",
+    "State":" DE",
+    "totalScore":50.64,
+    "emotionalPhysicalWellbeing":125,
+    "incomeEmployment":126,
+    "communityEnvironment":77
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.55,44.37 ]
+    },
+    "properties": {
+    "overallRank":110,
+    "City":"Worcester",
+    "State":" MA",
+    "totalScore":51.69,
+    "emotionalPhysicalWellbeing":95,
+    "incomeEmployment":139,
+    "communityEnvironment":126
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.86,40.94 ]
+    },
+    "properties": {
+    "overallRank":44,
+    "City":"Yonkers",
+    "State":" NY",
+    "totalScore":59.69,
+    "emotionalPhysicalWellbeing":18,
+    "incomeEmployment":163,
+    "communityEnvironment":102
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.09,44.94 ]
+    },
+    "properties": {
+    "overallRank":46,
+    "City":"St. Paul",
+    "State":" MN",
+    "totalScore":59.54,
+    "emotionalPhysicalWellbeing":33,
+    "incomeEmployment":96,
+    "communityEnvironment":121
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.95,40.68 ]
+    },
+    "properties": {
+    "overallRank":81,
+    "City":"West Valley City",
+    "State":" UT",
+    "totalScore":55.5,
+    "emotionalPhysicalWellbeing":78,
+    "incomeEmployment":82,
+    "communityEnvironment":85
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.34,27.27 ]
+    },
+    "properties": {
+    "overallRank":86,
+    "City":"Port St. Lucie",
+    "State":" FL",
+    "totalScore":55.03,
+    "emotionalPhysicalWellbeing":115,
+    "incomeEmployment":65,
+    "communityEnvironment":14
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.63,27.77 ]
+    },
+    "properties": {
+    "overallRank":100,
+    "City":"St. Petersburg",
+    "State":" FL",
+    "totalScore":53.39,
+    "emotionalPhysicalWellbeing":100,
+    "incomeEmployment":35,
+    "communityEnvironment":134
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.24,36.09 ]
+    },
+    "properties": {
+    "overallRank":129,
+    "City":"Winston-Salem",
+    "State":" NC",
+    "totalScore":49.43,
+    "emotionalPhysicalWellbeing":138,
+    "incomeEmployment":94,
+    "communityEnvironment":97
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.45,38.04 ]
+    },
+    "properties": {
+    "overallRank":138,
+    "City":"Lexington-Fayette",
+    "State":" KY",
+    "totalScore":47.9,
+    "emotionalPhysicalWellbeing":134,
+    "incomeEmployment":121,
+    "communityEnvironment":144
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [-90.19,38.62 ]
+    },
+    "properties": {
+    "overallRank":161,
+    "City":"St. Louis",
+    "State":" MO",
+    "totalScore":43.68,
+    "emotionalPhysicalWellbeing":153,
+    "incomeEmployment":160,
+    "communityEnvironment":149
+    }
+  }
+]
+}
