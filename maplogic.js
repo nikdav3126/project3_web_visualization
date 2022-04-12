@@ -125,7 +125,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 ////////////////////////////////////
 let dogPoints = new L.layerGroup();
 
-d3.json("/GeojsonData/doglatlongfinal.json")
+d3.json("GeojsonData/doglatlongfinal.json")
 .then(
     function(dogData){
         // console log to make sure the data loaded
@@ -193,7 +193,7 @@ d3.json("/GeojsonData/doglatlongfinal.json")
 // BEGIN 3 - HAPPIEST CITIES LAYER
 ////////////////////////////////////
 let happiestPoints = new L.layerGroup();
-d3.json("/GeojsonData/happiestCityDataFinal.json")
+d3.json("GeojsonData/happiestCityDataFinal.json")
 .then(
     function(happiestData){
         // console log to make sure the data loaded
@@ -262,7 +262,7 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
 // BEGIN 4 - WEATHER LAYER
 ////////////////////////////////////
 let weatherpoints = new L.layerGroup();
-d3.json("/GeojsonData/weatherDataFinal.json")
+d3.json("GeojsonData/weatherDataFinal.json")
 .then(
     function(weather_data){
         // console log to make sure the data loaded
@@ -335,7 +335,7 @@ d3.json("/GeojsonData/weatherDataFinal.json")
     let IntergenerationalMobilityPoints = new L.layerGroup();
 
 // New Function for IntergenerationalMobility
-    d3.json("/GeojsonData/IntergenerationalMobilityFinal.json")
+    d3.json("GeojsonData/IntergenerationalMobilityFinal.json")
 .then(
     function(IntergenerationalMobility){
         // console log to make sure the data loaded
@@ -400,22 +400,22 @@ d3.json("/GeojsonData/weatherDataFinal.json")
 ////////////////////////////////////
 let IncomePoints = new L.layerGroup();
 
-d3.json("/GeojsonData/incomeUpdated.json")
+d3.json("GeojsonData/incomeUpdated.json")
 .then(
     function(IncomeData){
         // console log to make sure the data loaded
         console.log(IncomeData);
                
                 function dataColor(depth){
-                    if (depth > 55)
+                    if (depth > 200000)
                         return "red";
-                    else if(depth > 52)
+                    else if(depth > 150000)
                         return "#FC4903";
-                    else if(depth > 49)
+                    else if(depth > 100000)
                         return "#FC8403";
-                    else if(depth > 46)
+                    else if(depth > 80000)
                         return "#FCAD03";
-                    else if (depth > 43)
+                    else if (depth > 60000)
                         return "#CAFC03";
                     else
                         return "green";
@@ -425,17 +425,18 @@ d3.json("/GeojsonData/incomeUpdated.json")
                     if (mag == 0)
                         return 1; // makes sure that a 0 mag earthquake shows up
                     else
-                        return mag/10; // makes sure that the circle is pronounced in the map
+                        return mag/40000; // makes sure that the circle is pronounced in the map
                 }
                 // add on to the style for each data point
                 function dataStyle(feature)
                 {
+                    feature_updated = feature.properties
                     return {
                         opacity: 0.5,
                         fillOpacity: 0.5,
-                        fillColor: dataColor(feature.properties.total_score), // use index 2 for the depth
+                        fillColor: dataColor(feature.properties.avg_income), // use index 2 for the depth
                         color: "000000", // black outline
-                        radius: 3, //radiusSize(feature.properties.total_score), // grabs the magnitude
+                        radius: radiusSize(feature.properties.avg_income), // grabs the magnitude
                         weight: 0.5,
                         stroke: true
                     }
@@ -448,13 +449,13 @@ d3.json("/GeojsonData/incomeUpdated.json")
             // set the style for each marker
             style: dataStyle, // calls the data style function 
             onEachFeature: function(feature, layer){
+                feature_updated = feature.properties
                 layer.bindPopup(`
+                                Average Income: <b>${feature.properties.avg_income}</b><br>
                                 Zip Code: <b>${feature.properties.zipcode}</b><br>
                                 State: <b>${feature.properties.state}</b><br>
-                                Average Income: <b>${feature.properties.avg_income}</b><br>
-                                Primary City: <b>${feature.properties.pet_budget}</b><br>
-                                County: <b>${feature.properties.pet_health}</b><br>
-                                Estimated Population: <b>${feature.properties.outdoor_friendliness}</b>`);      // CY - 4/12  last 3 Currently not working  - need to update json
+                                Primary City: <b>${feature_updated["Zips.primary_city"]}</b><br>
+                                County: <b>${feature_updated["Zips.county"]}</b>`);      // CY - 4/12  last 3 Currently not working  - need to update json
             }
         }).addTo(IncomePoints);
         IncomePoints.addTo(myMap);    
@@ -470,7 +471,7 @@ d3.json("/GeojsonData/incomeUpdated.json")
 ////////////////////////////////////
 let NaturalDisasterPoints = new L.layerGroup();
 
-d3.json("/GeojsonData/NaturalDisasters.json")
+d3.json("GeojsonData/NaturalDisasters.json")
 .then(
     function(NaturalDisasterData){
         // console log to make sure the data loaded
