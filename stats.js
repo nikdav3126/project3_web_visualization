@@ -1,6 +1,6 @@
-const natDisasters = "http://127.0.0.1:5000/api/v1.0/number-disasters-by-state";
-const petFriendly = "http://127.0.0.1:5000/api/v1.0/petfriendly-rankings"
-const happiestCities = "http://127.0.0.1:5000/api/v1.0/happiest-cities"
+const natDisasters = "https://wtl-3.herokuapp.com/api/v1.0/number-disasters-by-state";
+const petFriendly = "https://wtl-3.herokuapp.com/api/v1.0/petfriendly-rankings"
+const happiestCities = "https://wtl-3.herokuapp.com/api/v1.0/happiest-cities"
 // Promise Pending
 const disasterPromise = d3.json(natDisasters);
 
