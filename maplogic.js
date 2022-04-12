@@ -612,7 +612,7 @@ let overlays = {
     "Weather Data": weatherpoints,
     "Income Data": IncomePoints,
     "Natural Disaster Data": NaturalDisasterPoints,
-    "National Parks Data": NationalParksPoints,
+    "National Parks Data": NationalParksPoints
 };
 // add the Layer control
 L.control
@@ -767,5 +767,13 @@ myMap.on('overlayadd', function (eventLayer) {
         this.removeControl(incomeLegend);
         this.removeControl(earthquakeLegend);
         naturalDisastersLegend.addTo(this);
+    } else {
+        this.removeControl(dogLegend);
+        this.removeControl(happiestCitiesLegend);
+        this.removeControl(interGenLegend);
+        this.removeControl(weatherLegend);
+        this.removeControl(incomeLegend);
+        this.removeControl(earthquakeLegend);
+        this.removeControl(naturalDisastersLegend);
     }
 });
