@@ -122,6 +122,5 @@ def IntergenerationalMobility():
   result = json.dumps([dict(r) for r in data])
   return result
 
-
 if __name__ == '__main__':
     app.run(debug=True)

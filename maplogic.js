@@ -45,8 +45,15 @@ defaultMap.addTo(myMap);
 ////////////////////////////////////
 // END 0 - DEFINE MAP TYPES
 ////////////////////////////////////
-
-
+let intervals
+    let colors = [
+        "green",
+        "#CAFC03",
+        "#FCAD03",
+        "#FC8403",
+        "#FC4903",
+        "red"
+    ];
 
 ////////////////////////////////////
 // BEGIN 1 - EARTHQUAKE LAYER
@@ -59,6 +66,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 .then(
     function(earthquakeData){
         // console log to make sure the data loaded
+        
         console.log(earthquakeData);
         // plot circles, where the radius is dependent on the magnitude
         // and the color is dependent on the depth
@@ -130,7 +138,7 @@ d3.json("GeojsonData/doglatlongfinal.json")
     function(dogData){
         // console log to make sure the data loaded
         console.log(dogData);
-               
+        
                 function dataColor(depth){
                     if (depth > 55)
                         return "red";
@@ -182,7 +190,7 @@ d3.json("GeojsonData/doglatlongfinal.json")
                                 Outdoor Pet Friendliness: <b>${feature.properties.outdoor_friendliness}</b>`);
             }
         }).addTo(dogPoints);
-        dogPoints.addTo(myMap);    
+        //dogPoints.addTo(myMap);    
     });
 ////////////////////////////////////
 // END 2 - PET FRIENDLY LAYER
@@ -251,7 +259,7 @@ d3.json("GeojsonData/happiestCityDataFinal.json")
                                 Income Employment: <b>${properties_update.income_employment}</b><br>`);
             }
         }).addTo(happiestPoints);
-        happiestPoints.addTo(myMap);
+        //happiestPoints.addTo(myMap);
     });
 ////////////////////////////////////
 // END 3 - HAPPIEST CITIES LAYER
@@ -320,7 +328,7 @@ d3.json("GeojsonData/weatherDataFinal.json")
                                 Clouds: <b>${properties_update.clouds}</b>`);
             }
         }).addTo(weatherpoints);
-        weatherpoints.addTo(myMap);
+        //weatherpoints.addTo(myMap);
     });
 ////////////////////////////////////
 // END 4 - WEATHER LAYER
@@ -388,7 +396,7 @@ d3.json("GeojsonData/weatherDataFinal.json")
                                 Abs Upward Mobility: <b>${feature.properties.absoluteupwardmobility}</b>`);
             }
         }).addTo(IntergenerationalMobilityPoints);
-        IntergenerationalMobilityPoints.addTo(myMap);
+        //IntergenerationalMobilityPoints.addTo(myMap);
     });
 //////////////////////////////////////////////
 // END 5 - INTERGENERATIONAL MOBILITY LAYER
@@ -458,7 +466,7 @@ d3.json("GeojsonData/incomeUpdated.json")
                                 County: <b>${feature_updated["Zips.county"]}</b>`);      // CY - 4/12  last 3 Currently not working  - need to update json
             }
         }).addTo(IncomePoints);
-        IncomePoints.addTo(myMap);    
+        //IncomePoints.addTo(myMap);    
 
     });
 ////////////////////////////////////
@@ -533,12 +541,62 @@ d3.json("GeojsonData/NaturalDisasters.json")
                                 Disaster Count: <b>${feature.properties.disaster_number}</b>`);
             }
         }).addTo(NaturalDisasterPoints);
-        NaturalDisasterPoints.addTo(myMap);    
+        //NaturalDisasterPoints.addTo(myMap);    
 
     });
 ////////////////////////////////////
 // END 7 - NATURAL DISASTER LAYER
 ////////////////////////////////////
+
+
+////////////////////////////////////
+// BEGIN 8 - NATIONAL PARKS LAYER
+////////////////////////////////////
+let NationalParksPoints = new L.layerGroup();
+
+d3.json("GeojsonData/NationalParksFinalUpdate.json")
+.then(
+    function(NationalParksData){
+        // console log to make sure the data loaded
+        console.log(NationalParksData);
+               
+                // add on to the style for each data point
+                function dataStyle(feature)
+                {
+                    return {
+                        opacity: 0.5,
+                        fillOpacity: 0.5,
+                        fillColor: "green", // use index 2 for the depth
+                        color: "000000", // black outline
+                        radius: 5, // 
+                        weight: 0.5,
+                        stroke: true
+                    }
+                }
+        L.geoJson(NationalParksData, {
+            // make each feature a marker that is on the map, each marker is a circle
+            pointToLayer: function(feature, latLng) {
+                return L.circleMarker(latLng);
+            },
+            // set the style for each marker
+            style: dataStyle, // calls the data style function 
+            onEachFeature: function(feature, layer){
+                layer.bindPopup(`
+                                Park Name: <b>${feature.properties.Name}</b>`);
+            }
+        }).addTo(NationalParksPoints);
+        //NationalParksPoints.addTo(myMap);    
+
+    });
+////////////////////////////////////
+// END 8 - NATIONAL PARKS LAYER
+////////////////////////////////////
+
+
+
+
+
+
 
 
 ////////////////////////////////////
@@ -554,48 +612,168 @@ let overlays = {
     "Weather Data": weatherpoints,
     "Income Data": IncomePoints,
     "Natural Disaster Data": NaturalDisasterPoints,
+    "National Parks Data": NationalParksPoints
 };
 // add the Layer control
 L.control
     .layers(basemaps, overlays)
     .addTo(myMap);
 ////////////////////////////////////
-// END - LAYER OVERLAY DEFINITION
+// END - LAYER OVERLAY DEFINITION.ea
 ////////////////////////////////////
 
     
-// // add the legend to the map
-// let legend = L.control({
-//     position: "bottomright"
-// });
-// // add the properties for the legend
+
+
 // legend.onAdd = function() {
-//     // div for the legend to appear in the page
 //     let div = L.DomUtil.create("div", "info legend");
 //     console.log(div);
-//     // set up the intervals
-//     let intervals = [-10, 10, 30, 50, 70, 90];
-//     // set the colors for the intervals
-//     let colors = [
-//         "green",
-//         "#CAFC03",
-//         "#FCAD03",
-//         "#FC8403",
-//         "#FC4903",
-//         "red"
-//     ];
-//     // loop through the intervals and the colors and generate a label
-//     // with a colored square for each interval
 //     for(var i = 0; i < intervals.length; i++)
 //     {
 //         // inner html that sets the square for each interval and label
 //         div.innerHTML += `<i style="background: ${colors[i]}"></i>${intervals[i]}${(intervals[i+1] ? "km &ndash;" + intervals[i+1] + "km<br>" : "km+")}`
-//             // + colors[i]
-//             // + "'></i>"
-//             // + intervals[i]
-//             // + (intervals[i + 1] ? "km &ndash;" + intervals[i + 1] + "km<br>" : "+");
 //     }
 //     return div;
 // };
 // // add the legend to the map
 // legend.addTo(myMap);
+var earthquakeLegend = L.control({position: 'bottomright'});
+var dogLegend = L.control({position: 'bottomright'});
+var happiestCitiesLegend = L.control({position: 'bottomright'});
+var interGenLegend = L.control({position: 'bottomright'});
+var weatherLegend = L.control({position: 'bottomright'});
+var incomeLegend = L.control({position: 'bottomright'});
+var naturalDisastersLegend = L.control({position: 'bottomright'});
+
+earthquakeLegend.onAdd = function (myMap) {
+    var div = L.DomUtil.create('div', 'info legend');
+    let intervals = [0, 10, 30, 50, 70, 90];
+    // set the colors for the intervals
+    for(var i = 0; i < intervals.length; i++) {
+        div.innerHTML += `<i style="background: ${colors[i]}"></i>${intervals[i]}${(intervals[i+1] ? " &ndash;" + intervals[i+1] + "<br>" : "+")}`
+    }
+    return div;
+};
+
+dogLegend.onAdd = function (myMap) {
+    var div = L.DomUtil.create('div', 'info legend');
+    let intervals = [40,43,46, 49,52,55,60]
+    for(var i = 0; i < intervals.length; i++) {
+        div.innerHTML += `<i style="background: ${colors[i]}"></i>${intervals[i]}${(intervals[i+1] ? " &ndash;" + intervals[i+1] + "<br>" : "+")}`
+    }
+    return div;
+};
+
+happiestCitiesLegend.onAdd = function (myMap) {
+    var div = L.DomUtil.create('div', 'info legend');
+    let intervals = [40, 50, 60, 70, 80, 90, 100]
+    for(var i = 0; i < intervals.length; i++) {
+        div.innerHTML += `<i style="background: ${colors[i]}"></i>${intervals[i]}${(intervals[i+1] ? " &ndash;" + intervals[i+1] + "<br>" : "+")}`
+    }
+    return div;
+};
+interGenLegend.onAdd = function (myMap) {
+    var div = L.DomUtil.create('div', 'info legend');
+    let intervals = [35, 38, 41, 44, 47, 50, 53]
+    for(var i = 0; i < intervals.length; i++) {
+        div.innerHTML += `<i style="background: ${colors[i]}"></i>${intervals[i]}${(intervals[i+1] ? " &ndash;" + intervals[i+1] + "<br>" : "+")}`
+    }
+    return div;
+};
+weatherLegend.onAdd = function (myMap) {
+    var div = L.DomUtil.create('div', 'info legend');
+    let intervals = [0, 5, 10, 20, 30, 40, 50]
+    for(var i = 0; i < intervals.length; i++) {
+        div.innerHTML += `<i style="background: ${colors[i]}"></i>${intervals[i]}${(intervals[i+1] ? " &ndash;" + intervals[i+1] + "<br>" : "+")}`
+    }
+    return div;
+};
+incomeLegend.onAdd = function (myMap) {
+    var div = L.DomUtil.create('div', 'info legend');
+    let intervals = [40000, 60000, 80000, 100000, 150000, 200000, 500000]
+    for(var i = 0; i < intervals.length; i++) {
+        div.innerHTML += `<i style="background: ${colors[i]}"></i>${intervals[i]}${(intervals[i+1] ? " &ndash;" + intervals[i+1] + "<br>" : "+")}`
+    }
+    return div;
+};
+naturalDisastersLegend.onAdd = function (myMap) {
+    var div = L.DomUtil.create('div', 'info legend');
+    let intervals = [0, 500, 1000, 2000, 3000, 4000, 5000]
+    for(var i = 0; i < intervals.length; i++) {
+        div.innerHTML += `<i style="background: ${colors[i]}"></i>${intervals[i]}${(intervals[i+1] ? " &ndash;" + intervals[i+1] + "<br>" : "+")}`
+    }
+    return div;
+};
+
+//Default one
+earthquakeLegend.addTo(myMap);
+
+myMap.on('overlayadd', function (eventLayer) {
+    // Switch to the Population legend...
+    if (eventLayer.name === 'Earthquake Data') {
+        this.removeControl(dogLegend);
+        this.removeControl(happiestCitiesLegend);
+        this.removeControl(interGenLegend);
+        this.removeControl(weatherLegend);
+        this.removeControl(incomeLegend);
+        this.removeControl(naturalDisastersLegend);
+        earthquakeLegend.addTo(this);
+    } else if (eventLayer.name === 'Dog Friendliest Cities') {
+        this.removeControl(earthquakeLegend);
+        this.removeControl(happiestCitiesLegend);
+        this.removeControl(interGenLegend);
+        this.removeControl(weatherLegend);
+        this.removeControl(incomeLegend);
+        this.removeControl(naturalDisastersLegend);
+        dogLegend.addTo(this);
+    } else if (eventLayer.name === 'Happiest Cities') {
+        this.removeControl(dogLegend);
+        this.removeControl(earthquakeLegend);
+        this.removeControl(interGenLegend);
+        this.removeControl(weatherLegend);
+        this.removeControl(incomeLegend);
+        this.removeControl(naturalDisastersLegend);
+        happiestCitiesLegend.addTo(this);
+    }
+    else if (eventLayer.name === 'InterGen Mobility Cities') {
+        this.removeControl(dogLegend);
+        this.removeControl(happiestCitiesLegend);
+        this.removeControl(earthquakeLegend);
+        this.removeControl(weatherLegend);
+        this.removeControl(incomeLegend);
+        this.removeControl(naturalDisastersLegend);
+        interGenLegend.addTo(this);
+    }else if (eventLayer.name === 'Weather Data') {
+        this.removeControl(dogLegend);
+        this.removeControl(happiestCitiesLegend);
+        this.removeControl(interGenLegend);
+        this.removeControl(earthquakeLegend);
+        this.removeControl(incomeLegend);
+        this.removeControl(naturalDisastersLegend);
+        weatherLegend.addTo(this);
+    }else if (eventLayer.name === 'Income Data') {
+        this.removeControl(dogLegend);
+        this.removeControl(happiestCitiesLegend);
+        this.removeControl(interGenLegend);
+        this.removeControl(weatherLegend);
+        this.removeControl(earthquakeLegend);
+        this.removeControl(naturalDisastersLegend);
+        incomeLegend.addTo(this);
+    }else if (eventLayer.name === 'Natural Disaster Data') {
+        this.removeControl(dogLegend);
+        this.removeControl(happiestCitiesLegend);
+        this.removeControl(interGenLegend);
+        this.removeControl(weatherLegend);
+        this.removeControl(incomeLegend);
+        this.removeControl(earthquakeLegend);
+        naturalDisastersLegend.addTo(this);
+    } else {
+        this.removeControl(dogLegend);
+        this.removeControl(happiestCitiesLegend);
+        this.removeControl(interGenLegend);
+        this.removeControl(weatherLegend);
+        this.removeControl(incomeLegend);
+        this.removeControl(earthquakeLegend);
+        this.removeControl(naturalDisastersLegend);
+    }
+});
