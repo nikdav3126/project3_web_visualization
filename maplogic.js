@@ -479,7 +479,7 @@ d3.json("GeojsonData/incomeUpdated.json")
 ////////////////////////////////////
 let NaturalDisasterPoints = new L.layerGroup();
 
-d3.json("GeojsonData/NaturalDisasters.json")
+d3.json("GeojsonData/naturalDisasters.json")
 .then(
     function(NaturalDisasterData){
         // console log to make sure the data loaded
@@ -554,7 +554,7 @@ d3.json("GeojsonData/NaturalDisasters.json")
 ////////////////////////////////////
 let NationalParksPoints = new L.layerGroup();
 
-d3.json("GeojsonData/NationalParksFinalUpdate.json")
+d3.json("GeojsonData/nationalParksFinalUpdate.json")
 .then(
     function(NationalParksData){
         // console log to make sure the data loaded
