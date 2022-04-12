@@ -1,0 +1,577 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -154.49,63.59 ]
+    },
+    "properties": {
+    "state":"AK",
+    "disaster_number":247
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.90,32.32 ]
+    },
+    "properties": {
+    "state":"AL",
+    "disaster_number":1538
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.83,35.20 ]
+    },
+    "properties": {
+    "state":"AR",
+    "disaster_number":1512
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.09,34.05 ]
+    },
+    "properties": {
+    "state":"AZ",
+    "disaster_number":322
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -119.42,36.78 ]
+    },
+    "properties": {
+    "state":"CA",
+    "disaster_number":1378
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.78,39.55 ]
+    },
+    "properties": {
+    "state":"CO",
+    "disaster_number":636
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.09,41.60 ]
+    },
+    "properties": {
+    "state":"CT",
+    "disaster_number":218
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.03,38.91 ]
+    },
+    "properties": {
+    "state":"DC",
+    "disaster_number":22
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -75.53,38.91 ]
+    },
+    "properties": {
+    "state":"DE",
+    "disaster_number":50
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.52,27.66 ]
+    },
+    "properties": {
+    "state":"FL",
+    "disaster_number":1969
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.91,32.16 ]
+    },
+    "properties": {
+    "state":"GA",
+    "disaster_number":2240
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -155.67,19.90 ]
+    },
+    "properties": {
+    "state":"HI",
+    "disaster_number":95
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -93.10,41.88 ]
+    },
+    "properties": {
+    "state":"IA",
+    "disaster_number":1800
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -114.74,44.07 ]
+    },
+    "properties": {
+    "state":"ID",
+    "disaster_number":346
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.40,40.63 ]
+    },
+    "properties": {
+    "state":"IL",
+    "disaster_number":1269
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.60,40.55 ]
+    },
+    "properties": {
+    "state":"IN",
+    "disaster_number":1452
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -98.48,39.01 ]
+    },
+    "properties": {
+    "state":"KS",
+    "disaster_number":1696
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -84.27,37.84 ]
+    },
+    "properties": {
+    "state":"KY",
+    "disaster_number":2417
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -92.15,31.24 ]
+    },
+    "properties": {
+    "state":"LA",
+    "disaster_number":1751
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.38,42.41 ]
+    },
+    "properties": {
+    "state":"MA",
+    "disaster_number":389
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -76.64,39.05 ]
+    },
+    "properties": {
+    "state":"MD",
+    "disaster_number":445
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.45,45.25 ]
+    },
+    "properties": {
+    "state":"ME",
+    "disaster_number":1005
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -85.60,44.31 ]
+    },
+    "properties": {
+    "state":"MI",
+    "disaster_number":792
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -94.69,46.73 ]
+    },
+    "properties": {
+    "state":"MN",
+    "disaster_number":1499
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -91.83,37.96 ]
+    },
+    "properties": {
+    "state":"MO",
+    "disaster_number":2767
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -89.40,32.35 ]
+    },
+    "properties": {
+    "state":"MS",
+    "disaster_number":1602
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -110.36,46.88 ]
+    },
+    "properties": {
+    "state":"MT",
+    "disaster_number":577
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -79.02,35.76 ]
+    },
+    "properties": {
+    "state":"NC",
+    "disaster_number":1848
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -101.00,47.55 ]
+    },
+    "properties": {
+    "state":"ND",
+    "disaster_number":1296
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.90,41.49 ]
+    },
+    "properties": {
+    "state":"NE",
+    "disaster_number":1425
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.57,43.19 ]
+    },
+    "properties": {
+    "state":"NH",
+    "disaster_number":296
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.41,40.06 ]
+    },
+    "properties": {
+    "state":"NJ",
+    "disaster_number":568
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -105.03,34.97 ]
+    },
+    "properties": {
+    "state":"NM",
+    "disaster_number":495
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -116.42,38.80 ]
+    },
+    "properties": {
+    "state":"NV",
+    "disaster_number":269
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.22,43.30 ]
+    },
+    "properties": {
+    "state":"NY",
+    "disaster_number":1415
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -82.91,40.42 ]
+    },
+    "properties": {
+    "state":"OH",
+    "disaster_number":1282
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -97.09,35.01 ]
+    },
+    "properties": {
+    "state":"OK",
+    "disaster_number":2279
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -120.55,43.80 ]
+    },
+    "properties": {
+    "state":"OR",
+    "disaster_number":511
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -77.19,41.20 ]
+    },
+    "properties": {
+    "state":"PA",
+    "disaster_number":1226
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -66.59,18.22 ]
+    },
+    "properties": {
+    "state":"PR",
+    "disaster_number":1734
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.48,41.58 ]
+    },
+    "properties": {
+    "state":"RI",
+    "disaster_number":102
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -81.16,33.84 ]
+    },
+    "properties": {
+    "state":"SC",
+    "disaster_number":858
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.90,43.97 ]
+    },
+    "properties": {
+    "state":"SD",
+    "disaster_number":1250
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -86.58,35.52 ]
+    },
+    "properties": {
+    "state":"TN",
+    "disaster_number":1524
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -99.90,31.97 ]
+    },
+    "properties": {
+    "state":"TX",
+    "disaster_number":4561
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -111.09,39.32 ]
+    },
+    "properties": {
+    "state":"UT",
+    "disaster_number":240
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -78.66,37.43 ]
+    },
+    "properties": {
+    "state":"VA",
+    "disaster_number":2460
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.58,44.56 ]
+    },
+    "properties": {
+    "state":"VT",
+    "disaster_number":315
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -120.74,47.75 ]
+    },
+    "properties": {
+    "state":"WA",
+    "disaster_number":849
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -88.79,43.78 ]
+    },
+    "properties": {
+    "state":"WI",
+    "disaster_number":892
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.45,38.60 ]
+    },
+    "properties": {
+    "state":"WV",
+    "disaster_number":1219
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -107.29,43.08 ]
+    },
+    "properties": {
+    "state":"WY",
+    "disaster_number":125
+    }
+  }
+]
+}
