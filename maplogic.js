@@ -174,16 +174,15 @@ d3.json("/GeojsonData/doglatlongfinal.json")
             style: dataStyle, // calls the data style function 
             onEachFeature: function(feature, layer){
                 layer.bindPopup(`
-                                Total Score: <b>${feature.properties.total_score}</b><br>
-                                Overall Rank: <b>${feature.properties.overall_rank}</b><br>
                                 City: <b>${feature.properties.city}</b><br>
+                                Overall Rank: <b>${feature.properties.overall_rank}</b><br>
+                                Total Score: <b>${feature.properties.total_score}</b><br>
                                 Pet Budget: <b>${feature.properties.pet_budget}</b><br>
                                 Pet Health and Wellness: <b>${feature.properties.pet_health}</b><br>
                                 Outdoor Pet Friendliness: <b>${feature.properties.outdoor_friendliness}</b>`);
             }
         }).addTo(dogPoints);
         dogPoints.addTo(myMap);    
-
     });
 ////////////////////////////////////
 // END 2 - PET FRIENDLY LAYER
@@ -244,12 +243,12 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
             // add popups
             onEachFeature: function(feature, layer){
                 properties_update = feature.properties
-                layer.bindPopup(`Total Score: <b>${properties_update.total_score}</b><br>
+                layer.bindPopup(`Location: <b>${properties_update.city}</b><br>
                                 Overall Rank: <b>${properties_update.overall_rank}</b><br>
+                                Total Score: <b>${properties_update.total_score}</b><br>
                                 Emotional and Physical Wellbeing: <b>${properties_update.emotional_physical}</b><br>
                                 Community Environment: <b>${properties_update.community_environment}</b><br>
-                                Income Employment: <b>${properties_update.income_employment}</b><br>
-                                Location: <b>${properties_update.city}</b>`);
+                                Income Employment: <b>${properties_update.income_employment}</b><br>`);
             }
         }).addTo(happiestPoints);
         happiestPoints.addTo(myMap);
@@ -505,13 +504,6 @@ d3.json("/GeojsonData/NaturalDisasters.json")
                         return 12;
                     else
                         return 10;
-
-
-
-                   // if (disaster_number == 0)
-                   //     return 1; // makes sure that a 0 mag earthquake shows up
-                   // else
-                   //     return mag/10; // makes sure that the circle is pronounced in the map
                 }
                 // add on to the style for each data point
                 function dataStyle(feature)
