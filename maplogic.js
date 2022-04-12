@@ -36,7 +36,7 @@ let basemaps = {
 };
 // make a map object
 var myMap = L.map("map", {
-    center: [36.7783, -119.4179],
+    center: [39.50, -98.35],
     zoom: 5,
     layers: [grayscale, waterColor, topoMap, defaultMap]
 });
@@ -452,9 +452,9 @@ d3.json("/GeojsonData/incomeUpdated.json")
                                 Zip Code: <b>${feature.properties.zipcode}</b><br>
                                 State: <b>${feature.properties.state}</b><br>
                                 Average Income: <b>${feature.properties.avg_income}</b><br>
-                                PlaceHolder: <b>${feature.properties.pet_budget}</b><br>
-                                PlaceHolder: <b>${feature.properties.pet_health}</b><br>
-                                PlaceHolder: <b>${feature.properties.outdoor_friendliness}</b>`);
+                                Primary City: <b>${feature.properties.pet_budget}</b><br>
+                                County: <b>${feature.properties.pet_health}</b><br>
+                                Estimated Population: <b>${feature.properties.outdoor_friendliness}</b>`);      // CY - 4/12  last 3 Currently not working  - need to update json
             }
         }).addTo(IncomePoints);
         IncomePoints.addTo(myMap);    
