@@ -312,7 +312,8 @@ d3.json("/GeojsonData/weatherDataFinal.json")
             // add popups
             onEachFeature: function(feature, layer){
                 properties_update = feature.properties
-                layer.bindPopup(`Temp: <b>${properties_update.temp}</b><br>
+                layer.bindPopup(`Zip Code: <b>${properties_update.zip_code}</b><br>
+                                Temp: <b>${properties_update.temp}</b><br>
                                 Pressure: <b>${properties_update.pressure}</b><br>
                                 Humidity: <b>${properties_update.humidity}</b><br>
                                 Wind speed: <b>${properties_update.wind_speed}</b><br>
