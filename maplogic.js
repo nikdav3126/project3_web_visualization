@@ -40,24 +40,6 @@ var myMap = L.map("map", {
 // add the default map to the map
 defaultMap.addTo(myMap);
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////TECTONIC PLATES/////////////////////////////////
-// call the api to get the info for the tectonic plates
-let tectonicplates = new L.layerGroup();
-// call the api to get the info for the tectonic plates
-d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json")
-.then(function(plateData){
-    // console log to make sure the data loaded
-    // console.log(plateData);
-    // load data using geoJson and add to the tectonic plates layer group
-    L.geoJson(plateData,{
-        // add styling to make the lines visible
-        color: "yellow",
-        weight: 1
-    }).addTo(tectonicplates);
-});
-// add the tectonic plates to the map
-tectonicplates.addTo(myMap);
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -387,7 +369,6 @@ d3.json("/GeojsonData/weatherDataFinal.json")
 // add each layer to the map
 // add the overlay for the tectonic plates and for the earthquakes
 let overlays = {
-    "Tectonic Plates": tectonicplates,
     "Earthquake Data": earthquakes,
     "Dog Friendliest Cities": dogPoints,
     "Happiest Cities": happiestPoints,
