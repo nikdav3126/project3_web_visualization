@@ -122,6 +122,14 @@ def IntergenerationalMobility():
   result = json.dumps([dict(r) for r in data])
   return result
 
+#New App Route Placeholder for National Parks
+@app.route("/api/v1.0/national-parks")
+def national_parks():
+    # Create our session (link) from Python to the DB
+
+    data = engine.execute("SELECT name, latitude, longitude FROM nationalparks")
+    result = json.dumps([dict(r) for r in data])
+    return result
 
 if __name__ == '__main__':
     app.run(debug=True)
