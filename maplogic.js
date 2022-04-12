@@ -1,3 +1,6 @@
+////////////////////////////////////
+// BEGIN 0 - DEFINE MAP TYPES
+////////////////////////////////////
 // create the tile layers for the backgrounds of the map
 var defaultMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	maxZoom: 19,
@@ -39,11 +42,15 @@ var myMap = L.map("map", {
 });
 // add the default map to the map
 defaultMap.addTo(myMap);
+////////////////////////////////////
+// END 0 - DEFINE MAP TYPES
+////////////////////////////////////
 
 
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////EARTHQUAKES/////////////////////////////////
+////////////////////////////////////
+// BEGIN 1 - EARTHQUAKE LAYER
+////////////////////////////////////
 // variable to hold the earthquake data layer
 let earthquakes = new L.layerGroup();
 // get the data for the earthquakes and populate the layergroup
@@ -108,9 +115,14 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
         earthquakes.addTo(myMap);
     }
 );
+////////////////////////////////////
+// END 1 - EARTHQUAKE LAYER
+////////////////////////////////////
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////PETS/////////////////////////////////
+
+////////////////////////////////////
+// BEGIN 2 - PET FRIENDLY LAYER
+////////////////////////////////////
 let dogPoints = new L.layerGroup();
 
 d3.json("/GeojsonData/doglatlongfinal.json")
@@ -173,10 +185,14 @@ d3.json("/GeojsonData/doglatlongfinal.json")
         dogPoints.addTo(myMap);    
 
     });
+////////////////////////////////////
+// END 2 - PET FRIENDLY LAYER
+////////////////////////////////////
 
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////HAPPIEST POINTS/////////////////////////////////    
+////////////////////////////////////
+// BEGIN 3 - HAPPIEST CITIES LAYER
+////////////////////////////////////
 let happiestPoints = new L.layerGroup();
 d3.json("/GeojsonData/happiestCityDataFinal.json")
 .then(
@@ -238,10 +254,14 @@ d3.json("/GeojsonData/happiestCityDataFinal.json")
         }).addTo(happiestPoints);
         happiestPoints.addTo(myMap);
     });
+////////////////////////////////////
+// END 3 - HAPPIEST CITIES LAYER
+////////////////////////////////////
 
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////WEATHER POINTS/////////////////////////////////
+////////////////////////////////////
+// BEGIN 4 - WEATHER LAYER
+////////////////////////////////////
 let weatherpoints = new L.layerGroup();
 d3.json("/GeojsonData/weatherDataFinal.json")
 .then(
@@ -302,10 +322,15 @@ d3.json("/GeojsonData/weatherDataFinal.json")
         }).addTo(weatherpoints);
         weatherpoints.addTo(myMap);
     });
+////////////////////////////////////
+// END 4 - WEATHER LAYER
+////////////////////////////////////
 
 
 
-
+//////////////////////////////////////////////
+// BEGIN 5 - INTERGENERATIONAL MOBILITY LAYER
+//////////////////////////////////////////////
 //  New Layer Group for Map
     let IntergenerationalMobilityPoints = new L.layerGroup();
 
@@ -365,7 +390,166 @@ d3.json("/GeojsonData/weatherDataFinal.json")
         }).addTo(IntergenerationalMobilityPoints);
         IntergenerationalMobilityPoints.addTo(myMap);
     });
+//////////////////////////////////////////////
+// END 5 - INTERGENERATIONAL MOBILITY LAYER
+//////////////////////////////////////////////
 
+
+////////////////////////////////////
+// BEGIN 6 - INCOME LAYER
+////////////////////////////////////
+let IncomePoints = new L.layerGroup();
+
+d3.json("/GeojsonData/incomeUpdated.json")
+.then(
+    function(IncomeData){
+        // console log to make sure the data loaded
+        console.log(IncomeData);
+               
+                function dataColor(depth){
+                    if (depth > 55)
+                        return "red";
+                    else if(depth > 52)
+                        return "#FC4903";
+                    else if(depth > 49)
+                        return "#FC8403";
+                    else if(depth > 46)
+                        return "#FCAD03";
+                    else if (depth > 43)
+                        return "#CAFC03";
+                    else
+                        return "green";
+                }
+                // make a function that determines the size of the radius
+                function radiusSize(mag){
+                    if (mag == 0)
+                        return 1; // makes sure that a 0 mag earthquake shows up
+                    else
+                        return mag/10; // makes sure that the circle is pronounced in the map
+                }
+                // add on to the style for each data point
+                function dataStyle(feature)
+                {
+                    return {
+                        opacity: 0.5,
+                        fillOpacity: 0.5,
+                        fillColor: dataColor(feature.properties.total_score), // use index 2 for the depth
+                        color: "000000", // black outline
+                        radius: 3, //radiusSize(feature.properties.total_score), // grabs the magnitude
+                        weight: 0.5,
+                        stroke: true
+                    }
+                }
+        L.geoJson(IncomeData, {
+            // make each feature a marker that is on the map, each marker is a circle
+            pointToLayer: function(feature, latLng) {
+                return L.circleMarker(latLng);
+            },
+            // set the style for each marker
+            style: dataStyle, // calls the data style function 
+            onEachFeature: function(feature, layer){
+                layer.bindPopup(`
+                                Zip Code: <b>${feature.properties.zipcode}</b><br>
+                                State: <b>${feature.properties.state}</b><br>
+                                Average Income: <b>${feature.properties.avg_income}</b><br>
+                                PlaceHolder: <b>${feature.properties.pet_budget}</b><br>
+                                PlaceHolder: <b>${feature.properties.pet_health}</b><br>
+                                PlaceHolder: <b>${feature.properties.outdoor_friendliness}</b>`);
+            }
+        }).addTo(IncomePoints);
+        IncomePoints.addTo(myMap);    
+
+    });
+////////////////////////////////////
+// END 6 - INCOME LAYER
+////////////////////////////////////
+
+
+////////////////////////////////////
+// BEGIN 7 - NATURAL DISASTER LAYER
+////////////////////////////////////
+let NaturalDisasterPoints = new L.layerGroup();
+
+d3.json("/GeojsonData/NaturalDisasters.json")
+.then(
+    function(NaturalDisasterData){
+        // console log to make sure the data loaded
+        console.log(NaturalDisasterData);
+               
+                function dataColor(disaster_number){
+                    if (disaster_number > 4000)
+                        return "red";
+                    else if(disaster_number > 3000)
+                        return "#FC4903";
+                    else if(disaster_number > 2000)
+                        return "#FC8403";
+                    else if(disaster_number > 1000)
+                        return "#FCAD03";
+                    else if (disaster_number > 500)
+                        return "#CAFC03";
+                    else
+                        return "green";
+                }
+                // make a function that determines the size of the radius
+                function radiusSize(disaster_number){
+
+                    if (disaster_number > 4000)
+                        return 30;
+                    else if(disaster_number > 3000)
+                        return 25;
+                    else if(disaster_number > 2000)
+                        return 20;
+                    else if(disaster_number > 1000)
+                        return 15;
+                    else if (disaster_number > 500)
+                        return 12;
+                    else
+                        return 10;
+
+
+
+                   // if (disaster_number == 0)
+                   //     return 1; // makes sure that a 0 mag earthquake shows up
+                   // else
+                   //     return mag/10; // makes sure that the circle is pronounced in the map
+                }
+                // add on to the style for each data point
+                function dataStyle(feature)
+                {
+                    return {
+                        opacity: 0.5,
+                        fillOpacity: 0.5,
+                        fillColor: dataColor(feature.properties.disaster_number), // use index 2 for the depth
+                        color: "000000", // black outline
+                        radius: radiusSize(feature.properties.disaster_number), // 
+                        weight: 0.5,
+                        stroke: true
+                    }
+                }
+        L.geoJson(NaturalDisasterData, {
+            // make each feature a marker that is on the map, each marker is a circle
+            pointToLayer: function(feature, latLng) {
+                return L.circleMarker(latLng);
+            },
+            // set the style for each marker
+            style: dataStyle, // calls the data style function 
+            onEachFeature: function(feature, layer){
+                layer.bindPopup(`
+                                State: <b>${feature.properties.state}</b><br>
+                                Disaster Count: <b>${feature.properties.disaster_number}</b>`);
+            }
+        }).addTo(NaturalDisasterPoints);
+        NaturalDisasterPoints.addTo(myMap);    
+
+    });
+////////////////////////////////////
+// END 7 - NATURAL DISASTER LAYER
+////////////////////////////////////
+
+
+////////////////////////////////////
+// BEGIN - LAYER OVERLAY DEFINITION
+////////////////////////////////////
 // add each layer to the map
 // add the overlay for the tectonic plates and for the earthquakes
 let overlays = {
@@ -373,13 +557,17 @@ let overlays = {
     "Dog Friendliest Cities": dogPoints,
     "Happiest Cities": happiestPoints,
     "InterGen Mobility Cities": IntergenerationalMobilityPoints,
-    "Weather Data": weatherpoints
-    
+    "Weather Data": weatherpoints,
+    "Income Data": IncomePoints,
+    "Natural Disaster Data": NaturalDisasterPoints,
 };
 // add the Layer control
 L.control
     .layers(basemaps, overlays)
     .addTo(myMap);
+////////////////////////////////////
+// END - LAYER OVERLAY DEFINITION
+////////////////////////////////////
 
     
 // // add the legend to the map
